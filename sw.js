@@ -1,5 +1,5 @@
-const CACHE_NAME = "exam-practice-v9";
-const APP_FILES = ["./", "./index.html", "./styles.css", "./app.js", "./question-bank.js", "./config.js", "./manifest.json", "./icon.svg"];
+const CACHE_NAME = "exam-practice-v10";
+const APP_FILES = ["./", "./index.html", "./styles.css", "./app.js?v=1.0.6", "./question-bank.js?v=1.0.6", "./config.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)));

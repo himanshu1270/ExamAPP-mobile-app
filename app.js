@@ -1,4 +1,4 @@
-import { flattenBank, flattenPaperQuestions, loadQuestionBank, refreshQuestionBank } from "./question-bank.js";
+import { flattenBank, flattenPaperQuestions, loadQuestionBank, refreshQuestionBank } from "./question-bank.js?v=1.0.6";
 
 const PRACTICE_LENGTHS = [30, 60, 90];
 const TEST_SETTINGS = {
