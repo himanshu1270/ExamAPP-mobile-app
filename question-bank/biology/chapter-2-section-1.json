@@ -1,0 +1,1710 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "biology-chapter-2",
+  "subject": "Biology",
+  "chapterNumber": 2,
+  "title": "Biological Classification",
+  "section": "Section 1 - Biological Classification",
+  "questions": [
+    {
+      "id": "biology-chapter-2-section-1-q001",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "The systematic arrangement of organisms into groups based on their characteristics is known as:",
+      "options": [
+        "Identification",
+        "Nomenclature",
+        "Classification",
+        "Evolution"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Classification",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q002",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "The process of recognising an organism and determining its identity is called:",
+      "options": [
+        "Identification",
+        "Classification",
+        "Nomenclature",
+        "Phylogeny"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Identification",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q003",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Assigning a scientific name to an organism is known as:",
+      "options": [
+        "Taxonomy",
+        "Nomenclature",
+        "Identification",
+        "Phylogeny"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Nomenclature",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q004",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following correctly distinguishes classification from nomenclature?",
+      "options": [
+        "Classification assigns names, whereas nomenclature groups organisms.",
+        "Classification groups organisms, whereas nomenclature assigns names.",
+        "Both refer exclusively to identifying unknown organisms.",
+        "Both refer exclusively to evolutionary history."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Classification versus nomenclature",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q005",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which term refers to the evolutionary history and relationships of organisms?",
+      "options": [
+        "Morphology",
+        "Nomenclature",
+        "Phylogeny",
+        "Identification"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Phylogeny",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q006",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is the most appropriate purpose of biological classification?",
+      "options": [
+        "To make the study of biological diversity systematic and manageable",
+        "To eliminate differences among organisms",
+        "To increase the number of existing species",
+        "To arrange organisms exclusively according to their economic importance"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Organising biological diversity",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q007",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A scientist groups organisms according to similarities and differences in their characteristics. The scientist is primarily performing:",
+      "options": [
+        "Mutation",
+        "Classification",
+        "Speciation",
+        "Nomenclature"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Systematic grouping",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q008",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about classification is correct?",
+      "options": [
+        "It is concerned exclusively with assigning scientific names.",
+        "It is concerned exclusively with habitat.",
+        "It can use multiple characteristics to organise organisms into groups.",
+        "It necessarily places all organisms with similar appearances in the same group."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Multiple classification criteria",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q009",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Two organisms have similar external appearances but are not closely related evolutionarily. Which conclusion is most appropriate?",
+      "options": [
+        "Their external resemblance necessarily proves that they belong to the same kingdom.",
+        "External resemblance alone may be insufficient to establish evolutionary relationships.",
+        "One of the organisms must be incorrectly identified.",
+        "They must belong to the same species."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Superficial resemblance versus evolutionary relationships",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q010",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is the broadest and most appropriate description of modern biological classification?",
+      "options": [
+        "Grouping organisms exclusively according to habitat",
+        "Naming organisms without comparing their characteristics",
+        "Grouping organisms solely according to body size",
+        "Organising organisms using multiple characteristics and, where relevant, evolutionary relationships"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Modern classification",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q011",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Aristotle classified plants into groups based primarily on their:",
+      "options": [
+        "Chromosome number",
+        "Molecular composition",
+        "Size and general structure",
+        "DNA sequence"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Aristotle's plant classification",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q012",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "In the traditional account of early animal classification, Aristotle used which characteristic to distinguish major groups of animals?",
+      "options": [
+        "Presence or absence of red blood",
+        "Presence or absence of chlorophyll",
+        "Presence or absence of a cell wall",
+        "Presence or absence of a true nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Early animal classification",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q013",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "The traditional two-kingdom classification recognised:",
+      "options": [
+        "Monera and Protista",
+        "Plantae and Animalia",
+        "Plantae and Fungi",
+        "Protista and Animalia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Plantae and Animalia",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q014",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which scientist is associated with the traditional two-kingdom system of Plantae and Animalia?",
+      "options": [
+        "R. H. Whittaker",
+        "H. F. Copeland",
+        "Carolus Linnaeus",
+        "Ernst Haeckel"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Carolus Linnaeus",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q015",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Who proposed a three-kingdom classification by introducing Protista?",
+      "options": [
+        "Ernst Haeckel",
+        "H. F. Copeland",
+        "R. H. Whittaker",
+        "Aristotle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Ernst Haeckel",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q016",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "The three-kingdom classification associated with Haeckel was proposed in:",
+      "options": [
+        "1758",
+        "1866",
+        "1956",
+        "1969"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. 1866",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q017",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which kingdom was added to the two-kingdom arrangement in Haeckel's system?",
+      "options": [
+        "Monera",
+        "Fungi",
+        "Protista",
+        "Archaebacteria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Protista",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q018",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Who is associated with a four-kingdom classification that recognised Monera separately?",
+      "options": [
+        "Ernst Haeckel",
+        "H. F. Copeland",
+        "R. H. Whittaker",
+        "Carolus Linnaeus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. H. F. Copeland",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q019",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which year is associated with Copeland's four-kingdom classification?",
+      "options": [
+        "1758",
+        "1866",
+        "1956",
+        "1969"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. 1956",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q020",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Who proposed the five-kingdom classification?",
+      "options": [
+        "Aristotle",
+        "Ernst Haeckel",
+        "H. F. Copeland",
+        "R. H. Whittaker"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. R. H. Whittaker",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q021",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Whittaker proposed his five-kingdom classification in:",
+      "options": [
+        "1758",
+        "1866",
+        "1956",
+        "1969"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. 1969",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q022",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is the correct chronological sequence?",
+      "options": [
+        "Linnaeus's two kingdoms → Haeckel's three kingdoms → Copeland's four kingdoms → Whittaker's five kingdoms",
+        "Haeckel's three kingdoms → Linnaeus's two kingdoms → Whittaker's five kingdoms → Copeland's four kingdoms",
+        "Copeland's four kingdoms → Haeckel's three kingdoms → Linnaeus's two kingdoms → Whittaker's five kingdoms",
+        "Whittaker's five kingdoms → Copeland's four kingdoms → Haeckel's three kingdoms → Linnaeus's two kingdoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Historical sequence",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q023",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which scientist–classification pair is incorrectly matched?",
+      "options": [
+        "Haeckel — Three-kingdom classification",
+        "Copeland — Four-kingdom classification",
+        "Whittaker — Five-kingdom classification",
+        "Whittaker — Three-kingdom classification"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Whittaker proposed five kingdoms",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q024",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which sequence correctly matches the scientists with the number of kingdoms in their respective systems?",
+      "options": [
+        "Haeckel—4; Copeland—3; Whittaker—2",
+        "Haeckel—3; Copeland—4; Whittaker—5",
+        "Haeckel—5; Copeland—2; Whittaker—4",
+        "Haeckel—2; Copeland—5; Whittaker—3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Three, four and five kingdoms",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q025",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "The historical development from two kingdoms to five kingdoms most directly reflects:",
+      "options": [
+        "The disappearance of microorganisms from biological studies",
+        "The abandonment of all observable characteristics",
+        "The recognition that organisms exhibit more diversity than the original two groups adequately represented",
+        "The discovery that all organisms possess identical cellular organisation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Increasing recognition of biological diversity",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q026",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following was a major limitation of the traditional two-kingdom classification?",
+      "options": [
+        "It recognised too many kingdoms.",
+        "It did not adequately distinguish prokaryotic and eukaryotic organisms.",
+        "It was based exclusively on DNA sequencing.",
+        "It placed all microorganisms in Monera."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Prokaryotes versus eukaryotes",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q027",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which fundamental cellular feature distinguishes prokaryotic organisms from eukaryotic organisms?",
+      "options": [
+        "Presence of genetic material",
+        "Presence of a plasma membrane",
+        "Presence of ribosomes",
+        "Presence of a membrane-bound nucleus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Membrane-bound nucleus",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q028",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Why was the traditional placement of fungi alongside plants problematic?",
+      "options": [
+        "Fungi generally lack chlorophyll and obtain nutrients heterotrophically.",
+        "Fungi are always prokaryotic.",
+        "Fungi lack genetic material.",
+        "Fungi never possess cell walls."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Fungal nutrition",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q029",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which combination correctly describes typical photosynthetic plants in contrast with fungi?",
+      "options": [
+        "Both are prokaryotic and lack nuclei.",
+        "Plants are heterotrophic, whereas fungi are exclusively autotrophic.",
+        "Plants are typically photosynthetic, whereas fungi are heterotrophic.",
+        "Plants lack cell walls, whereas fungi possess no cellular boundaries."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Plant versus fungal nutrition",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q030",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A classification system places organisms with a true nucleus and organisms without a true nucleus into broad groups without adequately distinguishing their cellular organisation. Which limitation is illustrated?",
+      "options": [
+        "Failure to consider habitat",
+        "Failure to distinguish prokaryotic and eukaryotic organisation",
+        "Failure to recognise different body colours",
+        "Failure to assign scientific names"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Cellular organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q031",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is a unicellular eukaryote?",
+      "options": [
+        "A typical bacterium",
+        "A typical cyanobacterium",
+        "Mycoplasma",
+        "Amoeba"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Amoeba",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q032",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement is correct?",
+      "options": [
+        "All unicellular organisms are prokaryotic.",
+        "All eukaryotic organisms are multicellular.",
+        "Unicellular organisms may be either prokaryotic or eukaryotic.",
+        "All photosynthetic organisms are multicellular."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Unicellular organisms can be prokaryotic or eukaryotic",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q033",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which group illustrates the difficulty of placing all microorganisms neatly into traditional plant and animal categories?",
+      "options": [
+        "Protista",
+        "Mammalia",
+        "Reptilia",
+        "Bryophyta"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Protista",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q034",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following features would be particularly useful in distinguishing a typical bacterium from Amoeba?",
+      "options": [
+        "Whether genetic material is present",
+        "Whether the organism possesses a plasma membrane",
+        "Whether the organism carries out metabolism",
+        "Whether the cell possesses a membrane-bound nucleus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. True nucleus",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q035",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about fungi is incorrect?",
+      "options": [
+        "Fungi are eukaryotic.",
+        "Fungi obtain nutrients heterotrophically.",
+        "All fungi are photosynthetic because they were historically grouped with plants.",
+        "Yeast is a unicellular fungus."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Fungi are not universally photosynthetic",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q036",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A unicellular organism has a true nucleus and membrane-bound organelles. Which conclusion follows most directly?",
+      "options": [
+        "It must belong to Monera.",
+        "It is eukaryotic.",
+        "It must belong to Plantae.",
+        "It must be photosynthetic."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Eukaryotic organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q037",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which observation most strongly supports the need for a classification system that considers nutrition?",
+      "options": [
+        "Some organisms photosynthesise, whereas others obtain organic nutrients heterotrophically.",
+        "All organisms have genetic material.",
+        "All organisms occupy geographical locations.",
+        "All organisms require energy."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Nutritional diversity",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q038",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about the limitations of the two-kingdom system is most appropriate?",
+      "options": [
+        "It was completely adequate for distinguishing every known organism.",
+        "It recognised Archaea and Bacteria as separate domains.",
+        "It was based on modern molecular phylogenetics.",
+        "It did not adequately account for the diversity of cellular organisation and nutritional modes."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Limitations of two-kingdom classification",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q039",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which pair illustrates the distinction between prokaryotic and eukaryotic unicellular organisms?",
+      "options": [
+        "Amoeba and Paramecium",
+        "Yeast and Amoeba",
+        "A typical bacterium and Amoeba",
+        "Paramecium and Euglena"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Bacterium versus Amoeba",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q040",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is the strongest reason not to classify organisms solely by external resemblance?",
+      "options": [
+        "External features cannot be observed.",
+        "Similar appearances do not always establish close evolutionary relationships.",
+        "Every organism has a unique body size.",
+        "Evolutionary relationships are unrelated to classification."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Superficial similarity",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q041",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is NOT one of the five kingdoms proposed by Whittaker?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Archaea"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Archaea is not a separate kingdom in Whittaker's system",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q042",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which option gives the five kingdoms in Whittaker's classification?",
+      "options": [
+        "Monera, Protista, Fungi, Plantae, Animalia",
+        "Monera, Archaea, Bacteria, Plantae, Animalia",
+        "Protista, Fungi, Plantae, Animalia, Archaea",
+        "Bacteria, Fungi, Plantae, Animalia, Viruses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Five kingdoms",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q043",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "How many kingdoms are included in Whittaker's classification?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Five",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q044",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "In Whittaker's five-kingdom system, which kingdom contains prokaryotes?",
+      "options": [
+        "Protista",
+        "Monera",
+        "Fungi",
+        "Animalia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Monera",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q045",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which four kingdoms contain eukaryotic organisms in Whittaker's classification?",
+      "options": [
+        "Monera, Protista, Fungi and Plantae",
+        "Monera, Protista, Plantae and Animalia",
+        "Protista, Fungi, Plantae and Animalia",
+        "Monera, Fungi, Plantae and Animalia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Protista, Fungi, Plantae and Animalia",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q046",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement correctly describes Kingdom Protista in Whittaker's classification?",
+      "options": [
+        "It contains only prokaryotes.",
+        "It contains only multicellular organisms.",
+        "It is another name for Monera.",
+        "It consists predominantly of unicellular eukaryotes."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Mostly unicellular eukaryotes",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q047",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which kingdom includes organisms such as yeast?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Animalia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Fungi",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q048",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which kingdom is predominantly associated with multicellular, photosynthetic organisms?",
+      "options": [
+        "Monera",
+        "Plantae",
+        "Fungi",
+        "Animalia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Plantae",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q049",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which kingdom is characterised by multicellular eukaryotes that typically obtain food by ingestion?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Animalia"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Animalia",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q050",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which nutritional characteristic is typical of fungi?",
+      "options": [
+        "Heterotrophic nutrition, commonly involving absorption",
+        "Photosynthesis in every species",
+        "Chemosynthetic autotrophy in every species",
+        "Ingestion of food as in typical animals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Heterotrophic, commonly absorptive nutrition",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q051",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about nutritional modes in the five-kingdom system is correct?",
+      "options": [
+        "Autotrophy occurs exclusively in Plantae.",
+        "Heterotrophy occurs exclusively in Animalia.",
+        "Different nutritional modes occur across multiple kingdoms.",
+        "All prokaryotes are heterotrophic."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Nutritional diversity across kingdoms",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q052",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A unicellular organism is eukaryotic and photosynthetic. Which kingdom could it belong to?",
+      "options": [
+        "Animalia only",
+        "Protista",
+        "Monera only",
+        "Fungi only"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Protista",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q053",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about Monera and Protista is correct?",
+      "options": [
+        "Both are exclusively prokaryotic.",
+        "Both consist exclusively of multicellular organisms.",
+        "Both lack membrane-bound organelles.",
+        "Monera is prokaryotic, whereas Protista is eukaryotic."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Prokaryotic versus eukaryotic organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q054",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following best explains the significance of separating Monera from Protista?",
+      "options": [
+        "It distinguishes prokaryotic cellular organisation from eukaryotic cellular organisation.",
+        "It separates aquatic organisms from terrestrial organisms.",
+        "It separates all autotrophs from all heterotrophs.",
+        "It separates organisms with cell walls from those without cell walls."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Cellular organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q055",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about the five-kingdom system is correct?",
+      "options": [
+        "It was proposed by Haeckel in 1866.",
+        "It was proposed by Copeland in 1956.",
+        "It was proposed by Whittaker in 1969 and uses several biological criteria.",
+        "It classifies organisms exclusively by their external morphology."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Whittaker, 1969",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q056",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is one of Whittaker's five major criteria?",
+      "options": [
+        "Geographical longitude",
+        "Cell structure",
+        "Economic importance",
+        "Average lifespan"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Cell structure",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q057",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which option lists all five major criteria used by Whittaker?",
+      "options": [
+        "Cell structure, habitat, colour, body size and lifespan",
+        "Reproduction, geographical range, colour, behaviour and movement",
+        "Cell structure, nutrition, habitat, geographical range and lifespan",
+        "Cell structure, thallus organisation, mode of nutrition, reproduction and phylogenetic relationships"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. All five criteria",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q058",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which criterion primarily concerns the fundamental organisation of an organism's cells?",
+      "options": [
+        "Cell structure",
+        "Reproduction",
+        "Phylogeny",
+        "Mode of nutrition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Cell structure",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q059",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which criterion concerns the level of body organisation, including whether an organism is unicellular or multicellular?",
+      "options": [
+        "Phylogenetic relationships",
+        "Mode of nutrition",
+        "Thallus organisation",
+        "Nomenclature"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Thallus organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q060",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "The term *thallus organisation*, as used in this classification context, is most directly concerned with:",
+      "options": [
+        "The scientific naming of an organism",
+        "The organisation and structural complexity of its body",
+        "The geographical distribution of its population",
+        "Its evolutionary age alone"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Body organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q061",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which criterion is concerned with how an organism obtains nutrients?",
+      "options": [
+        "Cell structure",
+        "Thallus organisation",
+        "Phylogenetic relationships",
+        "Mode of nutrition"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Mode of nutrition",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q062",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A scientist compares the reproductive patterns of organisms to help classify them. Which criterion is being applied?",
+      "options": [
+        "Reproduction",
+        "Cell structure",
+        "Thallus organisation",
+        "Phylogeny"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Reproduction",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q063",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Phylogenetic relationships refer to:",
+      "options": [
+        "Differences in habitat",
+        "Similarities in colour",
+        "Evolutionary relationships among organisms",
+        "Differences in nutritional requirements alone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Evolutionary relationships",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q064",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following is NOT one of Whittaker's five principal criteria?",
+      "options": [
+        "Reproduction",
+        "Geographical location as an independent principal criterion",
+        "Mode of nutrition",
+        "Phylogenetic relationships"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Geographical location is not one of the five principal criteria",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q065",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Consider an organism that lacks a membrane-bound nucleus. Which of Whittaker's criteria most directly addresses this characteristic?",
+      "options": [
+        "Reproduction",
+        "Mode of nutrition",
+        "Thallus organisation",
+        "Cell structure"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Cell structure",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q066",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A scientist compares unicellular organisms with multicellular organisms that possess more complex body organisation. Which criterion is most directly involved?",
+      "options": [
+        "Thallus organisation",
+        "Phylogenetic relationships",
+        "Reproduction",
+        "Nomenclature"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Thallus organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q067",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which pair is correctly matched?",
+      "options": [
+        "Phylogeny — mode of obtaining nutrients",
+        "Reproduction — cellular organisation",
+        "Mode of nutrition — how an organism obtains nutrients",
+        "Thallus organisation — assignment of scientific names"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Mode of nutrition",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q068",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement best distinguishes thallus organisation from cell structure?",
+      "options": [
+        "Both terms refer exclusively to nutritional mode.",
+        "Cell structure concerns cellular organisation, whereas thallus organisation concerns the organisation of the organism's body.",
+        "Thallus organisation concerns only evolutionary relationships.",
+        "Cell structure concerns only geographical distribution."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Cellular organisation versus body organisation",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q069",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Why is considering multiple criteria more informative than using only one characteristic?",
+      "options": [
+        "A single characteristic always identifies evolutionary relationships correctly.",
+        "Multiple criteria eliminate all exceptions in biology.",
+        "Multiple criteria make it unnecessary to study organisms.",
+        "Different characteristics provide complementary information about organisms."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Complementary evidence",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q070",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which combination correctly identifies three of Whittaker's criteria?",
+      "options": [
+        "Cell structure, mode of nutrition and phylogenetic relationships",
+        "Colour, geographical longitude and economic importance",
+        "Body size, lifespan and habitat alone",
+        "Nomenclature, identification and scientific naming"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Three valid classification criteria",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q071",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A student argues: “Every unicellular organism belongs to Monera.” Which example directly disproves this statement?",
+      "options": [
+        "A typical bacterium",
+        "A typical cyanobacterium",
+        "Amoeba",
+        "Mycoplasma"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Amoeba disproves the statement",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q072",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which of the following pairs consists of unicellular eukaryotes?",
+      "options": [
+        "A typical bacterium and a typical cyanobacterium",
+        "Amoeba and yeast",
+        "Mycoplasma and a typical bacterium",
+        "A typical cyanobacterium and Mycoplasma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Amoeba and yeast",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q073",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "An organism has a true nucleus, membrane-bound organelles and a heterotrophic mode of nutrition. Which conclusion is most defensible?",
+      "options": [
+        "It must be a prokaryote.",
+        "It must belong to Monera.",
+        "It must be photosynthetic.",
+        "It is eukaryotic, but further characteristics are needed to determine its kingdom."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Further evidence is needed to identify the kingdom",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q074",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about autotrophic nutrition is correct?",
+      "options": [
+        "Autotrophy is not restricted to Kingdom Plantae.",
+        "Every autotroph is a member of Animalia.",
+        "All autotrophs are prokaryotic.",
+        "Autotrophy and heterotrophy are identical processes."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Autotrophy occurs in more than one kingdom",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q075",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement about the five kingdoms is incorrect?",
+      "options": [
+        "Monera includes prokaryotic organisms.",
+        "Protista includes eukaryotic organisms.",
+        "All unicellular organisms are prokaryotic.",
+        "Fungi are eukaryotic."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Not all unicellular organisms are prokaryotic",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q076",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which combination is most consistent with a typical fungus?",
+      "options": [
+        "Prokaryotic cell, no nucleus and photosynthetic nutrition",
+        "Eukaryotic cell, heterotrophic nutrition and commonly absorptive feeding",
+        "Eukaryotic cell and exclusively photosynthetic nutrition",
+        "Prokaryotic cell with a membrane-bound nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Typical fungal characteristics",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q077",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A classification system groups an organism with plants merely because both are stationary and have a cell wall. What is the principal problem with this reasoning?",
+      "options": [
+        "Stationary organisms cannot be classified.",
+        "Cell walls are absent from every non-plant organism.",
+        "Every organism with a cell wall belongs to Plantae.",
+        "A few shared characteristics may be insufficient to establish the organism's overall classification."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Insufficient evidence from a few characteristics",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q078",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which observation best illustrates the importance of nutritional mode in classification?",
+      "options": [
+        "Fungi and plants differ substantially in how they obtain nutrients.",
+        "All organisms possess genetic material.",
+        "Organisms live in different geographical regions.",
+        "All organisms require energy to survive."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Nutritional differences",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q079",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "A scientist uses only body colour to classify organisms. Which criticism is strongest?",
+      "options": [
+        "Body colour is always identical within a kingdom.",
+        "Colour is never a biological characteristic.",
+        "Colour alone is insufficient to represent cellular organisation, nutrition and evolutionary relationships.",
+        "Body colour automatically determines phylogeny."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Limitations of colour-based classification",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q080",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Which statement best summarises the logic behind Whittaker's classification?",
+      "options": [
+        "Organisms should be classified solely by their habitat.",
+        "Organisms should be classified using several characteristics, including cellular organisation, nutrition and evolutionary relationships.",
+        "Organisms should be classified exclusively according to body size.",
+        "Organisms should be classified solely by whether they move."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Multiple classification criteria",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q081",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Match List I with List II.\n\nList I: Scientist\n1. Ernst Haeckel\n2. H. F. Copeland\n3. R. H. Whittaker\n\nList II: Contribution\na. Five-kingdom classification\nb. Three-kingdom classification\nc. Four-kingdom classification\n\nChoose the correct code:",
+      "options": [
+        "1-a, 2-b, 3-c",
+        "1-b, 2-c, 3-a",
+        "1-c, 2-a, 3-b",
+        "1-b, 2-a, 3-c"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Scientist–contribution matching",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q082",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Match the classification system with the number of kingdoms.\n\nList I:\n1. Two-kingdom system\n2. Haeckel's system\n3. Copeland's system\n4. Whittaker's system\n\nList II:\na. Five\nb. Two\nc. Three\nd. Four\n\nChoose the correct code:",
+      "options": [
+        "1-b, 2-c, 3-d, 4-a",
+        "1-c, 2-b, 3-a, 4-d",
+        "1-b, 2-d, 3-c, 4-a",
+        "1-a, 2-c, 3-d, 4-b"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Kingdom-number matching",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q083",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Match the classification criterion with its meaning.\n\nList I:\n1. Cell structure\n2. Mode of nutrition\n3. Reproduction\n4. Phylogeny\n\nList II:\na. Evolutionary relationships\nb. Reproductive methods\nc. Cellular organisation\nd. How nutrients are obtained\n\nChoose the correct code:",
+      "options": [
+        "1-d, 2-c, 3-a, 4-b",
+        "1-c, 2-d, 3-b, 4-a",
+        "1-a, 2-b, 3-c, 4-d",
+        "1-c, 2-a, 3-d, 4-b"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Criterion–meaning matching",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q084",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Match the organism with its appropriate broad classification clue.\n\nList I:\n1. Typical bacterium\n2. Amoeba\n3. Yeast\n4. Typical animal\n\nList II:\na. Unicellular eukaryote\nb. Prokaryote\nc. Unicellular fungus\nd. Multicellular eukaryote\n\nChoose the correct code:",
+      "options": [
+        "1-a, 2-b, 3-d, 4-c",
+        "1-b, 2-a, 3-c, 4-d",
+        "1-c, 2-d, 3-a, 4-b",
+        "1-b, 2-c, 3-a, 4-d"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Organism–classification matching",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q085",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Arrange the following classification systems in chronological order.\n\n1. Whittaker's five-kingdom system\n2. Haeckel's three-kingdom system\n3. Copeland's four-kingdom system\n4. Traditional two-kingdom system associated with Linnaeus",
+      "options": [
+        "4 → 2 → 3 → 1",
+        "2 → 4 → 1 → 3",
+        "3 → 2 → 4 → 1",
+        "1 → 3 → 2 → 4"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Chronology",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q086",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Match the year with the associated classification milestone.\n\nList I: Year\n1. 1866\n2. 1956\n3. 1969\n\nList II: Milestone\na. Whittaker's five-kingdom system\nb. Haeckel's three-kingdom system\nc. Copeland's four-kingdom system\n\nChoose the correct code:",
+      "options": [
+        "1-a, 2-b, 3-c",
+        "1-c, 2-a, 3-b",
+        "1-b, 2-c, 3-a",
+        "1-b, 2-a, 3-c"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Year–scientist matching",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q087",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Match each kingdom with its characteristic.\n\nList I:\n1. Monera\n2. Protista\n3. Fungi\n4. Animalia\n\nList II:\na. Mostly unicellular eukaryotes\nb. Prokaryotes\nc. Heterotrophic, commonly absorptive nutrition\nd. Multicellular eukaryotes, typically ingestive nutrition\n\nChoose the correct code:",
+      "options": [
+        "1-a, 2-b, 3-d, 4-c",
+        "1-b, 2-a, 3-c, 4-d",
+        "1-c, 2-d, 3-a, 4-b",
+        "1-b, 2-c, 3-d, 4-a"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B. Kingdom–characteristic matching",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q088",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Match the term with its definition.\n\nList I:\n1. Identification\n2. Nomenclature\n3. Classification\n4. Phylogeny\n\nList II:\na. Assigning scientific names\nb. Evolutionary history and relationships\nc. Recognising an organism\nd. Grouping organisms systematically\n\nChoose the correct code:",
+      "options": [
+        "1-c, 2-a, 3-d, 4-b",
+        "1-a, 2-c, 3-b, 4-d",
+        "1-d, 2-b, 3-c, 4-a",
+        "1-b, 2-d, 3-a, 4-c"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Terminology",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q089",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Consider the following statements about biological classification.\n\n1. Classification helps organise biological diversity.\n2. Modern classification may consider evolutionary relationships.\n3. Nomenclature and classification mean exactly the same thing.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Statements 1 and 2",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q090",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Consider the following statements about historical classification systems.\n\n1. Haeckel introduced Protista in a three-kingdom classification.\n2. Copeland is associated with a four-kingdom classification.\n3. Whittaker proposed the five-kingdom classification in 1969.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. All three statements",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q091",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Consider the following statements about the five-kingdom system.\n\n1. Monera contains prokaryotic organisms.\n2. Protista contains eukaryotic organisms.\n3. Whittaker's five-kingdom system contains Archaea as a separate sixth kingdom.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Statements 1 and 2",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q092",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Consider the following statements about Whittaker's criteria.\n\n1. Cell structure was considered.\n2. Mode of nutrition was considered.\n3. Phylogenetic relationships were considered.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. All three statements",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q093",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Consider the following statements about cellular organisation.\n\n1. All unicellular organisms are prokaryotic.\n2. Amoeba is a unicellular eukaryote.\n3. Yeast is a unicellular fungus.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Statements 2 and 3",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q094",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Consider the following statements about the limitations of the two-kingdom system.\n\n1. It did not adequately distinguish prokaryotic from eukaryotic organisation.\n2. It did not adequately account for the differences between fungi and photosynthetic plants.\n3. It successfully accommodated all organisms according to modern evolutionary relationships.\nChoose the correct answer.\n\n---\n\n# Part IX — Assertion–Reason Questions\n\n## Questions 95–100\nUse the following options:\n\nA. Both Assertion and Reason are true, and Reason correctly explains Assertion.\nB. Both Assertion and Reason are true, but Reason does not correctly explain Assertion.\nC. Assertion is true, but Reason is false.\nD. Assertion is false, but Reason is true.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Statements 1 and 2",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q095",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Assertion: The traditional two-kingdom system had limitations.\n\nReason: It did not adequately account for important distinctions in cellular organisation and nutritional modes.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Both true; reason explains assertion",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q096",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Assertion: All unicellular organisms belong to Kingdom Monera.\n\nReason: Some unicellular organisms, including Amoeba and yeast, are eukaryotic.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D. Assertion false; reason true",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q097",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Assertion: Whittaker's classification used more than one biological criterion.\n\nReason: His criteria included cell structure, thallus organisation, mode of nutrition, reproduction and phylogenetic relationships.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Both true; reason explains assertion",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q098",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Assertion: Fungi are classified separately from Plantae in Whittaker's five-kingdom system.\n\nReason: Fungi are heterotrophic and generally lack chlorophyll, unlike typical photosynthetic plants.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Both true; reason explains assertion",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q099",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Assertion: Phylogenetic relationships concern evolutionary relationships among organisms.\n\nReason: Phylogeny refers exclusively to the nutritional mode of an organism.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C. Assertion true; reason false",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-1-q100",
+      "type": "single-choice",
+      "section": "Section 1 - Biological Classification",
+      "text": "Assertion: A unicellular organism can be eukaryotic.\n\nReason: Unicellular organisation does not necessarily mean that a cell lacks a membrane-bound nucleus.\n\n---\n\n---",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A. Both true; reason explains assertion",
+      "source": {
+        "type": "original"
+      }
+    }
+  ]
+}

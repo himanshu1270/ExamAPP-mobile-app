@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankVersion": "1.0.1",
+  "bankVersion": "1.0.5",
   "chapters": [
     {
       "id": "biology-chapter-1",
@@ -12,6 +12,43 @@
       "revision": 3,
       "published": true,
       "description": "NCERT Class 11 Biology"
+    },
+    {
+      "id": "biology-chapter-2",
+      "subject": "Biology",
+      "chapterNumber": 2,
+      "title": "Biological Classification",
+      "path": "biology/chapter-2-section-1.json",
+      "questionCount": 340,
+      "revision": 3,
+      "published": true,
+      "description": "NCERT Class 11 Biology — Sections 1 and 2: original competitive-exam-style practice questions",
+      "sectionFiles": [
+        {
+          "section": "Section 2 - Kingdom Monera",
+          "path": "biology/chapter-2-section-2.json",
+          "revision": 1
+        },
+        {
+          "section": "Section 3 - Kingdom Protista",
+          "path": "biology/chapter-2-section-3.json",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "id": "up-tgt-2021",
+      "exam": "UP TGT",
+      "year": 2021,
+      "title": "UP TGT Biology 2021 (Booklet Series C)",
+      "subject": "Biology",
+      "path": "papers/up-tgt-2021.json",
+      "questionCount": 125,
+      "durationSeconds": 7200,
+      "revision": 1,
+      "published": true
     }
   ]
 }

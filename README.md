@@ -17,7 +17,7 @@ All app, manifest, service-worker, and bundled question-bank URLs are relative. 
 | Exam simulation | Up to 120 questions from the downloaded bank | 120 minutes |
 | PYQ papers | Paper attempts from published paper metadata | Varies by paper |
 
-The starter bank has 15 Biology practice questions from *The Living World*, including three additional original study questions. They are not represented as official examination questions. The app shows the actual available count before a test starts and uses all eligible questions when fewer than the configured target are available. The configured time limit remains the same.
+The published bank currently contains 142 Biology questions from *The Living World*, 340 original competitive-exam-style practice questions in Biological Classification, Chapter 2 (Sections 1–3), and the UP TGT Biology 2021 Booklet Series C paper. The Chapter 2 practice questions are original; PYQ papers are separately identified under the PYQ library. Chapter practice still selects up to 15 questions per test. The app shows the actual available count before a test starts and uses all eligible questions when fewer than the configured target are available. The configured time limit remains the same.
 
 Scoring is +3 for a correct response, -1 for an incorrect response, and 0 for an unanswered question. Displayed percentage is clamped to the range 0–100%, so a negative raw score displays as 0%.
 
@@ -30,9 +30,14 @@ question-bank/
   index.json
   biology/
     chapter-1.json
+    chapter-2-section-1.json
+    chapter-2-section-2.json
+    chapter-2-section-3.json
+  papers/
+    up-tgt-2021.json
 ```
 
-`question-bank/index.json` is the catalogue. Each chapter entry declares a stable chapter ID, subject, chapter number, title, relative file path, question count, revision, and publication status. Each chapter JSON file has `schemaVersion: 1`, matching chapter metadata, and a `questions` array. Question IDs must be stable and unique across the entire published bank. `correctAnswer` is a zero-based option index (`0` is the first option). Every supported question is a `single-choice` MCQ with a non-empty explanation.
+`question-bank/index.json` is the catalogue. Each chapter entry declares a stable chapter ID, subject, chapter number, title, relative file path, question count, revision, and publication status. A chapter may list supplementary `sectionFiles`; these files share the parent chapter metadata and are loaded into the same chapter practice pool. Published PYQ papers are listed separately with exam, year, question count, duration, and a relative JSON path; the PYQ library shows each paper as a separate full-paper attempt. Chapter files use `schemaVersion: 1`, matching chapter metadata, and a `questions` array. Paper files use `schemaVersion: 1`, matching paper metadata, and a `questions` array. Questions may include optional `section` and `source` metadata. Question IDs must be stable and unique across the entire published bank. `correctAnswer` is a zero-based option index (`0` is the first option). Every supported question is a `single-choice` MCQ with a non-empty explanation.
 
 The app validates catalogue metadata, safe relative paths, chapter metadata, unique question IDs (within and across chapters), question text, options, question type, answer indexes, and explanations before activating an update. Usable question totals are derived from the validated downloaded question arrays.
 

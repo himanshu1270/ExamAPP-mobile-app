@@ -1,4 +1,4 @@
-import { flattenBank, loadQuestionBank, refreshQuestionBank } from "./question-bank.js";
+import { flattenBank, flattenPaperQuestions, loadQuestionBank, refreshQuestionBank } from "./question-bank.js";
 
 const PRACTICE_LENGTHS = [30, 60, 90];
 const TEST_SETTINGS = {
@@ -91,12 +91,12 @@ function questionTarget(mode) {
   return TEST_SETTINGS[normalized]?.target ?? TEST_SETTINGS.chapter.target;
 }
 
-function eligibleQuestions(mode, chapterId = null, subject = null) {
+function eligibleQuestions(mode, chapterId = null, subject = null, paperId = null) {
   const normalized = normalizeMode(mode);
+  if (normalized === "pyq") return flattenPaperQuestions(questionBank, paperId);
   return questions.filter(question => {
     if (normalized === "chapter") return question.chapterId === chapterId;
     if (normalized === "exam") return true;
-    if (normalized === "pyq") return question.source?.type === "previous_year" || (question.source?.exam && question.source?.year);
     if (subject) return question.subject === subject;
     return true;
   });
@@ -148,12 +148,15 @@ function shuffle(items) {
   return shuffled;
 }
 
-function testStart(mode, chapterId = null, requestedLength = null, subject = null) {
+function testStart(mode, chapterId = null, requestedLength = null, subject = null, paperId = null) {
   const normalizedMode = mode === "practice" && PRACTICE_LENGTHS.includes(requestedLength)
     ? `practice-${requestedLength}`
     : normalizeMode(mode);
-  const pool = eligibleQuestions(normalizedMode, chapterId, subject);
-  const requested = requestedLength ?? questionTarget(normalizedMode);
+  const paper = normalizedMode === "pyq"
+    ? questionBank?.catalog.papers?.find(entry => entry.id === paperId && entry.published)
+    : null;
+  const pool = eligibleQuestions(normalizedMode, chapterId, subject, paperId);
+  const requested = requestedLength ?? (paper ? pool.length : questionTarget(normalizedMode));
   const count = Math.min(requested, pool.length);
   if (!count) {
     showToast("No downloaded questions are available for this practice session.");
@@ -162,22 +165,24 @@ function testStart(mode, chapterId = null, requestedLength = null, subject = nul
   if (count < requested) {
     showToast(`Only ${count} eligible questions are available in the current bank. This test uses the available set.`);
   }
-  const selected = shuffle(pool).slice(0, count);
+  const selected = (paper ? pool : shuffle(pool)).slice(0, count);
   const snapshots = Object.fromEntries(selected.map(question => [question.id, { ...question, options: [...question.options] }]));
   const ids = selected.map(question => question.id);
   activeTest = {
     id: Date.now(),
     mode: normalizedMode,
     chapterId,
-    chapterTitle: chapterById(chapterId)?.title || null,
-    subject: chapterById(chapterId)?.subject || subject || null,
+    chapterTitle: chapterById(chapterId)?.title || paper?.title || null,
+    paperId: paper?.id || null,
+    paperTitle: paper?.title || null,
+    subject: chapterById(chapterId)?.subject || paper?.subject || subject || null,
     ids,
     snapshots,
     index: 0,
     answers: {},
     marked: [],
     visited: [ids[0]],
-    deadline: Date.now() + durationFor(normalizedMode) * 1000,
+    deadline: Date.now() + (paper?.durationSeconds || durationFor(normalizedMode)) * 1000,
     startedAt: Date.now(),
     testLength: requested,
     category: normalizedMode === "chapter" ? "chapter practice" : normalizedMode === "exam" ? "exam simulation" : normalizedMode.startsWith("practice") ? "practice mode" : "PYQ papers"
@@ -263,6 +268,8 @@ function finishTest() {
     questionCount: activeTest.ids.length,
     chapterId: activeTest.chapterId,
     chapterTitle: activeTest.chapterTitle,
+    paperId: activeTest.paperId,
+    paperTitle: activeTest.paperTitle,
     subject: activeTest.subject,
     startedAt: new Date(activeTest.startedAt).toISOString(),
     completedAt,
@@ -570,7 +577,7 @@ function testPage() {
   const isMarked = activeTest.marked.includes(question.id);
   const timeLeft = Math.max(0, Math.ceil((activeTest.deadline - Date.now()) / 1000));
   const progress = Math.round((activeTest.index + 1) / activeTest.ids.length * 100);
-  const chapterSubtitle = question.chapterName;
+  const chapterSubtitle = activeTest.paperTitle || question.chapterName || "";
   return `<section class="test-screen">
     <header class="test-header"><div class="test-head">
       <button class="back-button" data-action="exit-test" aria-label="Exit test">‹</button>
@@ -630,7 +637,7 @@ function resultPage() {
   return `<div class="page">
     <button class="button" style="margin-top:22px" data-action="back-progress">‹ Back to progress</button>
     <p class="eyebrow" style="margin-top:20px">${new Date(result.date).toLocaleString()}</p>
-    <h1 class="page-title" style="margin-top:0">${escapeHtml(result.mode === "chapter" ? result.chapterTitle || chapterById(result.chapterId)?.title || "Chapter-wise practice" : modeLabel(result.mode))}</h1>
+    <h1 class="page-title" style="margin-top:0">${escapeHtml(result.paperTitle || (result.mode === "chapter" ? result.chapterTitle || chapterById(result.chapterId)?.title || "Chapter-wise practice" : modeLabel(result.mode)))}</h1>
     <article class="card result-score"><strong>${result.score}<span style="font-size:15px;color:var(--muted)"> / ${result.max}</span></strong><span>Final score · ${percent}%</span><span class="result-grade">${percent >= 75 ? "Great work!" : percent >= 50 ? "Good progress" : "Keep practicing"}</span><p class="review-explanation">Time taken: ${formatDuration(result.duration)}</p></article>
     <div class="card result-stats" style="margin-top:11px">
       <div><strong style="color:var(--green)">${result.correct}</strong><span>Correct</span></div>
@@ -722,7 +729,15 @@ function handleAction(event) {
     testStart("practice", null, length);
     document.querySelector(".modal-overlay")?.remove();
   } else if (action === "pyq-library") {
-    app.insertAdjacentHTML("beforeend", `<div class="modal-overlay"><section class="modal" role="dialog" aria-modal="true"><h2>PYQ papers</h2><p>Paper data appears here when it is added to the question-bank metadata. No fake previous-year papers are generated.</p><div class="empty-state">${questionBank?.papers && questionBank.papers.length ? "Available papers are listed in the bank." : "No papers have been published yet. Papers will appear when added to the question bank."}</div><button class="button button-full" data-action="close-modal">Close</button></section></div>`);
+    const papers = (questionBank?.catalog.papers || []).filter(paper => paper.published);
+    const paperList = papers.map(paper => `<article class="card chapter-list-card">
+      <div class="mode-copy"><strong>${escapeHtml(paper.title)}</strong><span>${escapeHtml(paper.exam)} · ${paper.year} · ${paper.questionCount} questions · ${formatDuration(paper.durationSeconds)}</span></div>
+      <button class="button button-primary" data-action="start-pyq-paper" data-paper-id="${escapeHtml(paper.id)}">Start paper</button>
+    </article>`).join("");
+    app.insertAdjacentHTML("beforeend", `<div class="modal-overlay"><section class="modal" role="dialog" aria-modal="true"><h2>PYQ papers</h2><p>Choose a published previous-year paper.</p>${paperList || `<div class="empty-state">${bankStatus === "loading" ? "Loading published papers…" : "No papers have been published yet."}</div>`}<button class="button button-full" data-action="close-modal">Close</button></section></div>`);
+  } else if (action === "start-pyq-paper") {
+    testStart("pyq", null, null, null, target.dataset.paperId);
+    document.querySelector(".modal-overlay")?.remove();
   } else if (action === "preview") {
     const mode = target.dataset.mode;
     const chapterId = target.dataset.chapterId || null;

@@ -1,0 +1,2512 @@
+{
+  "schemaVersion": 1,
+  "paperId": "up-tgt-2021",
+  "exam": "UP TGT",
+  "year": 2021,
+  "title": "UP TGT Biology 2021 (Booklet Series C)",
+  "subject": "Biology",
+  "booklet": "Series C",
+  "durationSeconds": 7200,
+  "questions": [
+    {
+      "id": "pyq-up-tgt-2021-q001",
+      "type": "single-choice",
+      "text": "Evolution is best defined as",
+      "options": [
+        "Acquisition of desired characters",
+        "Descent with modifications",
+        "Struggle for existence",
+        "Like begets like"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Charles Darwin defined organic evolution as 'descent with modification,' meaning species change over time, give rise to new species, and share a common ancestor.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q002",
+      "type": "single-choice",
+      "text": "In a food web hyenas and vultures are",
+      "options": [
+        "Primary consumers",
+        "Predators",
+        "Scavengers",
+        "Decomposers"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Scavengers are animals that consume dead organisms (carrion) that have died from causes other than predation by the scavenger itself. Note: Hyenas also actively hunt as predators, so both (B) and (C) were accepted in the revised official key, though (C) is the primary ecological classification tested.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q003",
+      "type": "single-choice",
+      "text": "The equation – lactate, alanine, glycerol -> glucose, represents which of the following?",
+      "options": [
+        "Glycolysis",
+        "Glycogenolysis",
+        "Gluconeogenesis",
+        "Both glycolysis and glycogenolysis"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Gluconeogenesis is the metabolic pathway that results in the generation of glucose from non-carbohydrate carbon substrates such as lactate, glycerol, and glucogenic amino acids (like alanine).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q004",
+      "type": "single-choice",
+      "text": "The first and the final moult in the larva of Ascaris occurs in the",
+      "options": [
+        "Lungs",
+        "Liver",
+        "Stomach",
+        "Intestine"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In Ascaris lumbricoides, the 1st moult takes place within the egg shell in the soil, the 2nd and 3rd moults occur in the host's lungs (alveoli), and the 4th (final) moult occurs in the small intestine. Among the given options, Intestine is selected for the final moult.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q005",
+      "type": "single-choice",
+      "text": "Earliest evidences of social life are attributed to",
+      "options": [
+        "Cro-magnon men",
+        "Neanderthal man",
+        "Peking man",
+        "Java man"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Neanderthal man (Homo neanderthalensis) lived in caves in family groups, cared for the injured, and buried their dead with ceremonial rituals and flowers, showing strong evidence of organized social life.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q006",
+      "type": "single-choice",
+      "text": "Of the following which is not a vestigial organ?",
+      "options": [
+        "Wisdom tooth",
+        "Appendix",
+        "Tail bone",
+        "Bones"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Bones form the functional endoskeleton of vertebrates, providing structural support, protection, and locomotion, whereas wisdom teeth, the vermiform appendix, and the coccyx (tail bone) are vestigial in humans.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q007",
+      "type": "single-choice",
+      "text": "Which of the animal does not have an alimentary canal?",
+      "options": [
+        "Fasciola",
+        "Ascaris",
+        "Ancylostoma",
+        "Taenia"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Taenia (tapeworm, class Cestoda) is an endoparasite living in the host's intestine; it completely lacks a digestive tract (alimentary canal) and absorbs pre-digested nutrients directly through its body surface (tegument).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q008",
+      "type": "single-choice",
+      "text": "CAM plants at night produce",
+      "options": [
+        "PEP",
+        "Pyruvic acid",
+        "Malic acid",
+        "Citric acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Crassulacean Acid Metabolism (CAM) plants open their stomata at night (scotoactive) to fix CO2 using PEP carboxylase into oxaloacetate, which is then converted and stored as malic acid in vacuoles.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q009",
+      "type": "single-choice",
+      "text": "Chromatids joined together by duplicated but unseparated centromere are called",
+      "options": [
+        "Sister chromatids",
+        "Homologs",
+        "Bivalents",
+        "Alleles"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Two identical copies of a single replicated chromosome that remain attached to each other at the centromere are called sister chromatids.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q010",
+      "type": "single-choice",
+      "text": "In loam soil, the proportion of soil particles is",
+      "options": [
+        "80% sand + 20% clay or silt or both",
+        "70% sand + 30% clay or silt or both",
+        "60% sand + 40% clay or silt or both",
+        "50% sand + 50% clay or silt or both"
+      ],
+      "correctAnswer": 3,
+      "explanation": "According to standard Indian botany textbooks, loamy soil ideal for plant growth consists of roughly equal proportions of sand (approx. 40–50%) and silt/clay together (approx. 50–60%).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q011",
+      "type": "single-choice",
+      "text": "Which of the following is flying fish?",
+      "options": [
+        "Shark",
+        "Chimera",
+        "Latimaria",
+        "Exocoetus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Exocoetus is commonly known as the 'flying fish' because its large, modified wing-like pectoral fins enable it to glide through the air above water to escape predators.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q012",
+      "type": "single-choice",
+      "text": "Of the following which animal exhibits retrogressive metamorphosis?",
+      "options": [
+        "Amphioxus",
+        "Herdmania",
+        "Balanoglossus",
+        "Doliolum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Herdmania (a urochordate/ascidian) undergoes retrogressive metamorphosis where an active, free-swimming, advanced tadpole larva possessing a notochord and dorsal nerve tube degenerates into a sedentary, simple adult.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q013",
+      "type": "single-choice",
+      "text": "Which type of joints are found in the pectoral and pelvic girdle of frog from the following?",
+      "options": [
+        "Hinge",
+        "Pivot",
+        "Saddle",
+        "Ball and Socket"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The glenoid cavity of the pectoral girdle and the acetabulum of the pelvic girdle form ball-and-socket joints with the heads of the humerus and femur, respectively.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q014",
+      "type": "single-choice",
+      "text": "The blood of Pheretima is red due to the presence of",
+      "options": [
+        "Iron salts",
+        "Pigment cells",
+        "Intercellular hemoglobin",
+        "Intracellular hemoglobin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In earthworms (Pheretima posthuma), the respiratory pigment hemoglobin is not packed inside RBCs; instead, it is dissolved directly in the blood plasma (extracellular/intercellular).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q015",
+      "type": "single-choice",
+      "text": "Genophore is the name of",
+      "options": [
+        "DNA of Eukaryotes",
+        "DNA of Bacteria",
+        "Genes of Drosophila",
+        "Genes of Neurospora"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'genophore' (coined by Hans Ris) refers to the nucleic acid (circular double-stranded DNA without histone proteins) of prokaryotes/bacteria, viruses, and organelles.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q016",
+      "type": "single-choice",
+      "text": "Elaters of Marchantia are",
+      "options": [
+        "Haploid and hygroscopic",
+        "Diploid and hygroscopic",
+        "Haploid and non-hygroscopic",
+        "Diploid and non-hygroscopic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Elaters in Marchantia develop from the diploid sporogenous tissue inside the capsule. They are sterile, diploid (2n), spindle-shaped cells with spiral thickenings that are hygroscopic and help in spore dispersal.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q017",
+      "type": "single-choice",
+      "text": "In the origin of species by Darwin the concept of competition was taken from which of the following?",
+      "options": [
+        "A. Wallace",
+        "H. Spencer",
+        "H. de Vries",
+        "T. R. Malthus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Darwin was heavily influenced by Thomas Robert Malthus's 'Essay on the Principle of Population', which argued that human population grows geometrically while food supply grows arithmetically, leading to competition and a struggle for existence.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q018",
+      "type": "single-choice",
+      "text": "Cleavage in frog is",
+      "options": [
+        "Holoblastic and equal",
+        "Holoblastic and unequal",
+        "Meroblastic and superficial",
+        "Meroblastic and discoidal"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Frog eggs are mesolecithal and telolecithal (moderate yolk concentrated at the vegetal pole). Consequently, cleavage divides the entire egg (holoblastic), but the blastomeres formed are unequal in size (smaller micromeres at the animal pole, larger macromeres at the vegetal pole).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q019",
+      "type": "single-choice",
+      "text": "Soil water, absorbed by plants, is called",
+      "options": [
+        "Cresard",
+        "Holard",
+        "Echard",
+        "Fullard"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Holard is the total water present in the soil; Chresard (spelled Cresard here) is the portion of soil water available to and absorbed by plants (mainly capillary water); Echard is the water unavailable to plants.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q020",
+      "type": "single-choice",
+      "text": "Who described the annual recurrence of Rusts of wheat in India?",
+      "options": [
+        "B. B. Mundukur",
+        "K. C. Mehta",
+        "R. S. Singh",
+        "E. J. Butler"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Prof. K. C. Mehta conducted pioneering research on the life cycle and annual recurrence of wheat rusts (Puccinia) in the plains of India from inoculum surviving in the hills.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q021",
+      "type": "single-choice",
+      "text": "Plakea stage is found in life cycle of",
+      "options": [
+        "Chlamydomonas",
+        "Volvox",
+        "Ulothrix",
+        "Spirogyra"
+      ],
+      "correctAnswer": 1,
+      "explanation": "During asexual reproduction in Volvox, a gonidium divides repeatedly to form an 8-celled curved plate-like structure called the plakea stage, which later undergoes inversion to form a daughter colony.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q022",
+      "type": "single-choice",
+      "text": "Rhizophore is found in",
+      "options": [
+        "Marsilea",
+        "Equisetum",
+        "Lycopodium",
+        "Selaginella"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In Selaginella, colourless, leafless, positively geotropic prop-like structures arise from the stem at points of dichotomy, known as rhizophores (considered organa sui generis or intermediate between root and stem).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q023",
+      "type": "single-choice",
+      "text": "Which is not true about glycolysis?",
+      "options": [
+        "Occurs only in aerobic organisms",
+        "Occurs in all organisms",
+        "Occurs in the cytoplasm",
+        "Glucose is partially oxidized"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Glycolysis does not require oxygen and is the universal pathway occurring in the cytoplasm of both aerobic and anaerobic organisms.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q024",
+      "type": "single-choice",
+      "text": "In Palaemon, the statocyst are present within which appendage?",
+      "options": [
+        "Antennule",
+        "Antenna",
+        "Mandible",
+        "Maxilla"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the freshwater prawn (Palaemon), the balancing organs called statocysts are located inside the hollow basal segment (precoxa) of each antennule.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q025",
+      "type": "single-choice",
+      "text": "A Nucleosome consists of",
+      "options": [
+        "RNA + Histone",
+        "RNA + Histone + Non Histone",
+        "DNA + Histone",
+        "DNA + Histone + Non Histone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A nucleosome is the fundamental subunit of chromatin, consisting of a core octamer of positively charged histone proteins (H2A, H2B, H3, H4) wrapped by negatively charged DNA (approx. 146–200 bp) and stabilized by H1 histone.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q026",
+      "type": "single-choice",
+      "text": "If human blood mixed with an anticoagulant is centrifuged, which of the following will settle first at the bottom of the centrifuge tube?",
+      "options": [
+        "Erythrocytes",
+        "Leucocytes",
+        "Platelets",
+        "Plasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Erythrocytes (Red Blood Cells) are the heaviest and densest components of blood (due to iron-rich hemoglobin), so they settle first at the bottom upon centrifugation, forming the hematocrit, followed by a thin buffy coat (WBCs and platelets) and plasma on top.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q027",
+      "type": "single-choice",
+      "text": "The 'cohort' of Bentham-Hooker is equivalent to present day",
+      "options": [
+        "Class",
+        "Order",
+        "Family",
+        "None"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Bentham and Hooker's classification system (Genera Plantarum), classes were divided into series, series into cohorts, and cohorts into 'natural orders.' Their 'cohort' corresponds to the modern taxonomic rank of Order (while their 'natural order' corresponds to modern Family).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q028",
+      "type": "single-choice",
+      "text": "The principal function of ___________ is packaging of materials to deliver to the intra-cellular targets or to secrete outside the cell.",
+      "options": [
+        "Lysosome",
+        "Golgi apparatus",
+        "Rough endoplasmic reticulum",
+        "Smooth endoplasmic reticulum"
+      ],
+      "correctAnswer": 1,
+      "explanation": "This is a direct line from NCERT Class 11 Biology: The Golgi apparatus principally performs the function of modifying, sorting, and packaging materials to be delivered either to intracellular targets or secreted outside the cell.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q029",
+      "type": "single-choice",
+      "text": "Dissociation curve of Haemoglobin is",
+      "options": [
+        "Hyperbolic",
+        "Straight line",
+        "Parabolic",
+        "Sigmoid"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Due to cooperative binding of oxygen to the four heme subunits of hemoglobin, plotting percentage saturation of hemoglobin with O2 against partial pressure of oxygen (pO2) yields a sigmoid (S-shaped) curve.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q030",
+      "type": "single-choice",
+      "text": "Ctenidium of Unio are of which type?",
+      "options": [
+        "Protobranch",
+        "Filibranch",
+        "Eulamellibranch",
+        "Septobranch"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Freshwater mussels (Unio / Lamellidens) belong to the subclass Eulamellibranchiata, characterized by basket-like gills (ctenidia) with firm tissue junctions between adjacent filaments and lamellae.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q031",
+      "type": "single-choice",
+      "text": "Endothelium is related to",
+      "options": [
+        "Innermost integument of ovule",
+        "Innermost wall of anther",
+        "Nuclear endosperm",
+        "Microspore"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In many unitegmic and tenuinucellate ovules (where the nucellus degenerates early), the innermost layer of the integument becomes specialized to provide nutrition to the embryo sac and is called the endothelium (or integumentary tapetum).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q032",
+      "type": "single-choice",
+      "text": "T. H. Morgan used which of the following for most of his work on genetics?",
+      "options": [
+        "Drosophila",
+        "Neurospora",
+        "Pisum",
+        "Oenothera"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Thomas Hunt Morgan used the fruit fly (Drosophila melanogaster) for his experimental verification of the chromosomal theory of inheritance and discovered sex-linked inheritance and linkage.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q033",
+      "type": "single-choice",
+      "text": "Purkinje fibres are found in",
+      "options": [
+        "Lungs",
+        "Brain",
+        "Heart",
+        "Liver"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Purkinje fibres are specialized conducting myocardial fibres arising from the Bundle of His in the ventricular walls of the heart, responsible for rapid impulse conduction. (Note: Purkinje cells are found in the cerebellum of the brain, while Purkinje fibres are in the heart).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q034",
+      "type": "single-choice",
+      "text": "Botryoidal tissue is the characteristic feature of which of the following animal?",
+      "options": [
+        "Pheretima",
+        "Nereis",
+        "Hirudinaria",
+        "Aphrodite"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In leeches (Hirudinaria granulosa), the true coelom is obliterated and filled with a characteristic grape-like, pigmented connective tissue called botryoidal tissue, which functions in excretion and storage.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q035",
+      "type": "single-choice",
+      "text": "In Aurelia the exhalent water current returns through",
+      "options": [
+        "Perradii and interradii",
+        "Perradii and adradii",
+        "Perradii and ring canal",
+        "Interradii and adradii"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the gastrovascular canal system of Aurelia, water enters the gastric pouches and flows to the ring canal via unbranched adradial canals (inhalent), and returns from the ring canal to the stomach via branched perradial and interradial canals (exhalent).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q036",
+      "type": "single-choice",
+      "text": "The lethal genes are largely recessive. Hence they produce effect in the ___________ state.",
+      "options": [
+        "Hemizygous",
+        "Heterozygous",
+        "Homozygous",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Recessive lethal alleles only cause the death of the organism when present in two copies, i.e., in the homozygous recessive condition.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q037",
+      "type": "single-choice",
+      "text": "Which of the following has upright pyramid?",
+      "options": [
+        "Biomass",
+        "Number",
+        "Energy",
+        "All of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The ecological pyramid of energy is always upright and can never be inverted, because according to the 10% law and the second law of thermodynamics, energy is lost as heat at every successive trophic level.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q038",
+      "type": "single-choice",
+      "text": "The chief function of pedicellariae of star fish is",
+      "options": [
+        "Cleansing",
+        "Respiration",
+        "Capturing",
+        "Defence"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pedicellariae are tiny pincer-like calcareous structures on the body surface of starfish (Asterias) that keep the body surface and dermal branchiae clean of debris and settling larvae (cleansing), help in defence, and assist in capturing small prey. Multiple options (A/C/D) were recognized in the revised key.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q039",
+      "type": "single-choice",
+      "text": "The tail of the sperm is made from which of the following?",
+      "options": [
+        "Microtubule",
+        "Microfilament",
+        "Spindle tubule",
+        "Centriole"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The core of the sperm tail (axoneme/axial filament) is structurally composed of microtubules arranged in a 9+2 array, which originates from the distal centriole. The official answer key credits (A) Microtubule.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q040",
+      "type": "single-choice",
+      "text": "Which of the following is a degradable pollutant?",
+      "options": [
+        "Mercury",
+        "Trace metals",
+        "Steel",
+        "Domestic sewage"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Domestic sewage consists mainly of organic matter that can be rapidly broken down by natural microbial action (biodegradable pollutant), unlike heavy metals (mercury, trace metals) and steel.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q041",
+      "type": "single-choice",
+      "text": "Motile cells with flagella are altogether absent in",
+      "options": [
+        "Cyanophyceae",
+        "Phaeophyceae",
+        "Chlorophyceae",
+        "Bacillariophyceae"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cyanophyceae (Blue-green algae / Cyanobacteria) completely lack flagellated motile stages in their vegetative as well as reproductive phases.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q042",
+      "type": "single-choice",
+      "text": "A cavity formed by disintegration of protoxylem tracheid in Equisetum is",
+      "options": [
+        "Air chamber",
+        "Vallecular canal",
+        "Central cavity",
+        "Carinal canal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the internode of the Equisetum stem, the protoxylem elements disintegrate during elongation to form a water-conducting cavity associated with each vascular bundle called a carinal canal.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q043",
+      "type": "single-choice",
+      "text": "Of the following which is the phenolic hormone?",
+      "options": [
+        "Adrenaline",
+        "Testosterone",
+        "Parathormone",
+        "Prolactin"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Adrenaline (epinephrine) is a catecholamine derived from the phenolic amino acid tyrosine, containing a catechol (benzene ring with two hydroxyl groups, i.e., phenolic) structure.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q044",
+      "type": "single-choice",
+      "text": "Which of the following statements is true regarding the nauplius larva?",
+      "options": [
+        "Both antennules and antennae are biramous.",
+        "Only antennules are biramous.",
+        "Only mandibles are biramous.",
+        "Both antennae and mandibles are biramous."
+      ],
+      "correctAnswer": 3,
+      "explanation": "The unsegmented, piriform nauplius larva of crustaceans has three pairs of appendages: uniramous antennules, biramous antennae, and biramous mandibles.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q045",
+      "type": "single-choice",
+      "text": "Consider the following statements: 1. Saliva acts as a lubricant. 2. Salivary amylase converts starch into glucose. 3. The pH of saliva is about 3.4. 4. Chloride ions are essential for the activity of salivary amylase. Of these statements:",
+      "options": [
+        "1 and 4 are correct",
+        "2 and 3 are correct",
+        "3 and 4 are correct",
+        "1 and 2 are correct"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Mucin in saliva lubricates food (Statement 1 is true), and chloride (Cl-) ions are required to activate salivary amylase (Statement 4 is true). Salivary amylase converts starch into maltose (not glucose) at an optimum pH of 6.8 (not 3.4).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q046",
+      "type": "single-choice",
+      "text": "Pila is adapted to lead ___________ life.",
+      "options": [
+        "Aerial",
+        "Aquatic",
+        "Amphibious",
+        "Benthic"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The apple snail (Pila globosa) leads an amphibious life, possessing both a ctenidium (gill) for aquatic respiration in water and a pulmonary sac (lung) for aerial respiration on land.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q047",
+      "type": "single-choice",
+      "text": "Which fungi can detect copper in traces and used in bio-assays?",
+      "options": [
+        "Penicillium notatum",
+        "Saccharomyces cerevisiae",
+        "Aspergillus niger",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aspergillus niger (specifically Mulder's strain) is extremely sensitive to trace minerals like copper (Cu), zinc, and molybdenum (which affect its spore pigmentation and growth) and is widely used in microbiological bioassays for detecting trace copper in soils.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q048",
+      "type": "single-choice",
+      "text": "The angiosperms were developed in",
+      "options": [
+        "Palaeozoic era",
+        "Mesozoic era",
+        "Coenozoic era",
+        "Archaeozoic era"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Angiosperms originated during the early Cretaceous period of the Mesozoic era and underwent rapid adaptive radiation to become the dominant flora in the Cenozoic era. (Note: Depending on the interpretation of 'developed', both (B) Mesozoic and (C) Coenozoic are referenced in keys).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q049",
+      "type": "single-choice",
+      "text": "About 80% of the glomerular filtrate is reabsorbed in the",
+      "options": [
+        "Proximal convoluted tubules",
+        "Distal convoluted tubules",
+        "Descending limb of loop of Henle",
+        "Ascending limb of loop of Henle"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Proximal Convoluted Tubule (PCT) is lined by simple cuboidal brush-border epithelium that increases surface area, allowing 70–80% of electrolytes and water (plus 100% of glucose and amino acids) from the glomerular filtrate to be reabsorbed here.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q050",
+      "type": "single-choice",
+      "text": "Of the insects which takes its food after liquefying?",
+      "options": [
+        "House fly",
+        "Mosquito",
+        "Cockroach",
+        "Honey bee"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The housefly (Musca domestica) has sponging mouthparts and cannot ingest solid food. It regurgitates saliva onto solid food to dissolve/liquefy it and then sucks up the liquid via pseudotracheae on its labellum.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q051",
+      "type": "single-choice",
+      "text": "Which of the following is called amber?",
+      "options": [
+        "AUG",
+        "UAA",
+        "UAG",
+        "UGA"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Among the three nonsense (stop) codons, UAA is called Ochre, UAG is called Amber, and UGA is called Opal (or Umber).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q052",
+      "type": "single-choice",
+      "text": "Which of the following is a primary air pollutant?",
+      "options": [
+        "Ozone in troposphere",
+        "Dioxides of carbon, sulphur and nitrogen",
+        "Ozone in stratosphere",
+        "SO3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Primary air pollutants (CO2, SO2, NO2, CO, etc.) are emitted directly from identifiable sources into the atmosphere, whereas tropospheric O3 and SO3 are secondary pollutants formed by chemical reactions in the air.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q053",
+      "type": "single-choice",
+      "text": "\"Isaphgol\" is obtained from",
+      "options": [
+        "Strychnos nux-vomica",
+        "Plantago ovata",
+        "Erythroxylum coca",
+        "Digitalis purpurea"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Isabgol (Psyllium husk), used as a dietary fiber and mild laxative for treating constipation and dysentery, is obtained from the seed husks of Plantago ovata (Family: Plantaginaceae).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q054",
+      "type": "single-choice",
+      "text": "Calyptra in Marchantia developed from",
+      "options": [
+        "Base of archegonium",
+        "Tissue of archegoniophore",
+        "The amphithecium",
+        "Wall of the venter"
+      ],
+      "correctAnswer": 3,
+      "explanation": "After fertilization in bryophytes like Marchantia, the wall of the venter of the archegonium undergoes periclinal divisions to form a protective haploid covering around the developing sporophyte called the calyptra.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q055",
+      "type": "single-choice",
+      "text": "Solute potential (Psi_s) is always",
+      "options": [
+        "Negative",
+        "Positive",
+        "Zero",
+        "One"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Pure water has a water potential and solute potential of zero. Adding solutes lowers the free energy of water molecules, so solute potential (Psi_s) is always negative.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q056",
+      "type": "single-choice",
+      "text": "Sapwood is also known as",
+      "options": [
+        "Secondary xylem",
+        "Duramen",
+        "Alburnum",
+        "Phelloderm"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The peripheral, lighter-coloured, physiologically active region of secondary wood that conducts water and minerals is called sapwood or alburnum (whereas the central dark non-conducting heartwood is called duramen).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q057",
+      "type": "single-choice",
+      "text": "'Orchil', a blue dye is obtained from",
+      "options": [
+        "Cetraria islandica",
+        "Ramalina fastigiata",
+        "Cladonia rangifera",
+        "Evernia prunastri"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Orchil (a purple/blue dye) is classically obtained from lichens like Roccella and Lecanora. Among the provided options in this paper, the board keyed (A) Cetraria islandica (or (C) in some keys).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q058",
+      "type": "single-choice",
+      "text": "In pea, aestivation of petals is",
+      "options": [
+        "Valvate",
+        "Vexillary",
+        "Twisted",
+        "None"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Pea (Pisum sativum, Family Fabaceae/Papilionaceae) has a characteristic butterfly-shaped papilionaceous corolla showing vexillary (descending imbricate) aestivation: 1 large posterior standard (vexillum) overlaps 2 lateral wings (alae), which in turn overlap 2 fused anterior keel petals (carina).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q059",
+      "type": "single-choice",
+      "text": "Of the following which gas produces green house effect?",
+      "options": [
+        "CO2",
+        "SO2",
+        "NO2",
+        "O3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Carbon dioxide (CO2) is the primary greenhouse gas (contributing ~60% to global warming) that traps long-wave infrared radiation emitted from the Earth's surface.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q060",
+      "type": "single-choice",
+      "text": "Neopilina is a connecting link between",
+      "options": [
+        "Annelida and mollusca",
+        "Annelida and arthropoda",
+        "Echinodermata and chordata",
+        "Protochordata and euchordata"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Neopilina galatheae (a living fossil belonging to class Monoplacophora) exhibits metameric segmentation of internal organs (5 pairs of gills, 6 pairs of nephridia, 8 pairs of retractor muscles) like Annelids, along with a shell, mantle, radula, and muscular foot like Molluscs.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q061",
+      "type": "single-choice",
+      "text": "Rho (rho) factors involved in transcription of DNA to RNA molecule is a",
+      "options": [
+        "Nucleoside",
+        "Metallic ion",
+        "Hormone",
+        "Protein"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Rho (rho) factor is a hexameric ATP-dependent helicase protein in prokaryotes that binds to the nascent RNA transcript and RNA polymerase to mediate transcription termination.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q062",
+      "type": "single-choice",
+      "text": "Some organisms can tolerate and thrive in a wide range of temperature, they are called",
+      "options": [
+        "Stenothermal",
+        "Homeothermal",
+        "Poikilothermal",
+        "Eurythermal"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Organisms that can tolerate and thrive in a wide range of temperatures are called eurythermal, whereas those restricted to a narrow range of temperatures are called stenothermal.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q063",
+      "type": "single-choice",
+      "text": "Tubules connecting two cisternae of endoplasmic reticulum located at two opposite ends of a plasmodesmata are called as",
+      "options": [
+        "Microtubules",
+        "Desmotubules",
+        "Microfilaments",
+        "None of the above"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A desmotubule is a narrow cylindrical tube of appressed endoplasmic reticulum that runs through the centre of a plasmodesma channel, connecting the ER cisternae of two adjacent plant cells.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q064",
+      "type": "single-choice",
+      "text": "\"The system resulting from the integration of the all living and non-living factors of the environment\" is called as",
+      "options": [
+        "Ecosystem",
+        "Succession",
+        "Ecotone",
+        "Community"
+      ],
+      "correctAnswer": 0,
+      "explanation": "This is the exact definition of an Ecosystem given by A. G. Tansley (1935), who coined the term.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q065",
+      "type": "single-choice",
+      "text": "Of the following which larval stage of Fasciola does not produces several larvae?",
+      "options": [
+        "Sporocyst",
+        "Secondary redia",
+        "Primary redia",
+        "Cercaria"
+      ],
+      "correctAnswer": 3,
+      "explanation": "In the life cycle of Fasciola hepatica, the sporocyst, primary redia, and secondary redia undergo polyembryony (asexual multiplication) to produce multiple larvae of the next stage, whereas a single cercaria simply encysts on vegetation to become a single metacercaria without multiplying.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q066",
+      "type": "single-choice",
+      "text": "An insect that produces shellac is",
+      "options": [
+        "Apis indica",
+        "Bombyx mori",
+        "Laccifer lacca",
+        "Dactylopius coccus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Commercial lac (shellac) is a resinous secretion produced by the dermal glands of the female lac insect, Laccifer lacca (or Tachardia lacca / Kerria lacca).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q067",
+      "type": "single-choice",
+      "text": "Wheel organ is present in which of the following animal?",
+      "options": [
+        "Amphioxus",
+        "Herdmania",
+        "Balanoglossus",
+        "Doliolum"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Amphioxus (Branchiostoma), the inner lining of the oral hood bears ciliated finger-like tracts called Müller's organ or the wheel organ, which creates a whirling water current to sweep food particles into the mouth/enteron.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q068",
+      "type": "single-choice",
+      "text": "Chalazogamy fertilization occurs in",
+      "options": [
+        "Hibiscus",
+        "Delphinium",
+        "Casuarina",
+        "Morus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Chalazogamy (entry of the pollen tube into the ovule through the chalazal end) was discovered by Treub (1891) in Casuarina.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q069",
+      "type": "single-choice",
+      "text": "Quinine used in the treatment of malarial fever is obtained from",
+      "options": [
+        "Bark of Cinchona",
+        "Root of Rauvolfia",
+        "Seeds of Ricinus communis",
+        "Atropa belladonna"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Quinine is an antimalarial alkaloid extracted from the dried bark of Cinchona officinalis (and Cinchona ledgeriana, Family Rubiaceae).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q070",
+      "type": "single-choice",
+      "text": "The D-cells and D2F-cells of pancreas respectively secrete",
+      "options": [
+        "Pancreatic polypeptide and somatostatin",
+        "Pancreatic somatostatin and polypeptide",
+        "Insulin and somatostatin",
+        "Glucagon and somatostatin"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the Islets of Langerhans of the pancreas, Delta (D) cells secrete somatostatin, while F-cells (PP cells) secrete pancreatic polypeptide.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q071",
+      "type": "single-choice",
+      "text": "Power of regeneration in sponges is due to",
+      "options": [
+        "Theocytes",
+        "Amoebocytes",
+        "Archaeocytes",
+        "Scleroblasts"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Archaeocytes are undifferentiated, totipotent embryonic amoebocytes in sponges capable of differentiating into any other cell type, giving sponges their remarkable power of regeneration (and forming gemmules).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q072",
+      "type": "single-choice",
+      "text": "Which species of Paramecium has symbiotic algae zoochlorella?",
+      "options": [
+        "Caudatum",
+        "Aurelia",
+        "Multimicronucleatum",
+        "Bursaria"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Paramecium bursaria exhibits mutualistic endosymbiosis with green algae (Zoochlorella / Chlorella) living inside its cytoplasm, giving the protozoan a green colour.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q073",
+      "type": "single-choice",
+      "text": "Who introduced the term 'Bryophyta' for the first time?",
+      "options": [
+        "Eichler",
+        "Braun",
+        "Schimper",
+        "Schuster"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The term 'Bryophyta' was first coined and introduced by Robert Braun in 1864 (though Schimper in 1879 gave it the rank of a distinct division as used today).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q074",
+      "type": "single-choice",
+      "text": "The chloroplast of Euglena is composed of",
+      "options": [
+        "Chlorophyll 'a'",
+        "Chlorophyll 'b'",
+        "Chlorophyll 'a' and 'b'",
+        "Chlorophyll a, b and beta-carotene"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The photosynthetic pigments in Euglena are identical to those in green algae (Chlorophyta) and higher plants, consisting of Chlorophyll a, Chlorophyll b, and beta-carotene (along with xanthophylls).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q075",
+      "type": "single-choice",
+      "text": "Homology indicates",
+      "options": [
+        "Common ancestry",
+        "Divergent evolution",
+        "Both",
+        "None"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Homologous organs have the same embryonic origin and fundamental structure but perform different functions, which indicates divergent evolution from a common ancestor.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q076",
+      "type": "single-choice",
+      "text": "Which of the following does not happen in the prophase I of meiosis?",
+      "options": [
+        "Condensation of chromosomes",
+        "Pairing of homologs",
+        "Chiasma formation",
+        "Segregation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Condensation (leptotene), synapsis/pairing of homologous chromosomes (zygotene), and chiasma formation (diplotene) all occur during Prophase I, whereas segregation (separation) of homologous chromosomes occurs during Anaphase I.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q077",
+      "type": "single-choice",
+      "text": "Gametangial copulation is common in",
+      "options": [
+        "Ascomycetes",
+        "Zygomycetes",
+        "Basidiomycetes",
+        "Deuteromycetes"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Gametangial copulation (direct fusion of the entire contents of two compatible contacting gametangia to form a zygospore) is characteristic of Zygomycetes (e.g., Rhizopus, Mucor) and yeasts.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q078",
+      "type": "single-choice",
+      "text": "Which of the following tissues in Cycas ovule is haploid?",
+      "options": [
+        "Integument",
+        "Nucellus",
+        "Endosperm",
+        "None of the above"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In gymnosperms like Cycas, the endosperm represents the female gametophyte and develops from the haploid megaspore before fertilization; therefore, it is haploid (n). Integument and nucellus are sporophytic (2n).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q079",
+      "type": "single-choice",
+      "text": "Homologous structures found in some species have no clear function. These are called",
+      "options": [
+        "Degenerate organs",
+        "Dormant organs",
+        "Dwarf organs",
+        "Vestigial organs"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Vestigial organs are reduced, non-functional remnants of organs in an organism that are homologous to fully developed, functional organs in ancestral or related species.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q080",
+      "type": "single-choice",
+      "text": "Chloroplasts contain maximum quantity of",
+      "options": [
+        "RUBP carboxylase",
+        "Hexokinase",
+        "Pyruvate carboxylase",
+        "None of these"
+      ],
+      "correctAnswer": 0,
+      "explanation": "RuBP carboxylase-oxygenase (RuBisCO) makes up over 16% of total chloroplast protein and is the most abundant protein/enzyme in chloroplasts and in the entire biosphere.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q081",
+      "type": "single-choice",
+      "text": "Actinostele is found in",
+      "options": [
+        "Lycopodium annotinum",
+        "Lycopodium cernuum",
+        "Lycopodium serratum",
+        "Lycopodium volubile"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Different species of Lycopodium display different forms of protostele: L. serratum (and L. phlegmaria) has an actinostele (star-shaped xylem core with radiating ribs); L. clavatum and L. annotinum have a plectostele; L. cernuum and L. volubile have a mixed protostele.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q082",
+      "type": "single-choice",
+      "text": "The phenomenon of double fertilization was first observed by",
+      "options": [
+        "S. G. Nawaschin",
+        "E. Strasburger",
+        "Joseph Kolreuter",
+        "G. B. Amici"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Double fertilization (syngamy + triple fusion), a unique feature of angiosperms, was first discovered by Sergei G. Nawaschin in 1898 in Lilium martagon and Fritillaria tenella.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q083",
+      "type": "single-choice",
+      "text": "In Scoliodon, the work of ampullae of Lorenzini is",
+      "options": [
+        "Mechano receptor",
+        "Thermo receptor",
+        "Rheo receptor",
+        "Photo receptor"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In the dogfish shark (Scoliodon), the Ampullae of Lorenzini are specialized sensory pores on the snout that function as thermoreceptors (detecting temperature changes) and electroreceptors.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q084",
+      "type": "single-choice",
+      "text": "Which of the following is not true regarding the blood vascular system of cockroach?",
+      "options": [
+        "Its blood is called hemolymph",
+        "Heart has 13 chambers",
+        "Respiratory pigment absent in blood",
+        "Pulsatile vesicles absent"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cockroaches have an open circulatory system with colourless hemolymph (no respiratory pigment) and a 13-chambered tubular heart. In addition, they possess pulsatile vesicles (ampullae) at the base of the antennae to pump blood into the antennae; hence statement (D) is false.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q085",
+      "type": "single-choice",
+      "text": "Electroneutrality of blood is maintained by the",
+      "options": [
+        "Hamburger's phenomenon",
+        "Hering-Breuer's reflex",
+        "Haldane effect",
+        "Pneumotaxis centre"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Hamburger's phenomenon (also known as the Chloride Shift) maintains the ionic and electrical neutrality of blood/RBCs during gas transport: as negatively charged bicarbonate ions (HCO3-) diffuse out of RBCs into the plasma, chloride ions (Cl-) diffuse from the plasma into the RBCs.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q086",
+      "type": "single-choice",
+      "text": "Of the following who discovered polytene chromosome?",
+      "options": [
+        "E. G. Balbiani",
+        "J. M. Mitchison",
+        "R. Von Hertwig",
+        "Daniel Mazia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Giant polytene chromosomes were first discovered by E. G. Balbiani in 1881 in the salivary glands of Chironomus (midge) larvae, featuring prominent puff-like structures called Balbiani rings.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q087",
+      "type": "single-choice",
+      "text": "World Environment Day is celebrated every year on which day?",
+      "options": [
+        "June 5",
+        "September 21",
+        "October 1",
+        "December 10"
+      ],
+      "correctAnswer": 0,
+      "explanation": "World Environment Day is celebrated globally every year on 5th June to encourage awareness and action for environmental protection.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q088",
+      "type": "single-choice",
+      "text": "Which of the following pairs is not correctly matched?",
+      "options": [
+        "Monosaccharide – fructose",
+        "Polysaccharide – cellulose",
+        "Disaccharide – galactose",
+        "Starch – mixture of amylose and amylopectin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Galactose is a monosaccharide (an aldohexose sugar, C6H12O6), not a disaccharide. Examples of disaccharides include sucrose, lactose, and maltose.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q089",
+      "type": "single-choice",
+      "text": "In which of the following plants root nodules are not formed by Rhizobium?",
+      "options": [
+        "Cajanus cajan",
+        "Cicer arietinum",
+        "Glycine max",
+        "Casuarina glauca"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Cajanus cajan (pigeon pea), Cicer arietinum (chickpea), and Glycine max (soybean) are leguminous plants that form root nodules with Rhizobium. Casuarina glauca is a non-leguminous plant in which nitrogen-fixing root nodules are formed by the filamentous actinomycete Frankia.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q090",
+      "type": "single-choice",
+      "text": "Indian subcontinent is included in",
+      "options": [
+        "Palearctic region",
+        "Oriental region",
+        "Neotropical region",
+        "Nearctic region"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In Alfred Russel Wallace's zoogeographical classification of the world, the Indian subcontinent (along with Southeast Asia south of the Himalayas) belongs to the Oriental (Indo-Malayan) realm.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q091",
+      "type": "single-choice",
+      "text": "The mouth parts of male mosquito do not have",
+      "options": [
+        "Maxillae and mandible",
+        "Labium and labrum",
+        "Maxillary palps and labellum",
+        "Antenna and hypopharynx"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Male mosquitoes do not suck blood and feed only on plant nectar/juices; therefore, their piercing structures—the mandibles (completely absent) and maxillae (absent or highly reduced)—are non-functional/absent.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q092",
+      "type": "single-choice",
+      "text": "On the basis of number and position of flagella, Vibrio cholerae is",
+      "options": [
+        "Atrichous",
+        "Amphitrichous",
+        "Monotrichous",
+        "Cephalotrichous"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Vibrio cholerae is a comma-shaped bacterium that possesses a single polar flagellum at one end, which is termed monotrichous.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q093",
+      "type": "single-choice",
+      "text": "'Leaf curl of papaya' disease is caused by",
+      "options": [
+        "Fungus",
+        "Virus",
+        "Bacteria",
+        "Mycoplasma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Leaf curl of papaya is caused by the Papaya Leaf Curl Virus (PaLCuV), a geminivirus (ssDNA) transmitted by the whitefly (Bemisia tabaci).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q094",
+      "type": "single-choice",
+      "text": "\"Nurse cells\" are found in",
+      "options": [
+        "Riccia",
+        "Marchantia",
+        "Funaria",
+        "None"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In Riccia (specifically Riccia crystallina), some of the sporogenous cells (spore mother cells) do not undergo meiosis to form spores; instead, they degenerate to provide nourishment to the developing spores and are called nurse cells (forerunners of elaters).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q095",
+      "type": "single-choice",
+      "text": "The disease 'citrus canker' is caused by",
+      "options": [
+        "Fungi",
+        "Virus",
+        "Bacteria",
+        "Deficiency of calcium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Citrus canker is a widespread bacterial plant disease caused by the rod-shaped, Gram-negative bacterium Xanthomonas axonopodis pv. citri (Xanthomonas citri).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q096",
+      "type": "single-choice",
+      "text": "Which one of the following belongs to the group 'Embryophyta'?",
+      "options": [
+        "Algae",
+        "Bryophyta",
+        "Fungi",
+        "Lichens"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Embryophyta includes all land plants that form a multicellular diploid embryo nurtured by the parent gametophyte (Bryophytes, Pteridophytes, Gymnosperms, and Angiosperms). Algae, fungi, and lichens belong to Thallophyta and do not form embryos.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q097",
+      "type": "single-choice",
+      "text": "The coenosarc of Obelia is",
+      "options": [
+        "Tubular and non-living",
+        "Tubular and living",
+        "Rod like and non-living",
+        "Rod like and living"
+      ],
+      "correctAnswer": 1,
+      "explanation": "In an Obelia colony, the coenosarc is the inner living, tubular, diploblastic cellular part that encloses the gastrovascular cavity, while the outer non-living chitinous covering is the perisarc.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q098",
+      "type": "single-choice",
+      "text": "In a typical test cross, a plant showing dominant phenotype is crossed with a plant showing ___________ phenotype.",
+      "options": [
+        "Recessive",
+        "Dominant",
+        "Any of the two",
+        "None"
+      ],
+      "correctAnswer": 0,
+      "explanation": "A test cross is performed to determine the unknown genotype (homozygous vs. heterozygous) of an individual showing a dominant phenotype by crossing it with its homozygous recessive parent.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q099",
+      "type": "single-choice",
+      "text": "The presence of bone is an unique character of",
+      "options": [
+        "Hemichordata",
+        "Urochordata",
+        "Cephalochordata",
+        "Vertebrata"
+      ],
+      "correctAnswer": 3,
+      "explanation": "True mineralized bone (and cartilage) forming an internal endoskeleton and vertebral column is a unique, defining evolutionary characteristic of the subphylum Vertebrata (Craniata).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q100",
+      "type": "single-choice",
+      "text": "In which form the nitrogenous waste is discarded by the nephridia of Nereis?",
+      "options": [
+        "Ammonia",
+        "Urea",
+        "Uric acid",
+        "Guanine"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Nereis is a marine polychaete annelid. Being completely aquatic, it is ammonotelic and excretes its nitrogenous waste primarily in the form of ammonia via its nephridia.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q101",
+      "type": "single-choice",
+      "text": "Which one of the following is essential for fruit ripening?",
+      "options": [
+        "Auxin",
+        "Cytokinin",
+        "Ethylene",
+        "Abscisic acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Ethylene (C2H4) is a gaseous phytohormone that triggers the climacteric rise in respiration and enzymatic cell-wall softening essential for fruit ripening.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q102",
+      "type": "single-choice",
+      "text": "Botanical name of rosewood is",
+      "options": [
+        "Dalbergia latifolia",
+        "Santalum album",
+        "Rosa indica",
+        "Bombax ceiba"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Indian Rosewood (Kala Shisham) is botanically known as Dalbergia latifolia (Family Fabaceae), prized for its dark, durable timber. (Dalbergia sissoo is Sissoo/Shisham).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q103",
+      "type": "single-choice",
+      "text": "Which is a Lichen?",
+      "options": [
+        "Turf moss",
+        "Bog moss",
+        "Iceland moss",
+        "Peat moss"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Iceland moss is the common name for the foliose/fruticose lichen Cetraria islandica. Turf moss, Bog moss, and Peat moss are true bryophyte mosses (Sphagnum / Funaria).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q104",
+      "type": "single-choice",
+      "text": "A monocot showing anomalous secondary growth in stem is",
+      "options": [
+        "Musa",
+        "Dracaena",
+        "Leptadenia",
+        "Adenia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "While monocots generally lack a vascular cambium and secondary growth, woody monocots like Dracaena, Yucca, Aloe, and Agave exhibit anomalous secondary growth via a secondary cambium ring formed in the cortex/pericycle.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q105",
+      "type": "single-choice",
+      "text": "Common rock pigeon does not build nest on",
+      "options": [
+        "Fissures of rocks",
+        "Forts",
+        "Houses",
+        "Trees"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The common rock pigeon (Columba livia) naturally nests on rock ledges, cliffs, crevices, forts, and human buildings/houses, and does not typically build nests on the branches of trees.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q106",
+      "type": "single-choice",
+      "text": "One of the following acids is not produced by Aspergillus niger",
+      "options": [
+        "Citric Acid",
+        "Gluconic Acid",
+        "Gallic Acid",
+        "Oxalic Acid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Aspergillus niger is the primary commercial source of Citric acid and Gluconic acid, and also produces Oxalic acid as a fermentation byproduct. Gallic acid is traditionally associated with Penicillium glaucum or Aspergillus gallomyces acting on tannins, making (C) the intended answer.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q107",
+      "type": "single-choice",
+      "text": "Girdled leaf traces are characteristic of",
+      "options": [
+        "Cycas",
+        "Pinus",
+        "Lycopodium",
+        "Selaginella"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The stem of Cycas is uniquely characterized by girdle leaf traces (pairs of leaf traces that arise from the stele on the side opposite to the leaf, curve around the cortex like a girdle, and enter the leaf base).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q108",
+      "type": "single-choice",
+      "text": "In a microsporangium, tapetum is generally ___________ layered.",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "Four"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a typical angiosperm anther (microsporangium), the innermost nutritive wall layer—the tapetum—is generally a single (one) layer of large, densely cytoplasmic, multinucleate/polyploid cells.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q109",
+      "type": "single-choice",
+      "text": "Of the following which classical example was used by Lamarck to prove his Theory of Acquired Characters and Inheritance?",
+      "options": [
+        "Goat",
+        "Giraffe",
+        "Horse",
+        "Elephant"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Jean-Baptiste de Lamarck famously used the stretching of the giraffe's neck and forelegs to reach foliage on tall trees as his classic example of the use of organs and inheritance of acquired characters.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q110",
+      "type": "single-choice",
+      "text": "The cell organelles of eukaryotic cells are moved by",
+      "options": [
+        "Actin filaments only",
+        "Microtubules only",
+        "Both actin filaments and microtubules",
+        "Both cilia and flagella"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Intracellular transport, cytoplasmic streaming (cyclosis), and positioning of cell organelles within eukaryotic cells are mediated by the cytoskeleton, specifically involving both actin microfilaments (with myosin motors) and microtubules (with kinesin and dynein motors).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q111",
+      "type": "single-choice",
+      "text": "Uromastix is commonly known as",
+      "options": [
+        "Girgit",
+        "Spiny tailed lizard",
+        "Flying lizard",
+        "Wall lizard"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Uromastix hardwickii (Saanda) is a burrowing, herbivorous desert lizard commonly called the spiny-tailed lizard due to whorls of spiny scales on its tail. (Girgit = Calotes; Flying lizard = Draco; Wall lizard = Hemidactylus).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q112",
+      "type": "single-choice",
+      "text": "Which of the following statement is incorrect about viruses?",
+      "options": [
+        "Viruses are obligately parasite.",
+        "Non-cellular organism replicating inside the living cell.",
+        "Viruses are saprophytic.",
+        "Viruses are composed of protein covering surrounding nucleic acid."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Viruses lack metabolic machinery and cannot feed on dead organic matter; they are strictly obligate intracellular parasites, so the statement that 'Viruses are saprophytic' is incorrect.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q113",
+      "type": "single-choice",
+      "text": "___________ is a synthetic auxin.",
+      "options": [
+        "Indole acetic acid",
+        "Indole butyric acid",
+        "Naphthalene acetic acid",
+        "None"
+      ],
+      "correctAnswer": 2,
+      "explanation": "According to NCERT Class 11 Biology, IAA (Indole-3-acetic acid) and IBA (Indole butyric acid) have been isolated from plants (natural auxins), whereas NAA (Naphthalene acetic acid) and 2,4-D are synthetic auxins.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q114",
+      "type": "single-choice",
+      "text": "Quadriflagellate condition of zoospore is found in",
+      "options": [
+        "Ulothrix",
+        "Spirogyra",
+        "Volvox",
+        "Nostoc"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Ulothrix produces macrozoospores and microzoospores that are quadriflagellate (having 4 flagella). (Spirogyra and Nostoc lack flagellated spores; Volvox cells are biflagellate).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q115",
+      "type": "single-choice",
+      "text": "The ovuliferous scale of Pinus is a part of",
+      "options": [
+        "Megasporophyll",
+        "Microsporophyll",
+        "Ovule",
+        "Dwarf shoot"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In the female cone of Pinus, each megasporophyll consists of a lower small membranous bract scale and an upper large woody triangular ovuliferous scale bearing two ovules on its adaxial surface.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q116",
+      "type": "single-choice",
+      "text": "Which of the following era is called age of mammal?",
+      "options": [
+        "Proterozoic era",
+        "Paleozoic era",
+        "Mesozoic era",
+        "Cenozoic era"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The Cenozoic era is known as the 'Age of Mammals' (as well as the Age of Angiosperms and Birds) because mammals underwent massive adaptive radiation following the extinction of dinosaurs at the end of the Mesozoic era.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q117",
+      "type": "single-choice",
+      "text": "Process of gastrulation in frog is more complicated than in Amphioxus due to presence of",
+      "options": [
+        "Passive micromere",
+        "Passive macromere",
+        "Passive mesomere",
+        "Passive epimere"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Unlike the microlecithal/isolecithal egg of Amphioxus (which undergoes simple invagination), the frog egg is mesolecithal with large, yolk-laden, sluggish passive macromeres at the vegetal pole that obstruct simple invagination, necessitating epiboly, involution, and emboly during gastrulation.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q118",
+      "type": "single-choice",
+      "text": "Asexual spores are generally not found in",
+      "options": [
+        "Agaricus",
+        "Pythium",
+        "Albugo",
+        "Rhizopus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "As stated in NCERT Class 11 Biology, members of Basidiomycetes (such as the mushroom Agaricus) generally do not produce asexual spores, and vegetative reproduction by fragmentation is common.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q119",
+      "type": "single-choice",
+      "text": "Morphologically Entamoeba histolytica occurs in how many distinct forms?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Morphologically, Entamoeba histolytica exists in 3 distinct stages/forms during its life cycle: the active feeding trophozoite (magna form), the precystic (minuta) form, and the infective cystic form.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q120",
+      "type": "single-choice",
+      "text": "The cause of cerebral malaria is",
+      "options": [
+        "Plasmodium vivax",
+        "Plasmodium falciparum",
+        "Plasmodium malariae",
+        "Plasmodium ovale"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Plasmodium falciparum causes malignant tertian malaria and cerebral malaria, the most lethal form of malaria, where infected RBCs become sticky and block capillaries in the brain.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q121",
+      "type": "single-choice",
+      "text": "Morphological dimorphism found in thallus of",
+      "options": [
+        "Chlamydomonas",
+        "Ulothrix",
+        "Oedogonium",
+        "Ectocarpus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In Oedogonium (specifically nannandrous species), pronounced morphological sexual dimorphism is seen between the normal large female filament and the tiny dwarf male filament (nannandrium).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q122",
+      "type": "single-choice",
+      "text": "In Lichen, sexual reproduction is performed by",
+      "options": [
+        "Fungi only",
+        "Algae only",
+        "Algae and fungi both",
+        "Neither algae nor fungi"
+      ],
+      "correctAnswer": 0,
+      "explanation": "In a lichen symbiosis, the algal partner (phycobiont) reproduces only vegetatively/asexually, whereas sexual reproduction is performed exclusively by the fungal partner (mycobiont), usually an Ascomycete forming apothecia or perithecia.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q123",
+      "type": "single-choice",
+      "text": "Inverted cortical vascular bundle is found in",
+      "options": [
+        "Boerhaavia",
+        "Nyctanthes",
+        "Amaranthus",
+        "Dracaena"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The quadrangular stem of Nyctanthes arbor-tristis (Harsingar) exhibits anomalous primary structure featuring four inverted cortical vascular bundles (one in each of the four corners of the cortex, with xylem facing outwards and phloem inwards).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q124",
+      "type": "single-choice",
+      "text": "In which of the following families, the calyx is modified into a pappus?",
+      "options": [
+        "Cruciferae",
+        "Malvaceae",
+        "Compositae",
+        "Solanaceae"
+      ],
+      "correctAnswer": 2,
+      "explanation": "In the family Compositae (Asteraceae) (e.g., sunflower, marigold, Tridax), the sepals (calyx) are modified into hairy or feathery bristles called a pappus, which persists on the cypsela fruit and aids in wind dispersal (anemochory).",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    },
+    {
+      "id": "pyq-up-tgt-2021-q125",
+      "type": "single-choice",
+      "text": "Which of the following is known as 'Reindeer moss'?",
+      "options": [
+        "Lobaria pulmonaria",
+        "Ramalina fraxinea",
+        "Cladonia rangifera",
+        "Parmelia"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cladonia rangiferina (spelled Cladonia rangifera in the paper) is a fruticose lichen growing abundantly in the Arctic tundra, commonly called 'Reindeer moss' because it serves as the primary winter forage for reindeer and caribou.",
+      "source": {
+        "type": "previous_year",
+        "exam": "UP TGT",
+        "year": 2021,
+        "paper": "Booklet Series C",
+        "paperId": "up-tgt-2021"
+      }
+    }
+  ]
+}

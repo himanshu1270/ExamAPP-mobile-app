@@ -1,0 +1,2050 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "biology-chapter-2",
+  "subject": "Biology",
+  "chapterNumber": 2,
+  "title": "Biological Classification",
+  "section": "Section 2 - Kingdom Monera",
+  "questions": [
+    {
+      "id": "biology-chapter-2-section-2-q001",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Members of Kingdom Monera are fundamentally characterised by which type of cellular organisation?",
+      "options": [
+        "Eukaryotic",
+        "Prokaryotic",
+        "Exclusively multicellular",
+        "Multinucleate eukaryotic"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q002",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is characteristic of a typical prokaryotic cell?",
+      "options": [
+        "A membrane-bound nucleus",
+        "Mitochondria",
+        "Genetic material not enclosed within a membrane-bound nucleus",
+        "A membrane-bound Golgi apparatus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q003",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which cellular structure is present in typical bacteria and is responsible for protein synthesis?",
+      "options": [
+        "80S ribosomes",
+        "70S ribosomes",
+        "Lysosomes",
+        "Golgi bodies"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q004",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "The ribosomes of typical bacterial cells are:",
+      "options": [
+        "80S",
+        "70S",
+        "60S",
+        "90S"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q005",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about the organisation of monerans is correct?",
+      "options": [
+        "All monerans are multicellular.",
+        "All monerans possess a true nucleus.",
+        "Monerans are unicellular prokaryotes, although they may form colonies or filaments.",
+        "All monerans lack ribosomes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q006",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following structures is absent in a typical bacterial cell?",
+      "options": [
+        "Plasma membrane",
+        "Ribosomes",
+        "Genetic material",
+        "Membrane-bound nucleus"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q007",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about the cell wall of bacteria is correct?",
+      "options": [
+        "Every organism placed in Monera has a cell wall.",
+        "Typical bacteria possess a cell wall, but Mycoplasma lacks one.",
+        "Bacterial cell walls are made of cellulose.",
+        "Bacteria lack both cell walls and plasma membranes."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q008",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following statements about bacterial nutrition is correct?",
+      "options": [
+        "All bacteria are autotrophic.",
+        "All bacteria are heterotrophic.",
+        "Bacteria may be autotrophic or heterotrophic.",
+        "Bacteria cannot obtain energy from inorganic substances."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q009",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following can occur among members of Kingdom Monera?",
+      "options": [
+        "Only photosynthetic nutrition",
+        "Only parasitic nutrition",
+        "Only saprophytic nutrition",
+        "Photosynthetic, chemosynthetic and heterotrophic nutrition"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q010",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which process is commonly associated with bacterial reproduction?",
+      "options": [
+        "Binary fission",
+        "Budding as the universal method",
+        "Meiosis followed by fertilisation in every species",
+        "Spore formation as the only method"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q011",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about the habitat of monerans is correct?",
+      "options": [
+        "They occur exclusively in freshwater.",
+        "They occur exclusively in soil.",
+        "They occupy diverse habitats, including ordinary and extreme environments.",
+        "They occur exclusively inside host organisms."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q012",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is NOT a general characteristic of typical bacteria?",
+      "options": [
+        "Prokaryotic organisation",
+        "Presence of 70S ribosomes",
+        "Absence of a membrane-bound nucleus",
+        "Presence of membrane-bound mitochondria"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q013",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Bacteria may form filaments or colonies. Which conclusion is correct?",
+      "options": [
+        "Every colony of bacteria is a multicellular eukaryote.",
+        "Colonial or filamentous growth does not make bacteria eukaryotic.",
+        "Filamentous bacteria necessarily possess membrane-bound nuclei.",
+        "All bacterial colonies are reproductive structures."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q014",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which feature most fundamentally distinguishes Monera from the other four kingdoms in Whittaker's five-kingdom classification?",
+      "options": [
+        "Ability to reproduce",
+        "Presence of genetic material",
+        "Prokaryotic cellular organisation",
+        "Ability to perform metabolism"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q015",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following statements is incorrect?",
+      "options": [
+        "Monerans are prokaryotic.",
+        "Bacteria may have diverse nutritional modes.",
+        "Typical bacteria possess 70S ribosomes.",
+        "All monerans possess a cell wall."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q016",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Archaebacteria are particularly distinguished from other bacteria in the traditional NCERT account by differences in their:",
+      "options": [
+        "Genetic material alone",
+        "Cell-wall composition and other characteristics",
+        "Ability to synthesise proteins",
+        "Possession of a membrane-bound nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q017",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is NOT one of the three major groups of archaebacteria described in NCERT?",
+      "options": [
+        "Halophiles",
+        "Thermoacidophiles",
+        "Methanogens",
+        "Cyanobacteria"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q018",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Halophiles are adapted to environments characterised by:",
+      "options": [
+        "High salinity",
+        "Very low oxygen exclusively",
+        "Extremely low temperatures exclusively",
+        "Absence of all dissolved salts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q019",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which habitat is most characteristic of halophiles?",
+      "options": [
+        "Ordinary freshwater with negligible salt",
+        "Highly saline environments",
+        "Sterile distilled water",
+        "Dry environments without any salts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q020",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Thermoacidophiles are associated with environments that are:",
+      "options": [
+        "Cold and alkaline",
+        "Cold and neutral",
+        "Hot and acidic",
+        "Highly saline but always cold"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q021",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which environment is a suitable example of the habitat of thermoacidophiles?",
+      "options": [
+        "An acidic hot spring",
+        "A frozen freshwater lake",
+        "A neutral freshwater pond at ordinary temperature",
+        "A salt-free distilled-water container"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q022",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Methanogens are particularly associated with:",
+      "options": [
+        "Oxygen-rich upper atmospheric layers",
+        "Aerobic plant leaves exclusively",
+        "Acidic hot springs exclusively",
+        "Anaerobic environments, including the rumen of ruminants"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q023",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which gas is characteristically produced by methanogens?",
+      "options": [
+        "Oxygen",
+        "Methane",
+        "Nitrogen",
+        "Hydrogen chloride"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q024",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Methanogens found in the rumen of cattle are significant because they:",
+      "options": [
+        "Convert methane into oxygen as their defining process.",
+        "Carry out oxygenic photosynthesis.",
+        "Contribute to methane production under anaerobic conditions.",
+        "Cause all digestion in cattle by producing digestive enzymes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q025",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which pair is correctly matched?",
+      "options": [
+        "Halophiles — high salinity",
+        "Thermoacidophiles — highly saline environments exclusively",
+        "Methanogens — oxygenic photosynthesis",
+        "Halophiles — methane production as their defining characteristic"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q026",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which pair is incorrectly matched?",
+      "options": [
+        "Halophiles — salt-loving archaea",
+        "Thermoacidophiles — hot, acidic environments",
+        "Methanogens — methane production",
+        "Methanogens — oxygenic photosynthesis"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q027",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which group of archaebacteria is most likely to be found in a highly saline lake?",
+      "options": [
+        "Methanogens",
+        "Halophiles",
+        "Thermoacidophiles",
+        "Cyanobacteria exclusively"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q028",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which group is most closely associated with methane production in anaerobic digestive environments?",
+      "options": [
+        "Halophiles",
+        "Thermoacidophiles",
+        "Methanogens",
+        "Photosynthetic cyanobacteria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q029",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "A microorganism is isolated from a hot, acidic spring. Which group would be the most appropriate initial identification based on its habitat?",
+      "options": [
+        "Thermoacidophiles",
+        "Halophiles",
+        "Methanogens",
+        "Typical heterotrophic bacteria exclusively"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q030",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about archaebacteria is correct?",
+      "options": [
+        "All archaebacteria are methanogens.",
+        "All archaebacteria are oxygenic photosynthetic organisms.",
+        "All archaebacteria inhabit only ordinary environments.",
+        "Different groups are adapted to distinct environmental conditions."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q031",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which characteristic is an important distinguishing feature of archaebacteria in NCERT's account?",
+      "options": [
+        "Their possession of mitochondria",
+        "Their distinctive cell-wall composition",
+        "Their lack of genetic material",
+        "Their universal multicellularity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q032",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about methanogens is incorrect?",
+      "options": [
+        "They produce methane.",
+        "They can occur in anaerobic environments.",
+        "They are associated with the rumen of ruminants.",
+        "Their defining metabolic role is oxygenic photosynthesis."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q033",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following sequences correctly matches each group with its characteristic association?",
+      "options": [
+        "Halophiles—heat and acid; thermoacidophiles—methane; methanogens—salt",
+        "Halophiles—salt; thermoacidophiles—heat and acid; methanogens—methane",
+        "Halophiles—methane; thermoacidophiles—salt; methanogens—oxygenic photosynthesis",
+        "Halophiles—oxygen production; thermoacidophiles—methane; methanogens—high salinity"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q034",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement should be avoided when describing archaebacteria?",
+      "options": [
+        "Some archaebacteria inhabit extreme environments.",
+        "Different archaebacterial groups show different environmental adaptations.",
+        "Their cell-wall composition is an important distinguishing feature.",
+        "Every archaebacterium necessarily inhabits an extreme environment."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q035",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is the most accurate distinction between methanogens and thermoacidophiles?",
+      "options": [
+        "Methanogens are defined by methane production, whereas thermoacidophiles are associated with hot, acidic conditions.",
+        "Methanogens are eukaryotes, whereas thermoacidophiles are prokaryotes.",
+        "Methanogens are plants, whereas thermoacidophiles are fungi.",
+        "Methanogens perform oxygenic photosynthesis, whereas thermoacidophiles never carry out metabolism."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q036",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Eubacteria are commonly referred to as:",
+      "options": [
+        "True bacteria",
+        "True fungi",
+        "Unicellular animals",
+        "Eukaryotic algae"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q037",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which feature is characteristic of typical eubacteria?",
+      "options": [
+        "Membrane-bound nucleus",
+        "Mitochondria",
+        "Prokaryotic cellular organisation",
+        "Chloroplasts in every species"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q038",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following bacterial shapes is correctly matched?",
+      "options": [
+        "Cocci — spiral-shaped",
+        "Bacilli — rod-shaped",
+        "Spirilla — spherical",
+        "Bacilli — comma-shaped exclusively"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q039",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Spherical-shaped bacteria are called:",
+      "options": [
+        "Bacilli",
+        "Spirilla",
+        "Vibrios",
+        "Cocci"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q040",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Rod-shaped bacteria are called:",
+      "options": [
+        "Cocci",
+        "Bacilli",
+        "Spirilla",
+        "Spirochaetes exclusively"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q041",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is the correct general association?",
+      "options": [
+        "Cocci — spherical; bacilli — rod-shaped; spirilla — spiral-shaped",
+        "Cocci — rod-shaped; bacilli — spherical; spirilla — spiral-shaped",
+        "Cocci — spiral-shaped; bacilli — rod-shaped; spirilla — spherical",
+        "Cocci — spherical; bacilli — spiral-shaped; spirilla — rod-shaped"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q042",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which structure is primarily associated with bacterial motility in many bacteria?",
+      "options": [
+        "Ribosome",
+        "Nucleoid",
+        "Flagellum",
+        "Cell wall alone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q043",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about bacterial cell walls is correct?",
+      "options": [
+        "All bacteria have cellulose cell walls.",
+        "Typical bacterial cell walls differ in composition from plant cell walls.",
+        "All bacteria lack cell walls.",
+        "The cell wall is a membrane-bound organelle."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q044",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which structure contains the principal chromosomal genetic material in a typical prokaryotic cell?",
+      "options": [
+        "Golgi apparatus",
+        "Mitochondrion",
+        "Nucleus surrounded by a nuclear envelope",
+        "Nucleoid region"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q045",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following correctly distinguishes a typical bacterial cell from a typical eukaryotic cell?",
+      "options": [
+        "Bacteria possess no genetic material.",
+        "Bacteria lack ribosomes.",
+        "Bacteria lack a membrane-bound nucleus.",
+        "Bacteria cannot synthesise proteins."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q046",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Cyanobacteria are traditionally referred to as:",
+      "options": [
+        "Red fungi",
+        "Blue-green algae",
+        "Brown algae",
+        "Green animals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q047",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Cyanobacteria are classified as prokaryotes because they:",
+      "options": [
+        "Lack a membrane-bound nucleus.",
+        "Lack genetic material.",
+        "Possess chloroplasts.",
+        "Possess mitochondria."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q048",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which pigment is particularly important in the oxygenic photosynthesis of cyanobacteria?",
+      "options": [
+        "Chlorophyll b exclusively",
+        "Bacteriochlorophyll exclusively",
+        "Chlorophyll a",
+        "Haemoglobin"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q049",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which process is characteristic of photosynthetic cyanobacteria?",
+      "options": [
+        "Oxygenic photosynthesis",
+        "Methane production as the defining process of every species",
+        "Absorptive heterotrophy in every species",
+        "Complete absence of photosynthesis"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q050",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is a cyanobacterium?",
+      "options": [
+        "Yeast",
+        "Amoeba",
+        "Paramecium",
+        "Nostoc"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q051",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following genera is associated with cyanobacteria?",
+      "options": [
+        "Saccharomyces",
+        "Anabaena",
+        "Amoeba",
+        "Plasmodium"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q052",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about cyanobacteria is correct?",
+      "options": [
+        "All cyanobacteria are unicellular and never form colonies.",
+        "All cyanobacteria are eukaryotic algae.",
+        "Cyanobacteria may occur as unicellular, colonial or filamentous forms.",
+        "Cyanobacteria lack photosynthetic pigments."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q053",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Cyanobacteria are found in which of the following environments?",
+      "options": [
+        "Freshwater, marine and terrestrial environments",
+        "Marine environments exclusively",
+        "Deserts exclusively",
+        "Animal blood exclusively"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q054",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which structure is associated with nitrogen fixation in certain cyanobacteria?",
+      "options": [
+        "Mitochondrion",
+        "Chloroplast",
+        "Nucleolus",
+        "Heterocyst"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q055",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following cyanobacteria is associated with heterocyst formation?",
+      "options": [
+        "Yeast",
+        "Anabaena",
+        "Amoeba",
+        "Mycoplasma"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q056",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about heterocysts is correct?",
+      "options": [
+        "They are membrane-bound nuclei.",
+        "They are found in every bacterial species.",
+        "They are specialised cells associated with nitrogen fixation in certain cyanobacteria.",
+        "They are the reproductive spores of fungi."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q057",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is a common NCERT example of a cyanobacterium associated with nitrogen fixation?",
+      "options": [
+        "Nostoc",
+        "Saccharomyces",
+        "Paramecium",
+        "Mycoplasma"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q058",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement correctly distinguishes photosynthesis from nitrogen fixation?",
+      "options": [
+        "Both terms mean the production of methane.",
+        "Nitrogen fixation is simply another name for photosynthesis.",
+        "Every photosynthetic organism necessarily fixes atmospheric nitrogen.",
+        "Photosynthesis produces organic compounds using light energy, whereas nitrogen fixation converts atmospheric nitrogen into biologically usable forms."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q059",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement is incorrect?",
+      "options": [
+        "Cyanobacteria are prokaryotic.",
+        "All cyanobacteria possess heterocysts.",
+        "Cyanobacteria may be filamentous.",
+        "Certain cyanobacteria can fix atmospheric nitrogen."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q060",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "A filamentous prokaryote contains chlorophyll a and specialised cells associated with nitrogen fixation. Which identification is most appropriate?",
+      "options": [
+        "Yeast",
+        "Amoeba",
+        "A cyanobacterium such as Anabaena",
+        "A typical animal cell"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q061",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Chemosynthetic autotrophic bacteria obtain energy primarily by:",
+      "options": [
+        "Ingesting other organisms",
+        "Oxidising inorganic substances",
+        "Absorbing sunlight through chloroplasts",
+        "Breaking down food inside a digestive tract"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q062",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following may serve as an inorganic substrate for chemosynthetic autotrophic bacteria?",
+      "options": [
+        "Nitrites",
+        "Proteins exclusively",
+        "Starch exclusively",
+        "Cellulose exclusively"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q063",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Chemosynthetic autotrophic bacteria use the energy obtained from inorganic substances to:",
+      "options": [
+        "Produce animal tissues directly",
+        "Convert all nitrogen into oxygen",
+        "Produce methane in every species",
+        "Synthesise organic compounds"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q064",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which ecological process is supported by chemosynthetic autotrophic bacteria?",
+      "options": [
+        "Elimination of nutrient cycles",
+        "Prevention of all decomposition",
+        "Recycling of nutrients in ecosystems",
+        "Conversion of all organic matter into oxygen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q065",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following nutrients is associated with the cycling activities of chemosynthetic bacteria described in NCERT?",
+      "options": [
+        "Nitrogen",
+        "Phosphorus",
+        "Sulphur",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q066",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about chemosynthetic autotrophs is correct?",
+      "options": [
+        "They obtain all their energy directly from sunlight.",
+        "They can obtain energy by oxidising inorganic substances.",
+        "They must ingest solid food.",
+        "They are all eukaryotic."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q067",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "A bacterium oxidises inorganic compounds and uses the released energy to synthesise organic material. It is best described as:",
+      "options": [
+        "A chemosynthetic autotroph",
+        "An obligate animal parasite",
+        "A photosynthetic eukaryote",
+        "A fungal decomposer by definition"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q068",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement correctly distinguishes chemosynthetic autotrophy from photosynthetic autotrophy?",
+      "options": [
+        "Both necessarily require chloroplasts.",
+        "Chemosynthetic autotrophy is exclusively an animal process.",
+        "Chemosynthetic autotrophy obtains energy through chemical oxidation, whereas photosynthetic autotrophy uses light energy.",
+        "Photosynthetic autotrophy does not require an energy source."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q069",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about the ecological significance of chemosynthetic autotrophic bacteria is incorrect?",
+      "options": [
+        "They participate in nutrient cycling.",
+        "They can oxidise inorganic substances.",
+        "They use chemical energy to synthesise organic compounds.",
+        "They are ecologically insignificant because they cannot contribute to nutrient cycles."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q070",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following combinations is correct?",
+      "options": [
+        "Chemosynthetic autotrophs — ingestion of food — digestive tract",
+        "Chemosynthetic autotrophs — oxidation of inorganic substances — nutrient recycling",
+        "Chemosynthetic autotrophs — exclusively chloroplast-based photosynthesis",
+        "Chemosynthetic autotrophs — exclusively methane production in the rumen"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q071",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Heterotrophic bacteria obtain organic nutrients from:",
+      "options": [
+        "Carbon dioxide alone in every case",
+        "Inorganic substances alone in every case",
+        "Organic matter or other organisms",
+        "Sunlight without any material source of nutrients"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q072",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which role is commonly performed by heterotrophic bacteria in ecosystems?",
+      "options": [
+        "Decomposition of organic matter",
+        "Elimination of all nutrient recycling",
+        "Conversion of every organism into a virus",
+        "Prevention of all organic matter breakdown"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q073",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Heterotrophic bacteria are important in food production and other useful processes. Which statement is correct?",
+      "options": [
+        "All heterotrophic bacteria are harmful.",
+        "Heterotrophic bacteria cannot be used in food production.",
+        "Heterotrophic bacteria never participate in decomposition.",
+        "Some heterotrophic bacteria are useful in food production and other processes."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q074",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about disease-causing bacteria is correct?",
+      "options": [
+        "All bacteria cause disease.",
+        "Some bacteria are pathogenic, but many are harmless or beneficial.",
+        "No bacteria can cause disease.",
+        "Only cyanobacteria cause bacterial diseases."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q075",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "A bacterium breaks down dead organic matter and helps return nutrients to the environment. Its ecological role is best described as:",
+      "options": [
+        "Producer through oxygenic photosynthesis in every case",
+        "Primary consumer by definition",
+        "Decomposer",
+        "Obligate pathogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q076",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following statements is incorrect?",
+      "options": [
+        "Some heterotrophic bacteria are decomposers.",
+        "Some heterotrophic bacteria are useful to humans.",
+        "Some heterotrophic bacteria cause diseases.",
+        "All heterotrophic bacteria are pathogenic."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q077",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement best describes the ecological significance of bacterial decomposers?",
+      "options": [
+        "They contribute to the breakdown of organic matter and nutrient recycling.",
+        "They prevent dead organisms from decomposing.",
+        "They eliminate nitrogen from every ecosystem.",
+        "They convert all inorganic material directly into animals."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q078",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about bacterial nutrition is most accurate?",
+      "options": [
+        "Heterotrophy and autotrophy are identical.",
+        "Heterotrophic bacteria cannot survive in organic-rich environments.",
+        "All heterotrophs are disease-causing parasites.",
+        "Bacteria exhibit diverse nutritional strategies, including autotrophy and heterotrophy."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q079",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "A bacterium causes a disease in a host. Which term best describes the bacterium's disease-causing capacity?",
+      "options": [
+        "Chemosynthesis",
+        "Pathogenicity",
+        "Nitrogen fixation",
+        "Oxygenic photosynthesis"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q080",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which conclusion is justified by the diversity of heterotrophic bacteria?",
+      "options": [
+        "Every heterotroph must be a parasite.",
+        "Heterotrophic bacteria are never beneficial.",
+        "Heterotrophic bacteria can have ecological, industrial, beneficial and harmful roles.",
+        "Heterotrophic bacteria cannot decompose organic matter."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q081",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "The common mode of asexual reproduction in bacteria is:",
+      "options": [
+        "Binary fission",
+        "Meiosis",
+        "Fertilisation",
+        "Pollination"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q082",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "During binary fission, a bacterial cell generally:",
+      "options": [
+        "Produces gametes and undergoes fertilisation.",
+        "Forms a multicellular embryo.",
+        "Undergoes meiosis to produce four haploid cells.",
+        "Divides to produce daughter cells."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q083",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about bacterial reproduction is correct?",
+      "options": [
+        "All bacteria reproduce exclusively by fungal-type spore formation.",
+        "Binary fission is a common method of bacterial reproduction.",
+        "All bacteria reproduce by meiosis.",
+        "Bacteria must undergo sexual reproduction to multiply."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q084",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Under favourable conditions, many bacteria can multiply rapidly by:",
+      "options": [
+        "Pollination",
+        "Fertilisation",
+        "Binary fission",
+        "Seed formation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q085",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Bacterial spore formation, as discussed in NCERT, is particularly associated with:",
+      "options": [
+        "Survival under unfavourable conditions in certain bacteria",
+        "Universal sexual reproduction",
+        "Formation of flowers",
+        "Development of a membrane-bound nucleus"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q086",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about bacterial spores is correct?",
+      "options": [
+        "Every bacterial spore is a fungal reproductive spore.",
+        "Spore formation always involves fertilisation.",
+        "Bacterial spores are always fragile and immediately destroyed by environmental stress.",
+        "Some bacterial spores are highly resistant and aid survival under unfavourable conditions."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q087",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement correctly distinguishes survival-oriented bacterial spore formation from ordinary binary fission?",
+      "options": [
+        "Binary fission always forms resistant spores.",
+        "Binary fission is a common reproductive method, whereas certain bacterial spores aid survival under adverse conditions.",
+        "Spore formation always produces four daughter cells through meiosis.",
+        "Neither process occurs in bacteria."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q088",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following is a mechanism of genetic recombination in bacteria?",
+      "options": [
+        "Pollination",
+        "Fertilisation between male and female flowers",
+        "Conjugation",
+        "Seed dispersal"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q089",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which of the following lists the three commonly described bacterial genetic recombination mechanisms?",
+      "options": [
+        "Conjugation, transformation and transduction",
+        "Binary fission, budding and pollination",
+        "Meiosis, fertilisation and mitosis",
+        "Photosynthesis, chemosynthesis and respiration"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q090",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "The direct transfer of genetic material from one bacterial cell to another through cell-to-cell contact is called:",
+      "options": [
+        "Transformation",
+        "Transduction",
+        "Binary fission",
+        "Conjugation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q091",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "The uptake of free DNA from the environment by a bacterial cell is called:",
+      "options": [
+        "Conjugation",
+        "Transformation",
+        "Transduction",
+        "Binary fission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q092",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "The transfer of bacterial DNA mediated by a bacteriophage is called:",
+      "options": [
+        "Conjugation",
+        "Transformation",
+        "Transduction",
+        "Binary fission"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q093",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which mechanism is correctly matched with its defining process?",
+      "options": [
+        "Transformation — uptake of free DNA",
+        "Conjugation — transfer mediated by a bacteriophage",
+        "Transduction — direct cell-to-cell transfer as its defining feature",
+        "Binary fission — uptake of environmental DNA"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q094",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which mechanism of bacterial genetic recombination involves a bacteriophage?",
+      "options": [
+        "Conjugation",
+        "Transformation",
+        "Binary fission",
+        "Transduction"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q095",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "A bacterial cell acquires DNA released into its environment by another cell. Which mechanism is illustrated?",
+      "options": [
+        "Conjugation",
+        "Transformation",
+        "Transduction",
+        "Binary fission"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q096",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "A bacterial virus transfers genetic material from one bacterium to another. Which process is involved?",
+      "options": [
+        "Binary fission",
+        "Transformation",
+        "Transduction",
+        "Conjugation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q097",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about bacterial genetic recombination is correct?",
+      "options": [
+        "Conjugation, transformation and transduction are recognised mechanisms of genetic recombination.",
+        "All three mechanisms are forms of mitosis.",
+        "All three require flowers and seeds.",
+        "All three are identical to binary fission."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q098",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about binary fission and genetic recombination is most accurate?",
+      "options": [
+        "Binary fission and transformation are identical processes.",
+        "Conjugation always produces four daughter cells.",
+        "Transduction is another name for binary fission.",
+        "Binary fission is a reproductive process, whereas transformation is a mechanism of genetic recombination."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q099",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which option correctly matches all three genetic recombination mechanisms?",
+      "options": [
+        "Conjugation—free DNA uptake; transformation—bacteriophage; transduction—cell contact",
+        "Conjugation—direct cell-to-cell transfer; transformation—free DNA uptake; transduction—bacteriophage-mediated transfer",
+        "Conjugation—binary fission; transformation—mitosis; transduction—meiosis",
+        "Conjugation—photosynthesis; transformation—chemosynthesis; transduction—nitrogen fixation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q100",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about bacterial reproduction and recombination is incorrect?",
+      "options": [
+        "Binary fission is common in bacteria.",
+        "Certain bacteria form resistant spores under unfavourable conditions.",
+        "Bacteria can exchange or acquire genetic material through different mechanisms.",
+        "Conjugation, transformation and transduction are all identical forms of binary fission."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q101",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which characteristic distinguishes Mycoplasma from typical bacteria?",
+      "options": [
+        "Absence of genetic material",
+        "Absence of ribosomes",
+        "Absence of a cell wall",
+        "Absence of a plasma membrane"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q102",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Mycoplasma is particularly notable because its members are:",
+      "options": [
+        "Among the smallest living cellular organisms",
+        "The largest known eukaryotic cells",
+        "Multicellular organisms with differentiated tissues",
+        "Organisms that lack all metabolic activity"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q103",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about Mycoplasma is correct?",
+      "options": [
+        "It always possesses a rigid cell wall.",
+        "It is a eukaryotic microorganism.",
+        "It lacks genetic material.",
+        "It lacks a cell wall."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q104",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which characteristic contributes to the variable shape, or pleomorphism, of Mycoplasma?",
+      "options": [
+        "Presence of a rigid cellulose wall",
+        "Absence of a cell wall",
+        "Presence of chloroplasts",
+        "Presence of a membrane-bound nucleus"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q105",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about the oxygen requirements of Mycoplasma is consistent with NCERT?",
+      "options": [
+        "Every species requires abundant oxygen.",
+        "Every species performs oxygenic photosynthesis.",
+        "Some species can survive without oxygen.",
+        "Mycoplasma cannot carry out metabolism."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q106",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about the pathogenicity of Mycoplasma is correct?",
+      "options": [
+        "Some species are pathogenic.",
+        "All species are harmless to every organism.",
+        "All species are photosynthetic pathogens of plants.",
+        "Mycoplasma cannot be associated with disease."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q107",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which combination best describes Mycoplasma?",
+      "options": [
+        "Eukaryotic, multicellular and photosynthetic",
+        "Prokaryotic, without a cell wall and pleomorphic",
+        "Eukaryotic, without genetic material and without ribosomes",
+        "Prokaryotic, with chloroplasts and a rigid cellulose wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q108",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement about the cell wall of Mycoplasma is correct?",
+      "options": [
+        "It consists of cellulose.",
+        "It is always identical to the cell wall of plants.",
+        "It is made of chitin.",
+        "It is absent."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q109",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "An organism is cellular, prokaryotic, lacks a cell wall and displays variable shapes. Which identification best fits these characteristics?",
+      "options": [
+        "Amoeba",
+        "Yeast",
+        "Mycoplasma",
+        "Paramecium"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q110",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Which statement is incorrect about Mycoplasma?",
+      "options": [
+        "It lacks a cell wall.",
+        "It is a eukaryotic organism with membrane-bound mitochondria.",
+        "Some species are pathogenic.",
+        "It is among the smallest living cellular organisms."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q111",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Consider the following statements about Kingdom Monera.\n\n1. Monerans are prokaryotic.\n2. Typical bacterial cells contain 70S ribosomes.\n3. All monerans possess a cell wall.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q112",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Consider the following statements about archaebacteria.\n\n1. Halophiles are associated with highly saline environments.\n2. Thermoacidophiles are associated with hot, acidic environments.\n3. Methanogens produce methane and may occur in anaerobic environments.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q113",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Consider the following statements about cyanobacteria.\n\n1. Cyanobacteria are prokaryotic.\n2. Certain cyanobacteria possess heterocysts associated with nitrogen fixation.\n3. All cyanobacteria possess heterocysts.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q114",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Consider the following statements about bacterial genetic recombination.\n\n1. Conjugation involves direct cell-to-cell transfer.\n2. Transformation involves the uptake of free DNA.\n3. Transduction involves bacteriophage-mediated DNA transfer.\nChoose the correct answer.\n\n### Assertion–reason questions\nFor Questions 115–118, use these options:\n\nA. Both Assertion and Reason are true, and Reason correctly explains Assertion.\nB. Both Assertion and Reason are true, but Reason does not correctly explain Assertion.\nC. Assertion is true, but Reason is false.\nD. Assertion is false, but Reason is true.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q115",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Assertion: Cyanobacteria are classified as prokaryotes.\n\nReason: Cyanobacteria lack a membrane-bound nucleus.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q116",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Assertion: All bacteria are harmful to humans.\n\nReason: Some bacteria are useful in food production, decomposition and other processes.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q117",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Assertion: Mycoplasma lacks a cell wall.\n\nReason: The absence of a cell wall is associated with its variable shape.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q118",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Assertion: Transformation and transduction are identical mechanisms of bacterial genetic recombination.\n\nReason: Transformation involves the uptake of free DNA, whereas transduction involves bacteriophage-mediated DNA transfer.\n\n### Advanced application questions",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q119",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Three microorganisms are isolated:\n\n- Organism X thrives in highly saline conditions.\n- Organism Y produces methane under anaerobic conditions.\n- Organism Z is a photosynthetic prokaryote with heterocysts.\nWhich identification is correct?",
+      "options": [
+        "X—Methanogen; Y—Halophile; Z—Mycoplasma",
+        "X—Thermoacidophile; Y—Cyanobacterium; Z—Halophile",
+        "X—Halophile; Y—Methanogen; Z—Cyanobacterium",
+        "X—Cyanobacterium; Y—Thermoacidophile; Z—Methanogen"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-2-q120",
+      "type": "single-choice",
+      "section": "Section 2 - Kingdom Monera",
+      "text": "Consider the following observations about an unidentified microorganism:\n\n- It is cellular and prokaryotic.\n- It lacks a cell wall.\n- It has no membrane-bound nucleus.\n- It may display variable shapes.\nWhich conclusion is most appropriate?",
+      "options": [
+        "It must be a photosynthetic cyanobacterium.",
+        "It is consistent with Mycoplasma.",
+        "It must be a typical wall-bearing eubacterium.",
+        "It must be a unicellular eukaryotic fungus."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    }
+  ]
+}

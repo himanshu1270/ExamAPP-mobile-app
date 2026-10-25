@@ -115,6 +115,42 @@ function validateCatalog(catalog) {
     paths.add(chapter.path);
     subjectChapterPairs.add(subjectChapter);
   }
+  for (const chapter of catalog.chapters) {
+    if (chapter.sectionFiles !== undefined && !Array.isArray(chapter.sectionFiles)) {
+      throw new Error(`Section files for "${chapter.title}" must be an array.`);
+    }
+    for (const section of chapter.sectionFiles || []) {
+      if (!section || typeof section.section !== "string" || !section.section.trim()
+        || typeof section.path !== "string" || !/^[A-Za-z0-9_-]+(?:\/[A-Za-z0-9_-]+)*\.json$/.test(section.path)
+        || !Number.isInteger(section.revision) || section.revision < 1) {
+        throw new Error(`The catalogue contains invalid section-file metadata for "${chapter.title}".`);
+      }
+      if (paths.has(section.path)) throw new Error(`Duplicate question-bank file path: ${section.path}`);
+      paths.add(section.path);
+    }
+  }
+  if (catalog.papers !== undefined && !Array.isArray(catalog.papers)) {
+    throw new Error("Question papers in the catalogue must be an array.");
+  }
+  const paperIds = new Set();
+  for (const paper of catalog.papers || []) {
+    if (!paper || typeof paper.id !== "string" || !paper.id.trim()
+      || typeof paper.exam !== "string" || !paper.exam.trim()
+      || typeof paper.title !== "string" || !paper.title.trim()
+      || typeof paper.subject !== "string" || !paper.subject.trim()
+      || !Number.isInteger(paper.year) || paper.year < 1900
+      || typeof paper.path !== "string" || !/^[A-Za-z0-9_-]+(?:\/[A-Za-z0-9_-]+)*\.json$/.test(paper.path)
+      || !Number.isInteger(paper.questionCount) || paper.questionCount < 1
+      || !Number.isInteger(paper.durationSeconds) || paper.durationSeconds < 1
+      || !Number.isInteger(paper.revision) || paper.revision < 1
+      || typeof paper.published !== "boolean") {
+      throw new Error("The catalogue contains a paper with missing or invalid metadata.");
+    }
+    if (paperIds.has(paper.id)) throw new Error(`Duplicate paper ID in catalogue: ${paper.id}`);
+    if (paths.has(paper.path)) throw new Error(`Duplicate question-bank file path: ${paper.path}`);
+    paperIds.add(paper.id);
+    paths.add(paper.path);
+  }
 }
 
 function validateChapter(data, catalogEntry) {
@@ -148,6 +184,34 @@ function validateChapter(data, catalogEntry) {
   }
 }
 
+function validatePaper(data, catalogEntry) {
+  if (!data || !SUPPORTED_SCHEMA_VERSIONS.has(data.schemaVersion) || data.paperId !== catalogEntry.id
+    || data.exam !== catalogEntry.exam || data.year !== catalogEntry.year
+    || data.title !== catalogEntry.title || data.subject !== catalogEntry.subject
+    || !Array.isArray(data.questions) || data.questions.length !== catalogEntry.questionCount) {
+    throw new Error(`Paper data does not match catalogue entry "${catalogEntry.title}".`);
+  }
+  const questionIds = new Set();
+  for (const question of data.questions) {
+    if (!question || typeof question.id !== "string" || !question.id.trim()) {
+      throw new Error(`A question in "${catalogEntry.title}" is missing a stable ID.`);
+    }
+    if (questionIds.has(question.id)) throw new Error(`Duplicate question ID in "${catalogEntry.title}": ${question.id}`);
+    const normalized = normalizeQuestion(question, catalogEntry.subject, catalogEntry.title);
+    if (!normalized.text.trim() || normalized.type !== "single-choice"
+      || normalized.options.length < 2
+      || normalized.options.some(option => typeof option !== "string" || !option.trim())
+      || !Number.isInteger(normalized.correctAnswer)
+      || normalized.correctAnswer < 0 || normalized.correctAnswer >= normalized.options.length
+      || !normalized.explanation.trim()
+      || question.source?.type !== "previous_year"
+      || question.source?.paperId !== catalogEntry.id) {
+      throw new Error(`Question "${question.id}" in "${catalogEntry.title}" is invalid.`);
+    }
+    questionIds.add(question.id);
+  }
+}
+
 function flattenBank(bank) {
   return bank.catalog.chapters
     .filter(entry => entry.published)
@@ -170,6 +234,24 @@ function flattenBank(bank) {
     });
 }
 
+function flattenPaperQuestions(bank, paperId = null) {
+  return (bank.catalog.papers || [])
+    .filter(entry => entry.published && (!paperId || entry.id === paperId))
+    .flatMap(entry => (bank.papers?.[entry.id]?.questions || []).map(question => {
+      const normalized = normalizeQuestion(question, entry.subject, entry.title);
+      return {
+        ...normalized,
+        answer: normalized.correctAnswer,
+        chapterId: null,
+        chapterName: entry.title,
+        subject: entry.subject,
+        section: null,
+        paperId: entry.id,
+        source: normalized.source
+      };
+    }));
+}
+
 async function fetchJson(url, description) {
   const response = await fetch(url, { cache: "no-cache" });
   if (!response.ok) throw new Error(`${description} could not be downloaded (${response.status}).`);
@@ -186,6 +268,7 @@ async function synchronizeQuestionBank() {
   const catalog = await fetchJson(indexUrl, "Question-bank catalogue");
   validateCatalog(catalog);
   const files = {};
+  const papers = {};
   const oldCatalogById = new Map((saved?.catalog?.chapters || []).map(entry => [entry.id, entry]));
 
   for (const entry of catalog.chapters.filter(chapter => chapter.published)) {
@@ -196,6 +279,7 @@ async function synchronizeQuestionBank() {
       && previousEntry.subject === entry.subject
       && previousEntry.chapterNumber === entry.chapterNumber
       && previousEntry.title === entry.title
+      && JSON.stringify(previousEntry.sectionFiles || []) === JSON.stringify(entry.sectionFiles || [])
       && previousFile) {
       validateChapter(previousFile, entry);
       files[entry.id] = previousFile;
@@ -204,7 +288,41 @@ async function synchronizeQuestionBank() {
     const chapterUrl = new URL(entry.path, indexUrl).href;
     const chapterData = await fetchJson(chapterUrl, `Question file "${entry.title}"`);
     validateChapter(chapterData, entry);
-    files[entry.id] = chapterData;
+    const questions = [...chapterData.questions];
+    for (const section of entry.sectionFiles || []) {
+      const sectionUrl = new URL(section.path, indexUrl).href;
+      const sectionData = await fetchJson(sectionUrl, `Question section "${section.section}"`);
+      validateChapter(sectionData, entry);
+      questions.push(...sectionData.questions.map(question => ({
+        ...question,
+        section: question.section || section.section
+      })));
+    }
+    files[entry.id] = { ...chapterData, questions };
+  }
+
+  const oldPapersById = new Map((saved?.catalog?.papers || []).map(entry => [entry.id, entry]));
+  for (const entry of (catalog.papers || []).filter(paper => paper.published)) {
+    const previousEntry = oldPapersById.get(entry.id);
+    const previousPaper = saved?.papers?.[entry.id];
+    const unchanged = previousEntry && previousPaper
+      && previousEntry.path === entry.path
+      && previousEntry.revision === entry.revision
+      && previousEntry.exam === entry.exam
+      && previousEntry.year === entry.year
+      && previousEntry.title === entry.title
+      && previousEntry.subject === entry.subject
+      && previousEntry.questionCount === entry.questionCount
+      && previousEntry.durationSeconds === entry.durationSeconds;
+    if (unchanged) {
+      validatePaper(previousPaper, entry);
+      papers[entry.id] = previousPaper;
+      continue;
+    }
+    const paperUrl = new URL(entry.path, indexUrl).href;
+    const paperData = await fetchJson(paperUrl, `Question paper "${entry.title}"`);
+    validatePaper(paperData, entry);
+    papers[entry.id] = paperData;
   }
 
   const allQuestionIds = new Set();
@@ -219,8 +337,14 @@ async function synchronizeQuestionBank() {
       allQuestionIds.add(question.id);
     }
   }
+  for (const entry of (catalog.papers || []).filter(paper => paper.published)) {
+    for (const question of papers[entry.id].questions) {
+      if (allQuestionIds.has(question.id)) throw new Error(`Question ID "${question.id}" is duplicated across the question bank.`);
+      allQuestionIds.add(question.id);
+    }
+  }
 
-  const updated = { catalog, files, syncedAt: new Date().toISOString() };
+  const updated = { catalog, files, papers, syncedAt: new Date().toISOString() };
   await activateBank(updated);
   return updated;
 }
@@ -249,4 +373,4 @@ export async function refreshQuestionBank() {
   return synchronizeQuestionBank();
 }
 
-export { flattenBank, validateCatalog, validateChapter, configuredIndexUrl };
+export { flattenBank, flattenPaperQuestions, validateCatalog, validateChapter, validatePaper, configuredIndexUrl };

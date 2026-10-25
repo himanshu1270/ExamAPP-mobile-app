@@ -1,0 +1,2050 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "biology-chapter-2",
+  "subject": "Biology",
+  "chapterNumber": 2,
+  "title": "Biological Classification",
+  "section": "Section 3 - Kingdom Protista",
+  "questions": [
+    {
+      "id": "biology-chapter-2-section-3-q001",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is the most fundamental characteristic of organisms classified under Kingdom Protista in Whittaker's five-kingdom system?",
+      "options": [
+        "All are multicellular eukaryotes.",
+        "All are prokaryotes.",
+        "They are eukaryotes, predominantly unicellular.",
+        "All possess a cell wall made of chitin."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q002",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "According to NCERT, Kingdom Protista primarily includes:",
+      "options": [
+        "Unicellular eukaryotic organisms",
+        "Multicellular prokaryotic organisms",
+        "Multicellular animals only",
+        "Acellular infectious agents only"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q003",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is NOT a general characteristic of Protista?",
+      "options": [
+        "Eukaryotic cellular organisation",
+        "Presence of a true nucleus",
+        "Membrane-bound organelles in typical cells",
+        "Prokaryotic cellular organisation"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q004",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Protists are primarily aquatic organisms. Which conclusion is most appropriate?",
+      "options": [
+        "All protists live exclusively in freshwater.",
+        "Many protists occur in aquatic environments, although their habitats are not restricted to freshwater.",
+        "All protists are marine organisms.",
+        "No protists occur in moist terrestrial habitats."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q005",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following statements about nutrition in Protista is correct?",
+      "options": [
+        "All protists are photosynthetic autotrophs.",
+        "All protists are obligate parasites.",
+        "Protists exhibit diverse nutritional modes.",
+        "All protists obtain food by ingestion."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q006",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following structures may be involved in locomotion in different protists?",
+      "options": [
+        "Cilia",
+        "Flagella",
+        "Pseudopodia",
+        "All of the above"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q007",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about reproduction in Protista is correct?",
+      "options": [
+        "Protists reproduce exclusively by sexual reproduction.",
+        "Protists reproduce exclusively by binary fission.",
+        "All protists reproduce through seeds.",
+        "Both asexual and sexual reproductive processes occur among protists."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q008",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is a correct distinction between Monera and Protista?",
+      "options": [
+        "Monera are prokaryotic, whereas Protista are eukaryotic.",
+        "Monera are multicellular, whereas Protista are exclusively multicellular.",
+        "Monera lack genetic material, whereas Protista possess it.",
+        "Both kingdoms are exclusively prokaryotic."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q009",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is correctly associated with the organisation of a typical protist cell?",
+      "options": [
+        "Absence of DNA",
+        "Absence of ribosomes",
+        "Membrane-bound nucleus",
+        "Absence of a plasma membrane"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q010",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A unicellular organism possesses a true nucleus and membrane-bound organelles. Which conclusion is most appropriate?",
+      "options": [
+        "It must belong to Monera.",
+        "It is eukaryotic and could belong to Protista.",
+        "It must be a virus.",
+        "It must be a multicellular animal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q011",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following groups is NOT included among the five major protistan groups described in NCERT's account?",
+      "options": [
+        "Chrysophytes",
+        "Dinoflagellates",
+        "Euglenoids",
+        "Bryophytes"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q012",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which set contains all five major groups of Protista described in NCERT?",
+      "options": [
+        "Chrysophytes, dinoflagellates, euglenoids, slime moulds and protozoans",
+        "Monerans, fungi, plants, animals and protozoans",
+        "Diatoms, mosses, ferns, gymnosperms and angiosperms",
+        "Bacteria, archaea, fungi, plants and animals"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q013",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following groups is included among chrysophytes?",
+      "options": [
+        "Diatoms and desmids",
+        "Euglenoids and slime moulds",
+        "Amoeboid protozoans and ciliates",
+        "Dinoflagellates and trypanosomes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q014",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Chrysophytes include organisms commonly found in:",
+      "options": [
+        "Dry deserts exclusively",
+        "The blood of animals exclusively",
+        "Freshwater and marine environments",
+        "Hot acidic springs exclusively"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q015",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Diatoms are particularly important in aquatic ecosystems because they:",
+      "options": [
+        "Are all obligate animal parasites.",
+        "Are major components of phytoplankton.",
+        "Are all non-photosynthetic fungi.",
+        "Lack pigments required for photosynthesis."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q016",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The cell walls of diatoms are characteristically impregnated with:",
+      "options": [
+        "Chitin",
+        "Cellulose exclusively",
+        "Calcium carbonate exclusively",
+        "Silica"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q017",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement correctly describes the diatom cell wall?",
+      "options": [
+        "It consists of two overlapping halves that fit together like a soap box.",
+        "It consists of a single chitinous layer.",
+        "It is always absent.",
+        "It is made exclusively of peptidoglycan."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q018",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The two overlapping halves of a diatom's cell wall are commonly described as:",
+      "options": [
+        "Cortex and medulla",
+        "Episome and chromosome",
+        "Epitheca and hypotheca",
+        "Endospore and exospore"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q019",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The persistent accumulation of diatom cell walls over geological time contributes to the formation of:",
+      "options": [
+        "Peat exclusively",
+        "Diatomaceous earth",
+        "Coal exclusively",
+        "Coral reefs exclusively"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q020",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which property of diatom cell walls contributes to their persistence in sediments?",
+      "options": [
+        "Their complete solubility in water",
+        "Their composition of soft animal tissue",
+        "Their exclusively proteinaceous structure",
+        "Their silica-rich composition"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q021",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about diatomaceous earth is correct?",
+      "options": [
+        "It is associated with accumulated diatom cell walls.",
+        "It consists exclusively of fungal hyphae.",
+        "It is formed by the bones of vertebrates.",
+        "It is the living cytoplasm of cyanobacteria."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q022",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is characteristic of diatoms?",
+      "options": [
+        "Absence of a cell wall in every species",
+        "Cell walls made exclusively of chitin",
+        "Siliceous cell walls",
+        "Prokaryotic organisation"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q023",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Diatoms are classified as protists rather than prokaryotes because they:",
+      "options": [
+        "Lack genetic material.",
+        "Possess eukaryotic cellular organisation.",
+        "Lack a nucleus.",
+        "Possess peptidoglycan cell walls."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q024",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is a major ecological role of photosynthetic diatoms?",
+      "options": [
+        "Elimination of primary production",
+        "Prevention of carbon fixation",
+        "Exclusive parasitism of animals",
+        "Contribution to aquatic primary production"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q025",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about chrysophytes is incorrect?",
+      "options": [
+        "The group includes diatoms and desmids.",
+        "Many occur in aquatic environments.",
+        "Diatoms possess silica-rich cell walls.",
+        "All chrysophytes are prokaryotic bacteria."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q026",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which pair is correctly matched?",
+      "options": [
+        "Diatoms — silica-rich cell walls",
+        "Diatoms — peptidoglycan cell walls",
+        "Desmids — exclusively animal parasites",
+        "Chrysophytes — membrane-bound nuclei absent"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q027",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A microscopic aquatic organism possesses a siliceous wall consisting of two overlapping halves. Which group is the best identification?",
+      "options": [
+        "Ciliates",
+        "Euglenoids",
+        "Diatoms",
+        "Slime moulds"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q028",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about diatomaceous earth is incorrect?",
+      "options": [
+        "It is associated with diatom deposits.",
+        "It results from the accumulation of silica-rich diatom walls.",
+        "It is a form of accumulated diatom remains.",
+        "It is formed exclusively from the peptidoglycan walls of bacteria."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q029",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which combination is correct?",
+      "options": [
+        "Chrysophytes — prokaryotic organisation — peptidoglycan walls in all members",
+        "Chrysophytes — aquatic organisms — includes diatoms and desmids",
+        "Chrysophytes — exclusively parasitic organisms — no photosynthetic members",
+        "Chrysophytes — multicellular animals — chitinous exoskeletons"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q030",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement best explains why diatom cell walls are important to geological studies?",
+      "options": [
+        "They rapidly disappear under all environmental conditions.",
+        "They are made entirely of soft proteins.",
+        "Their silica-rich remains can accumulate and persist in sediments.",
+        "They are identical to the cell walls of mammals."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q031",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Dinoflagellates are predominantly:",
+      "options": [
+        "Terrestrial fungi",
+        "Marine organisms",
+        "Prokaryotic bacteria",
+        "Multicellular animals"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q032",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The majority of dinoflagellates are:",
+      "options": [
+        "Saprophytic fungi",
+        "Obligate animal parasites",
+        "Non-photosynthetic prokaryotes",
+        "Photosynthetic organisms"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q033",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The yellow, green, brown, blue or red colour of different dinoflagellates is associated with variations in their:",
+      "options": [
+        "Photosynthetic pigments",
+        "Cell-wall peptidoglycan",
+        "Mitochondrial DNA alone",
+        "Nuclear membrane"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q034",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "In many dinoflagellates, the cell wall has stiff cellulose plates. These plates are associated with the:",
+      "options": [
+        "Siliceous frustule",
+        "Chitinous fungal wall",
+        "Cellulosic covering",
+        "Peptidoglycan wall"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q035",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which feature is characteristic of many dinoflagellates?",
+      "options": [
+        "Absence of a nucleus",
+        "Two flagella arranged in different orientations",
+        "Absence of a plasma membrane",
+        "A rigid cell wall made exclusively of silica"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q036",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "In a typical dinoflagellate, the two flagella are arranged:",
+      "options": [
+        "Both exclusively at the posterior end",
+        "Both embedded permanently in the nucleus",
+        "Both arranged as cilia covering the entire surface",
+        "One longitudinally and the other transversely"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q037",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which genus is an example of a dinoflagellate associated with red tides?",
+      "options": [
+        "Gonyaulax",
+        "Amoeba",
+        "Trypanosoma",
+        "Euglena"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q038",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Red tides may occur when certain dinoflagellates:",
+      "options": [
+        "Lose all their pigments permanently.",
+        "Convert into multicellular animals.",
+        "Multiply rapidly and accumulate in large numbers in seawater.",
+        "Produce peptidoglycan cell walls."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q039",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is a potential consequence of red tides caused by certain dinoflagellates?",
+      "options": [
+        "Guaranteed improvement in water quality",
+        "Harmful effects on fish and other marine organisms",
+        "Elimination of all marine microorganisms",
+        "Conversion of seawater into freshwater"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q040",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following dinoflagellates is associated with red tides?",
+      "options": [
+        "Nostoc",
+        "Anabaena",
+        "Plasmodium",
+        "Gonyaulax"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q041",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about dinoflagellates is correct?",
+      "options": [
+        "Most are marine, and many are photosynthetic.",
+        "All are freshwater parasites.",
+        "All lack photosynthetic pigments.",
+        "All are prokaryotic."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q042",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about the pigments of dinoflagellates is correct?",
+      "options": [
+        "All species possess identical pigments in identical proportions.",
+        "Pigments are absent in every dinoflagellate.",
+        "Different pigments contribute to the different colours of dinoflagellates.",
+        "Pigments are restricted to the cell wall."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q043",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A marine protist has cellulose plates and two flagella, one transverse and one longitudinal. Which group does it most likely belong to?",
+      "options": [
+        "Diatoms",
+        "Dinoflagellates",
+        "Slime moulds",
+        "Amoeboid protozoans"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q044",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about red tides is incorrect?",
+      "options": [
+        "They may be associated with rapid multiplication of certain dinoflagellates.",
+        "Some red-tide-forming species can harm marine life.",
+        "The colour of the water may be influenced by the pigments of the organisms.",
+        "Red tides are caused exclusively by the accumulation of diatomaceous earth."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q045",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is correctly matched?",
+      "options": [
+        "Gonyaulax — dinoflagellate",
+        "Gonyaulax — ciliate",
+        "Gonyaulax — slime mould",
+        "Gonyaulax — euglenoid"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q046",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A marine bloom is associated with a large population of pigmented protists and causes harm to fish. Which phenomenon is most consistent with this observation?",
+      "options": [
+        "Diatomaceous earth formation",
+        "Nitrogen fixation in heterocysts",
+        "Red tide",
+        "Binary fission of Mycoplasma alone"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q047",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which characteristic distinguishes many dinoflagellates from diatoms in the NCERT description?",
+      "options": [
+        "Dinoflagellates are always prokaryotic.",
+        "Dinoflagellates commonly have cellulose plates, whereas diatoms have silica-rich walls.",
+        "Dinoflagellates lack genetic material.",
+        "Diatoms have no cell walls, whereas all dinoflagellates have chitinous walls."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q048",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which combination is entirely correct?",
+      "options": [
+        "Dinoflagellates — all terrestrial — chitinous plates — no flagella",
+        "Dinoflagellates — prokaryotic — no nucleus — peptidoglycan walls",
+        "Dinoflagellates — exclusively non-photosynthetic — no pigments",
+        "Dinoflagellates — often marine — commonly two flagella — certain species associated with red tides"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q049",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Euglenoids are commonly found in:",
+      "options": [
+        "Freshwater, particularly stagnant water",
+        "Dry rocks exclusively",
+        "The blood of mammals exclusively",
+        "Hot acidic springs exclusively"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q050",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which genus is a standard example of a euglenoid?",
+      "options": [
+        "Gonyaulax",
+        "Trypanosoma",
+        "Euglena",
+        "Nostoc"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q051",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Euglenoids differ from many other protists because they possess:",
+      "options": [
+        "A peptidoglycan wall",
+        "A protein-rich pellicle instead of a cell wall",
+        "A siliceous frustule",
+        "A chitinous wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q052",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The pellicle of a euglenoid is best described as:",
+      "options": [
+        "A rigid cellulose plate covering the cell",
+        "A siliceous outer covering",
+        "A bacterial peptidoglycan layer",
+        "A protein-rich covering that provides flexibility"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q053",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about the locomotory structures of euglenoids is correct?",
+      "options": [
+        "They possess flagella.",
+        "They possess pseudopodia exclusively.",
+        "They lack locomotory structures in every case.",
+        "They move using cilia exclusively."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q054",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Euglenoids typically possess:",
+      "options": [
+        "No chloroplasts",
+        "Chloroplasts in every species regardless of nutritional mode",
+        "Chloroplasts in photosynthetic forms",
+        "Chloroplasts replaced by peptidoglycan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q055",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Under favourable light conditions, photosynthetic Euglena can obtain nutrition by:",
+      "options": [
+        "Ingesting solid food exclusively",
+        "Photosynthesis",
+        "Absorbing nutrients through fungal hyphae",
+        "Methane production"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q056",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Under conditions where light is unavailable, certain euglenoids can:",
+      "options": [
+        "Become prokaryotic",
+        "Develop a peptidoglycan wall",
+        "Convert into multicellular animals",
+        "Obtain nutrients heterotrophically"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q057",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The ability of Euglena to use different nutritional modes depending on environmental conditions is an example of:",
+      "options": [
+        "Nutritional flexibility",
+        "Obligate photosynthesis in all conditions",
+        "Exclusive parasitism",
+        "Absence of metabolism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q058",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which pigment is characteristic of photosynthetic Euglena?",
+      "options": [
+        "Haemoglobin",
+        "Melanin exclusively",
+        "Chlorophyll",
+        "Peptidoglycan"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q059",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about the pellicle is incorrect?",
+      "options": [
+        "It is associated with euglenoids.",
+        "It is a protein-rich covering.",
+        "It permits flexibility in cell shape.",
+        "It is the same as the rigid, silica-rich wall of a diatom."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q060",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is correctly matched?",
+      "options": [
+        "Euglena — siliceous cell wall",
+        "Euglena — protein-rich pellicle",
+        "Euglena — cellulose plates arranged as in typical dinoflagellates",
+        "Euglena — peptidoglycan cell wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q061",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A freshwater protist possesses chloroplasts, a flagellum and a flexible protein-rich covering. Which group is the best identification?",
+      "options": [
+        "Euglenoids",
+        "Diatoms",
+        "Slime moulds",
+        "Ciliates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q062",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement correctly compares euglenoids and dinoflagellates?",
+      "options": [
+        "Both are prokaryotic bacteria.",
+        "Both possess identical silica-rich cell walls.",
+        "Euglenoids have a protein-rich pellicle, while many dinoflagellates have stiff cellulose plates.",
+        "Euglenoids lack flagella, whereas all dinoflagellates lack locomotion."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q063",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following statements about Euglena is incorrect?",
+      "options": [
+        "It is a eukaryotic protist.",
+        "Photosynthetic forms possess chloroplasts.",
+        "It can display nutritional flexibility.",
+        "It possesses a typical bacterial peptidoglycan wall."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q064",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Why is Euglena often discussed when comparing autotrophic and heterotrophic nutrition?",
+      "options": [
+        "It is always an obligate parasite.",
+        "It can photosynthesise when light is available and obtain nutrients heterotrophically under suitable conditions without light.",
+        "It lacks all pigments.",
+        "It is a prokaryote that cannot perform photosynthesis."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q065",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which pair is correctly matched?",
+      "options": [
+        "Euglenoids — protein-rich pellicle; photosynthetic forms — chloroplasts",
+        "Euglenoids — peptidoglycan wall; all forms — chloroplasts absent",
+        "Euglenoids — siliceous frustule; all forms — no flagella",
+        "Euglenoids — chitinous wall; all forms — obligate parasitism"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q066",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about euglenoids is correct?",
+      "options": [
+        "They are all multicellular.",
+        "They are prokaryotic organisms.",
+        "They are commonly found in freshwater, and many possess a flagellum and pellicle.",
+        "They are all marine red-tide-forming organisms."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q067",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Slime moulds are classified under which kingdom in the NCERT account?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Plantae",
+        "Animalia"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q068",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Slime moulds are generally described as:",
+      "options": [
+        "Prokaryotic autotrophs",
+        "Photosynthetic bacteria",
+        "Multicellular animals",
+        "Saprophytic protists"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q069",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Slime moulds commonly grow on:",
+      "options": [
+        "Decaying twigs and leaves",
+        "Living animal tissues exclusively",
+        "Sterile rocks exclusively",
+        "The chloroplasts of plants exclusively"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q070",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Under suitable conditions, slime moulds may form:",
+      "options": [
+        "Seeds",
+        "Flowers",
+        "An aggregation called a plasmodium",
+        "A membrane-bound bacterial nucleus"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q071",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The plasmodium of a typical acellular slime mould is best described as:",
+      "options": [
+        "A bacterial colony consisting of independent prokaryotic cells",
+        "A large, multinucleate mass of protoplasm",
+        "A group of animal embryos",
+        "A collection of diatom frustules"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q072",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following conditions is associated with the formation of fruiting bodies by slime moulds?",
+      "options": [
+        "Only continuous exposure to abundant light",
+        "The presence of a host animal in every case",
+        "Formation of chloroplasts in all cells",
+        "Unfavourable environmental conditions"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q073",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Slime mould fruiting bodies produce:",
+      "options": [
+        "Spores",
+        "Seeds",
+        "Pollen grains",
+        "Mammalian gametes"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q074",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "The spores of slime moulds are characteristically:",
+      "options": [
+        "Always incapable of dispersal",
+        "Produced inside bacterial endospores",
+        "Resistant to adverse conditions and capable of dispersal",
+        "Identical to seeds of flowering plants"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q075",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which structure is associated with spore dispersal in slime moulds?",
+      "options": [
+        "Chloroplast",
+        "Fruiting body",
+        "Heterocyst",
+        "Pellicle"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q076",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about slime moulds is incorrect?",
+      "options": [
+        "They may occur on decaying organic matter.",
+        "They can form fruiting bodies.",
+        "Their life cycle may involve spores.",
+        "They are prokaryotic organisms lacking a true nucleus."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q077",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following best distinguishes slime moulds from photosynthetic dinoflagellates?",
+      "options": [
+        "Slime moulds are generally saprophytic, whereas many dinoflagellates are photosynthetic.",
+        "Slime moulds are prokaryotic, whereas dinoflagellates are eukaryotic.",
+        "Slime moulds lack genetic material, whereas dinoflagellates possess it.",
+        "Slime moulds possess peptidoglycan walls, whereas dinoflagellates possess bacterial flagella."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q078",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A protist grows on decaying leaves, forms a multinucleate plasmodium and produces fruiting bodies containing resistant spores. Which group is the best identification?",
+      "options": [
+        "Diatoms",
+        "Euglenoids",
+        "Slime moulds",
+        "Cyanobacteria"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q079",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which sequence best represents the general events described in the NCERT account of slime moulds?",
+      "options": [
+        "Flower formation → pollination → seed formation",
+        "Growth on decaying organic matter → plasmodium formation → fruiting bodies and spores under suitable developmental conditions",
+        "Formation of chloroplasts → photosynthesis → red tide",
+        "Binary fission → formation of a peptidoglycan wall → production of heterocysts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q080",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about slime mould spores is correct?",
+      "options": [
+        "They are identical to pollen grains.",
+        "They are produced only by bacterial conjugation.",
+        "They are always unable to survive adverse conditions.",
+        "They can possess resistant walls and aid survival and dispersal."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q081",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "According to NCERT, protozoans are generally described as:",
+      "options": [
+        "Heterotrophic protists",
+        "Photosynthetic prokaryotes",
+        "Multicellular plants",
+        "Non-cellular viruses"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q082",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is a major group of protozoans described in NCERT?",
+      "options": [
+        "Gymnosperms",
+        "Bryophytes",
+        "Amoeboid protozoans",
+        "Angiosperms"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q083",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Amoeboid protozoans move and capture food using:",
+      "options": [
+        "Chloroplasts",
+        "Pseudopodia",
+        "Siliceous frustules",
+        "Heterocysts"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q084",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which organism is a standard example of an amoeboid protozoan?",
+      "options": [
+        "Gonyaulax",
+        "Euglena",
+        "Nostoc",
+        "Amoeba"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q085",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Some marine amoeboid protozoans possess shells on their cell surface. These shells may be composed of:",
+      "options": [
+        "Silica",
+        "Peptidoglycan exclusively",
+        "Cellulose exclusively",
+        "Chitin exclusively"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q086",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which group of protozoans possesses flagella for locomotion?",
+      "options": [
+        "Ciliates",
+        "Slime moulds exclusively",
+        "Flagellated protozoans",
+        "Diatoms exclusively"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q087",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is an example of a flagellated protozoan associated with parasitism?",
+      "options": [
+        "Nostoc",
+        "Trypanosoma",
+        "Euglena",
+        "Gonyaulax"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q088",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about flagellated protozoans is correct?",
+      "options": [
+        "All are free-living and none are parasitic.",
+        "All are photosynthetic.",
+        "All are prokaryotic.",
+        "Many are parasitic, and some cause diseases."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q089",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which group of protozoans is characterised by the presence of numerous cilia?",
+      "options": [
+        "Ciliates",
+        "Amoeboid protozoans",
+        "Slime moulds",
+        "Diatoms"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q090",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is an example of a ciliate?",
+      "options": [
+        "Plasmodium",
+        "Trypanosoma",
+        "Paramecium",
+        "Nostoc"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q091",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "In ciliates, cilia are primarily associated with:",
+      "options": [
+        "Formation of a siliceous frustule",
+        "Locomotion and, in many forms, movement of food",
+        "Nitrogen fixation in heterocysts",
+        "Production of methane"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q092",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which protozoan group is characterised by an absence of specialised locomotory organelles in the NCERT description?",
+      "options": [
+        "Ciliates",
+        "Flagellated protozoans",
+        "Amoeboid protozoans",
+        "Sporozoans"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q093",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is an example of a sporozoan?",
+      "options": [
+        "Plasmodium",
+        "Paramecium",
+        "Euglena",
+        "Nostoc"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q094",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Plasmodium is medically important because it is associated with:",
+      "options": [
+        "Cholera",
+        "Tuberculosis",
+        "Malaria",
+        "Typhoid"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q095",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement correctly describes sporozoans in the NCERT account?",
+      "options": [
+        "They are all photosynthetic plants.",
+        "They possess an infectious spore-like stage in their life cycle.",
+        "They are prokaryotic bacteria.",
+        "They are all free-living freshwater algae."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q096",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following pairs is correctly matched?",
+      "options": [
+        "Amoeba — cilia",
+        "Paramecium — pseudopodia as its principal locomotory structures",
+        "Trypanosoma — diatomaceous earth",
+        "Plasmodium — sporozoan"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q097",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following pairs is incorrectly matched?",
+      "options": [
+        "Amoeboid protozoans — pseudopodia",
+        "Ciliates — cilia",
+        "Flagellated protozoans — flagella",
+        "Sporozoans — chloroplasts as their defining locomotory structures"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q098",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A unicellular eukaryote uses pseudopodia to capture food. Which group does it most likely belong to?",
+      "options": [
+        "Amoeboid protozoans",
+        "Ciliates",
+        "Dinoflagellates",
+        "Cyanobacteria"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q099",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A parasitic protist has a complex life cycle and is transmitted through a mosquito vector. Which organism is most consistent with this description?",
+      "options": [
+        "Amoeba proteus",
+        "Paramecium caudatum",
+        "Plasmodium",
+        "Nostoc"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q100",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which option correctly matches all four protozoan groups with their characteristic features?",
+      "options": [
+        "Amoeboid — cilia; flagellated — pseudopodia; ciliates — chloroplasts; sporozoans — heterocysts",
+        "Amoeboid — pseudopodia; flagellated — flagella; ciliates — cilia; sporozoans — infectious spore-like stages",
+        "Amoeboid — flagella exclusively; flagellated — cilia; ciliates — pseudopodia; sporozoans — siliceous frustules",
+        "Amoeboid — peptidoglycan; flagellated — chloroplasts; ciliates — cellulose plates; sporozoans — pellicles"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q101",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following pairs is correctly matched?",
+      "options": [
+        "Diatoms — silica-rich cell walls; euglenoids — protein-rich pellicle",
+        "Dinoflagellates — peptidoglycan walls; diatoms — chitinous walls",
+        "Euglenoids — siliceous frustules; slime moulds — cellulose plates",
+        "Slime moulds — heterocysts; cyanobacteria — pseudopodia"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q102",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A protist is found in stagnant freshwater. It has chloroplasts, a flagellum and a flexible pellicle. When light is unavailable, it can obtain nutrients heterotrophically. Which is the best identification?",
+      "options": [
+        "Gonyaulax",
+        "Plasmodium",
+        "Diatom",
+        "Euglena"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q103",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following combinations is correctly matched?",
+      "options": [
+        "Red tides — diatomaceous earth formation",
+        "Dinoflagellates — red tides; diatoms — diatomaceous earth",
+        "Euglenoids — heterocysts; ciliates — cellulose plates",
+        "Slime moulds — oxygenic photosynthesis; Plasmodium — nitrogen fixation"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q104",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which of the following is a correct distinction between diatoms and dinoflagellates?",
+      "options": [
+        "Both are prokaryotic organisms.",
+        "Diatoms lack cell walls, whereas all dinoflagellates possess peptidoglycan walls.",
+        "Diatoms have silica-rich walls, whereas many dinoflagellates have stiff cellulose plates.",
+        "Diatoms are exclusively parasites, whereas all dinoflagellates are saprophytes."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q105",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement about the nutritional modes of protists is correct?",
+      "options": [
+        "All protists are photosynthetic.",
+        "All protists are heterotrophic.",
+        "Protists cannot change their nutritional strategy in response to environmental conditions.",
+        "Different protists have different nutritional strategies, and some euglenoids can use both autotrophic and heterotrophic nutrition."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q106",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which sequence correctly matches the organism with its major group?",
+      "options": [
+        "Euglena — euglenoids; Gonyaulax — dinoflagellates; Paramecium — ciliates",
+        "Euglena — ciliates; Gonyaulax — slime moulds; Paramecium — diatoms",
+        "Euglena — cyanobacteria; Gonyaulax — euglenoids; Paramecium — slime moulds",
+        "Euglena — diatoms; Gonyaulax — protozoans of the amoeboid group; Paramecium — dinoflagellates"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q107",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "A marine protist's cell walls accumulate over long periods and contribute to deposits of diatomaceous earth. Which property is primarily responsible?",
+      "options": [
+        "Chitinous walls",
+        "Silica-rich walls",
+        "Peptidoglycan walls",
+        "Complete absence of a cell wall"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Correct answer: B.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q108",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which set consists entirely of organisms belonging to Protista in the NCERT account?",
+      "options": [
+        "Nostoc, Anabaena, Mycoplasma and Escherichia coli",
+        "Yeast, mushroom, Rhizopus and Penicillium",
+        "Amoeba, Euglena, Paramecium and Gonyaulax",
+        "Moss, fern, Pinus and mango"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Correct answer: C.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q109",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which statement is correct regarding the locomotion of protists?",
+      "options": [
+        "Every protist uses cilia.",
+        "Every protist uses flagella.",
+        "All protists are permanently non-motile.",
+        "Different groups may use pseudopodia, flagella or cilia, while some groups lack specialised locomotory structures."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q110",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Which combination correctly links each group with its most distinctive NCERT clue?",
+      "options": [
+        "Chrysophytes — diatomaceous earth; dinoflagellates — red tides; euglenoids — pellicle; slime moulds — plasmodium; protozoans — diverse locomotory structures",
+        "Chrysophytes — heterocysts; dinoflagellates — peptidoglycan; euglenoids — diatomaceous earth; slime moulds — chloroplasts; protozoans — cellulose plates",
+        "Chrysophytes — bacterial endospores; dinoflagellates — pseudopodia; euglenoids — peptidoglycan; slime moulds — cilia; protozoans — silica-rich walls",
+        "Chrysophytes — methane production; dinoflagellates — nitrogen fixation in every species; euglenoids — chitinous walls; slime moulds — chloroplasts; protozoans — heterocysts"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q111",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Consider the following statements about chrysophytes.\n\n1. Chrysophytes include diatoms and desmids.\n2. Diatoms possess silica-rich cell walls.\n3. Diatomaceous earth is associated with the accumulation of diatom cell walls.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q112",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Consider the following statements about dinoflagellates.\n\n1. Most dinoflagellates are marine.\n2. Many dinoflagellates are photosynthetic.\n3. Certain dinoflagellates can cause red tides.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q113",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Consider the following statements about euglenoids.\n\n1. Euglenoids commonly occur in freshwater habitats.\n2. Their covering is a protein-rich pellicle rather than a typical rigid cell wall.\n3. Some euglenoids can obtain nutrition heterotrophically when light is unavailable.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q114",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Consider the following statements about slime moulds.\n\n1. They can grow on decaying organic matter.\n2. They can form plasmodia.\n3. Their life cycle can involve fruiting bodies that produce resistant spores.\nChoose the correct answer.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q115",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Consider the following statements about protozoans.\n\n1. Amoeboid protozoans use pseudopodia.\n2. Ciliates possess cilia.\n3. Sporozoans include Plasmodium.\nChoose the correct answer.\n\n---\n\n# Assertion–Reason Questions\n\n## Questions 116–120\nSelect the correct option:\n\nA. Both Assertion and Reason are true, and Reason correctly explains Assertion.\nB. Both Assertion and Reason are true, but Reason does not correctly explain Assertion.\nC. Assertion is true, but Reason is false.\nD. Assertion is false, but Reason is true.",
+      "options": [
+        "Statements 1 and 2 only are correct.",
+        "Statements 1 and 3 only are correct.",
+        "Statements 2 and 3 only are correct.",
+        "Statements 1, 2 and 3 are correct."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q116",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Assertion: Diatoms are important contributors to aquatic primary production.\n\nReason: Many diatoms are photosynthetic and form important components of phytoplankton.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q117",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Assertion: All dinoflagellates are harmful to marine organisms.\n\nReason: Certain dinoflagellates can multiply rapidly and cause harmful red tides.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q118",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Assertion: Euglena is a useful example when studying nutritional flexibility in protists.\n\nReason: Some euglenoids can photosynthesise in light and obtain nutrients heterotrophically when light is unavailable.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q119",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Assertion: Slime moulds are classified as prokaryotes because they form plasmodia.\n\nReason: Slime moulds are protists, and their plasmodia can consist of a multinucleate mass of protoplasm.",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Correct answer: D.",
+      "source": {
+        "type": "original"
+      }
+    },
+    {
+      "id": "biology-chapter-2-section-3-q120",
+      "type": "single-choice",
+      "section": "Section 3 - Kingdom Protista",
+      "text": "Assertion: Paramecium belongs to the ciliates.\n\nReason: Ciliates are characterised by the presence of numerous cilia, which are involved in locomotion and, in many forms, feeding.\n\n---\n\n---",
+      "options": [
+        "Both Assertion and Reason are true, and Reason correctly explains Assertion.",
+        "Both Assertion and Reason are true, but Reason does not correctly explain Assertion.",
+        "Assertion is true, but Reason is false.",
+        "Assertion is false, but Reason is true."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Correct answer: A.",
+      "source": {
+        "type": "original"
+      }
+    }
+  ]
+}
