@@ -280,7 +280,8 @@ async function synchronizeQuestionBank() {
       && previousEntry.chapterNumber === entry.chapterNumber
       && previousEntry.title === entry.title
       && JSON.stringify(previousEntry.sectionFiles || []) === JSON.stringify(entry.sectionFiles || [])
-      && previousFile) {
+      && previousFile
+      && previousFile.questions?.length === entry.questionCount) {
       validateChapter(previousFile, entry);
       files[entry.id] = previousFile;
       continue;

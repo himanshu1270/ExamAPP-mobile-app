@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "bankVersion": "1.0.5",
+  "bankVersion": "1.0.6",
   "chapters": [
     {
       "id": "biology-chapter-1",
@@ -20,7 +20,7 @@
       "title": "Biological Classification",
       "path": "biology/chapter-2-section-1.json",
       "questionCount": 340,
-      "revision": 3,
+      "revision": 4,
       "published": true,
       "description": "NCERT Class 11 Biology — Sections 1 and 2: original competitive-exam-style practice questions",
       "sectionFiles": [
