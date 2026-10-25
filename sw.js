@@ -1,4 +1,4 @@
-const CACHE_NAME = "exam-practice-v6";
+const CACHE_NAME = "exam-practice-v7";
 const APP_FILES = ["./", "./index.html", "./styles.css", "./app.js", "./question-bank.js", "./config.js", "./manifest.json", "./icon.svg"];
 
 self.addEventListener("install", event => {

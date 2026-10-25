@@ -12,11 +12,12 @@ All app, manifest, service-worker, and bundled question-bank URLs are relative. 
 
 | Mode | Target | Time limit |
 | --- | ---: | ---: |
-| Chapter-wise practice | 15 questions from the selected chapter | 10 minutes |
-| Practice mock test | Up to 120 questions from the downloaded bank | 90 minutes |
+| Chapter practice | 15 questions from the selected chapter | 10 minutes |
+| Practice mode | 30, 60, or 90 questions from the downloaded bank | 30, 60, or 90 minutes |
 | Exam simulation | Up to 120 questions from the downloaded bank | 120 minutes |
+| PYQ papers | Paper attempts from published paper metadata | Varies by paper |
 
-The starter bank has 15 Biology practice questions from *The Living World*, including three additional original study questions. They are not represented as official examination questions. The app shows the actual available count before a test starts and uses all eligible questions when fewer than the configured target are available. The configured time limit remains the same. Add 120 questions overall to fill the mock-test and exam-simulation targets.
+The starter bank has 15 Biology practice questions from *The Living World*, including three additional original study questions. They are not represented as official examination questions. The app shows the actual available count before a test starts and uses all eligible questions when fewer than the configured target are available. The configured time limit remains the same.
 
 Scoring is +3 for a correct response, -1 for an incorrect response, and 0 for an unanswered question. Displayed percentage is clamped to the range 0–100%, so a negative raw score displays as 0%.
 
@@ -33,11 +34,11 @@ question-bank/
 
 `question-bank/index.json` is the catalogue. Each chapter entry declares a stable chapter ID, subject, chapter number, title, relative file path, question count, revision, and publication status. Each chapter JSON file has `schemaVersion: 1`, matching chapter metadata, and a `questions` array. Question IDs must be stable and unique across the entire published bank. `correctAnswer` is a zero-based option index (`0` is the first option). Every supported question is a `single-choice` MCQ with a non-empty explanation.
 
-The app validates catalogue metadata, safe relative paths, chapter metadata, declared question counts, unique question IDs (within and across chapters), question text, options, question type, answer indexes, and explanations before activating an update.
+The app validates catalogue metadata, safe relative paths, chapter metadata, unique question IDs (within and across chapters), question text, options, question type, answer indexes, and explanations before activating an update. Usable question totals are derived from the validated downloaded question arrays.
 
 ## Add or update questions
 
-1. Open **Profile → Open question-bank import tool** or visit `admin/import.html`.
+1. Visit `admin/import.html` to open the administrator-only question-bank import tool.
 2. Drop a version 1 chapter JSON file onto the page, or select it with the file picker.
 3. Review the validation result and question preview. The tool checks IDs against the published chapter files when they are reachable.
 4. Download the validated chapter JSON and updated `index.json`.
@@ -70,16 +71,13 @@ A future Android Trusted Web Activity requires an HTTPS domain, Digital Asset Li
 
 ## Verification notes
 
-Local verification performed:
+The project does not include an automated test suite. During the latest local audit:
 
-- Confirmed the catalogue and chapter JSON load and validate, including all 15 Biology practice questions.
-- Exercised chapter, mock, and exam previews with counts reflecting current bank availability and 10-, 90-, and 120-minute limits respectively.
-- Completed a randomized chapter test with all correct answers, navigated review questions, and checked score and result snapshots.
-- Checked negative scoring, skipped answers, percentage clamping, saved-test resumption, and automatic submission after the deadline.
-- Simulated a new chapter catalogue update and confirmed the chapter and mock-test counts updated; restored the original catalogue afterward.
-- Simulated a catalogue download failure and confirmed the last valid bank remained usable.
-- Validated a good import and rejected invalid answer references and IDs duplicated across chapters.
-- Confirmed profile persistence, developer attribution, an active service worker, the cached app shell, and offline loading from the saved IndexedDB bank.
-- Ran JavaScript syntax checks and confirmed the mobile layout has no horizontal overflow at 390px.
+- Checked JavaScript syntax for the app, question-bank loader, importer, configuration, and service worker; validated all four JSON files.
+- Used a browser session to complete the subject → chapter → test flow and confirmed chapter practice still starts with 15 questions.
+- Checked the 30-, 60-, and 90-minute practice choices against the current 15-question bank; each used 15 questions, retained its selected duration, and saved its own category/length.
+- Uploaded a test photo through the `+` control, confirmed the circular preview and local profile save, and removed the test-only browser storage afterward.
+- Completed a one-answer practice attempt and confirmed its result record stores answered count, accuracy, category, requested length, and start/completion timestamps.
+- Checked the profile view at a 390px viewport with no horizontal overflow.
 
-Before release, also test the deployed HTTPS URL for a real offline restart, reconnect synchronization, GitHub Pages subpath routing, installation on target devices, and static-host CORS/publishing settings for an external question bank.
+Deployed-host offline restart, reconnect synchronization, installation, and device-specific native file-picker behavior still require testing on the published HTTPS app and target devices.

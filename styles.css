@@ -191,6 +191,7 @@ h1, h2, h3 { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
 .stat-card { margin: 0; padding: 14px; }
 .stat-card span { display: block; color: var(--muted); font-size: 11px; }
 .stat-card strong { display: block; margin: 5px 0 2px; font: 800 23px system-ui, sans-serif; }
+.stat-card small { display: block; margin-top: 5px; color: var(--muted); font-size: 10px; line-height: 1.4; }
 .stat-icon { float: right; font-size: 19px; }
 .mode-list { display: grid; gap: 10px; }
 .mode-card { display: flex; align-items: center; gap: 13px; padding: 13px; }
@@ -439,7 +440,45 @@ h1, h2, h3 { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
 .chart-bar { width: min(24px, 65%); min-height: 4px; border-radius: 7px 7px 2px 2px; background: var(--accent); }
 .chart-column span { color: var(--muted); font-size: 9px; }
 .profile-card { display: flex; align-items: center; gap: 14px; }
-.profile-avatar { display: grid; width: 54px; height: 54px; flex: 0 0 54px; place-items: center; border-radius: 18px; color: white; background: var(--brown); font: 700 20px system-ui, sans-serif; }
+.profile-photo-control { position: relative; width: 64px; height: 64px; flex: 0 0 64px; }
+.profile-avatar-image, .profile-avatar {
+  display: grid;
+  width: 64px;
+  height: 64px;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-avatar { color: white; background: var(--brown); font: 700 20px system-ui, sans-serif; }
+.is-hidden { display: none !important; }
+.photo-upload-button {
+  position: absolute;
+  right: -3px;
+  bottom: -3px;
+  display: grid;
+  width: 27px;
+  height: 27px;
+  place-items: center;
+  border: 2px solid var(--surface);
+  border-radius: 50%;
+  color: white;
+  background: var(--accent);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+}
+.photo-upload-button:focus-visible { outline: 3px solid #d69b6a; outline-offset: 2px; }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 .profile-card h2 { margin: 0 0 3px; font-size: 15px; }
 .profile-card p { margin: 0; color: var(--muted); font-size: 11px; }
 .input-label { display: block; margin: 16px 0 7px; font-size: 12px; font-weight: 700; }

@@ -1,15 +1,22 @@
 import { flattenBank, loadQuestionBank, refreshQuestionBank } from "./question-bank.js";
 
+const PRACTICE_LENGTHS = [30, 60, 90];
 const TEST_SETTINGS = {
   chapter: { target: 15, seconds: 10 * 60 },
-  mock: { target: 120, seconds: 90 * 60 },
-  exam: { target: 120, seconds: 120 * 60 }
+  mock: { target: 30, seconds: 30 * 60 },
+  "practice-30": { target: 30, seconds: 30 * 60 },
+  "practice-60": { target: 60, seconds: 60 * 60 },
+  "practice-90": { target: 90, seconds: 90 * 60 },
+  exam: { target: 120, seconds: 120 * 60 },
+  pyq: { target: 30, seconds: 30 * 60 }
 };
 let questions = [];
 let questionBank = null;
 let bankStatus = "loading";
 let bankMessage = "Loading question bank…";
 let bankSyncPromise = null;
+let practiceSelection = "overview";
+let practiceSubject = null;
 
 const KEY_PROFILE = "exam-practice-profile";
 const KEY_HISTORY = "exam-practice-history";
@@ -60,24 +67,48 @@ function formatDuration(seconds) {
   return `${minutes}:${String(remaining).padStart(2, "0")}`;
 }
 
+function normalizeMode(mode) {
+  if (mode === "mock") return "practice-30";
+  if (mode === "practice") return "practice-30";
+  return mode;
+}
+
 function modeLabel(mode) {
-  return ({ chapter: "Chapter-wise practice", mock: "Practice mock test", exam: "Exam simulation" })[mode];
+  const normalized = normalizeMode(mode);
+  const labels = {
+    chapter: "Chapter practice",
+    "practice-30": "Practice mode · 30 questions",
+    "practice-60": "Practice mode · 60 questions",
+    "practice-90": "Practice mode · 90 questions",
+    exam: "Exam simulation",
+    pyq: "PYQ papers"
+  };
+  return labels[normalized] || "Practice mode";
 }
 
 function questionTarget(mode) {
-  return TEST_SETTINGS[mode].target;
+  const normalized = normalizeMode(mode);
+  return TEST_SETTINGS[normalized]?.target ?? TEST_SETTINGS.chapter.target;
 }
 
-function eligibleQuestions(mode, chapterId = null) {
-  return questions.filter(question => mode !== "chapter" || question.chapterId === chapterId);
+function eligibleQuestions(mode, chapterId = null, subject = null) {
+  const normalized = normalizeMode(mode);
+  return questions.filter(question => {
+    if (normalized === "chapter") return question.chapterId === chapterId;
+    if (normalized === "exam") return true;
+    if (normalized === "pyq") return question.source?.type === "previous_year" || (question.source?.exam && question.source?.year);
+    if (subject) return question.subject === subject;
+    return true;
+  });
 }
 
-function questionCount(mode, chapterId = null) {
-  return Math.min(questionTarget(mode), eligibleQuestions(mode, chapterId).length);
+function questionCount(mode, chapterId = null, subject = null) {
+  return Math.min(questionTarget(mode), eligibleQuestions(mode, chapterId, subject).length);
 }
 
 function durationFor(mode) {
-  return TEST_SETTINGS[mode].seconds;
+  const normalized = normalizeMode(mode);
+  return TEST_SETTINGS[normalized]?.seconds ?? TEST_SETTINGS.chapter.seconds;
 }
 
 function chapterEntries() {
@@ -104,6 +135,10 @@ function safeInitial(name) {
   return (name.trim()[0] || "L").toUpperCase();
 }
 
+function isProfilePhotoData(value) {
+  return typeof value === "string" && /^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/]+=*$/.test(value);
+}
+
 function shuffle(items) {
   const shuffled = [...items];
   for (let index = shuffled.length - 1; index > 0; index -= 1) {
@@ -113,30 +148,39 @@ function shuffle(items) {
   return shuffled;
 }
 
-function testStart(mode, chapterId = null) {
-  const pool = eligibleQuestions(mode, chapterId);
-  const count = questionCount(mode, chapterId);
+function testStart(mode, chapterId = null, requestedLength = null, subject = null) {
+  const normalizedMode = mode === "practice" && PRACTICE_LENGTHS.includes(requestedLength)
+    ? `practice-${requestedLength}`
+    : normalizeMode(mode);
+  const pool = eligibleQuestions(normalizedMode, chapterId, subject);
+  const requested = requestedLength ?? questionTarget(normalizedMode);
+  const count = Math.min(requested, pool.length);
   if (!count) {
     showToast("No downloaded questions are available for this practice session.");
     return;
+  }
+  if (count < requested) {
+    showToast(`Only ${count} eligible questions are available in the current bank. This test uses the available set.`);
   }
   const selected = shuffle(pool).slice(0, count);
   const snapshots = Object.fromEntries(selected.map(question => [question.id, { ...question, options: [...question.options] }]));
   const ids = selected.map(question => question.id);
   activeTest = {
     id: Date.now(),
-    mode,
+    mode: normalizedMode,
     chapterId,
     chapterTitle: chapterById(chapterId)?.title || null,
-    subject: chapterById(chapterId)?.subject || null,
+    subject: chapterById(chapterId)?.subject || subject || null,
     ids,
     snapshots,
     index: 0,
     answers: {},
     marked: [],
     visited: [ids[0]],
-    deadline: Date.now() + durationFor(mode) * 1000,
-    startedAt: Date.now()
+    deadline: Date.now() + durationFor(normalizedMode) * 1000,
+    startedAt: Date.now(),
+    testLength: requested,
+    category: normalizedMode === "chapter" ? "chapter practice" : normalizedMode === "exam" ? "exam simulation" : normalizedMode.startsWith("practice") ? "practice mode" : "PYQ papers"
   };
   currentTab = "test";
   selectedResult = null;
@@ -210,12 +254,18 @@ function finishTest() {
   const correct = activeTest.ids.filter(id => activeTest.answers[id] === getQuestion(id).answer).length;
   const answered = Object.keys(activeTest.answers).length;
   const wrong = answered - correct;
+  const completedAt = new Date().toISOString();
   const record = {
     id: activeTest.id,
     mode: activeTest.mode,
+    category: activeTest.category,
+    testLength: activeTest.testLength,
+    questionCount: activeTest.ids.length,
     chapterId: activeTest.chapterId,
     chapterTitle: activeTest.chapterTitle,
     subject: activeTest.subject,
+    startedAt: new Date(activeTest.startedAt).toISOString(),
+    completedAt,
     ids: activeTest.ids,
     visited: [...activeTest.visited],
     answers: activeTest.answers,
@@ -227,6 +277,8 @@ function finishTest() {
     })),
     correct,
     wrong,
+    answered,
+    accuracy: answered ? correct / answered * 100 : 0,
     skipped: activeTest.ids.length - answered,
     score: correct * 3 - wrong,
     max: activeTest.ids.length * 3,
@@ -275,10 +327,9 @@ function navBar() {
 function homePage() {
   const name = profile().name || "Learner";
   const completed = completedHistory();
-  const chapterDone = new Set(completed.flatMap(item => item.visited || item.ids)).size;
   const practiceDays = new Set(completed.map(item => new Date(item.date).toLocaleDateString())).size;
   const recent = history().slice(0, 3);
-  const mockCount = questionCount("mock");
+  const recentCount = questionCount("mock");
   return `<div class="page">
     <header class="hero">
       <div class="hero-top">
@@ -293,17 +344,17 @@ function homePage() {
     </header>
     <div class="hero-grid">
       <section>
-        <div class="section-heading"><h2>Pick up where you left off</h2></div>
+        <div class="section-heading"><h2>Quick start</h2></div>
         <article class="card primary-card">
-          <div class="card-content"><p class="eyebrow">Recommended</p><h3>Build your exam confidence</h3><p>Try a timed mock test and see how ready you feel.</p>
-            <div class="pill-row"><span class="pill">${mockCount} available / ${questionTarget("mock")} questions</span><span class="pill">${formatDuration(durationFor("mock"))}</span></div>
-            <button class="button button-light" data-action="preview" data-mode="mock" ${mockCount ? "" : "disabled"}>Start a mock test <span aria-hidden="true">→</span></button>
+          <div class="card-content"><p class="eyebrow">Recommended</p><h3>Build your exam confidence</h3><p>Choose a chapter, run a timed practice set, or jump into an exam simulation.</p>
+            <div class="pill-row"><span class="pill">${recentCount} practice questions available</span><span class="pill">${formatDuration(durationFor("practice-30"))}</span></div>
+            <button class="button button-light" data-action="practice-mode-picker" ${recentCount ? "" : "disabled"}>Start a practice test <span aria-hidden="true">→</span></button>
           </div><span class="card-icon" aria-hidden="true">📝</span>
         </article>
         <div class="section-heading"><h2>Your progress</h2><button data-action="tab" data-tab="progress">View all</button></div>
         <div class="stats-grid">
           <article class="card stat-card"><span class="stat-icon">🎯</span><span>Best result</span><strong>${bestPercent()}%</strong></article>
-          <article class="card stat-card"><span class="stat-icon">📚</span><span>Questions seen</span><strong>${chapterDone}/${questions.length}</strong></article>
+          <article class="card stat-card"><span class="stat-icon">📚</span><span>Questions loaded</span><strong>${questions.length}</strong></article>
         </div>
       </section>
       <section>
@@ -318,9 +369,10 @@ function homePage() {
 
 function modeCards() {
   return `<div class="mode-list">
-    <article class="card mode-card"><span class="mode-icon">📖</span><div class="mode-copy"><strong>Chapter practice</strong><span>Up to 15 questions · 10 minutes</span></div><button class="arrow-button" data-action="tab" data-tab="practice" aria-label="Choose chapter practice">›</button></article>
-    <article class="card mode-card"><span class="mode-icon green">⏱️</span><div class="mode-copy"><strong>Practice mock test</strong><span>${questionCount("mock")} available / 120 questions · 90 minutes</span></div><button class="arrow-button" data-action="preview" data-mode="mock" aria-label="Start practice mock test" ${questionCount("mock") ? "" : "disabled"}>›</button></article>
-    <article class="card mode-card"><span class="mode-icon purple">🏁</span><div class="mode-copy"><strong>Exam simulation</strong><span>${questionCount("exam")} available / 120 questions · 120 minutes</span></div><button class="arrow-button" data-action="preview" data-mode="exam" aria-label="Start exam simulation" ${questionCount("exam") ? "" : "disabled"}>›</button></article>
+    <article class="card mode-card"><span class="mode-icon">📖</span><div class="mode-copy"><strong>Chapter practice</strong><span>Subject → chapter → full chapter</span></div><button class="arrow-button" data-action="chapter-practice" aria-label="Choose chapter practice">›</button></article>
+    <article class="card mode-card"><span class="mode-icon green">⏱️</span><div class="mode-copy"><strong>Practice mode</strong><span>${PRACTICE_LENGTHS.join(" / ")} questions · ${PRACTICE_LENGTHS.map(length => formatDuration(durationFor(`practice-${length}`))).join(" / ")}</span></div><button class="arrow-button" data-action="practice-mode-picker" aria-label="Choose practice mode">›</button></article>
+    <article class="card mode-card"><span class="mode-icon purple">🏁</span><div class="mode-copy"><strong>Exam simulation</strong><span>${questionCount("exam")} available / ${questionTarget("exam")} questions · ${formatDuration(durationFor("exam"))}</span></div><button class="arrow-button" data-action="preview" data-mode="exam" aria-label="Start exam simulation" ${questionCount("exam") ? "" : "disabled"}>›</button></article>
+    <article class="card mode-card"><span class="mode-icon amber">📚</span><div class="mode-copy"><strong>PYQ papers</strong><span>Exam papers and paper attempts</span></div><button class="arrow-button" data-action="pyq-library" aria-label="Open PYQ papers">›</button></article>
   </div>`;
 }
 
@@ -334,17 +386,45 @@ function recentRow(item) {
 }
 
 function practicePage() {
-  const subjects = new Set(chapterEntries().map(chapter => chapter.subject));
+  const subjects = [...new Set(chapterEntries().map(chapter => chapter.subject))];
   const lastSynced = questionBank?.syncedAt
     ? new Date(questionBank.syncedAt).toLocaleString()
     : "Not synced yet";
+  if (practiceSelection === "chapter-subject") {
+    return `<div class="page">
+      <p class="eyebrow" style="margin-top:26px">Chapter practice</p><h1 class="page-title">Choose a subject</h1>
+      <div class="section-heading"><span></span><button data-action="chapter-practice-reset">Back to practice</button></div>
+      <div class="chapter-list">${subjects.length ? subjects.map(subject => `<article class="card chapter-list-card">
+        <span class="chapter-number">${escapeHtml(subject.slice(0, 2).toUpperCase())}</span>
+        <div class="mode-copy"><strong>${escapeHtml(subject)}</strong><span>${chapterEntries().filter(chapter => chapter.subject === subject).length} chapters available</span></div>
+        <button class="arrow-button" data-action="chapter-subject-select" data-subject="${escapeHtml(subject)}" aria-label="Open chapters for ${escapeHtml(subject)}">›</button>
+      </article>`).join("") : `<article class="card empty-state">${bankStatus === "loading" ? "Loading available subjects…" : "No published subjects are available. Refresh the question bank while online to try again."}</article>`}</div>
+    </div>${navBar()}`;
+  }
+
+  if (practiceSelection === "chapter-chapters" && practiceSubject) {
+    const subjectChapters = chapterEntries().filter(chapter => chapter.subject === practiceSubject);
+    return `<div class="page">
+      <p class="eyebrow" style="margin-top:26px">Chapter practice</p><h1 class="page-title">${escapeHtml(practiceSubject)}</h1>
+      <div class="section-heading"><h2>Choose a chapter</h2><button data-action="chapter-subject-back">Back to subjects</button></div>
+      <div class="chapter-list">${subjectChapters.map(chapter => {
+        const count = questionCount("chapter", chapter.id);
+        return `<article class="card chapter-list-card">
+          <span class="chapter-number">${String(chapter.chapterNumber).padStart(2, "0")}</span>
+          <div class="mode-copy"><strong>${escapeHtml(chapter.title)}</strong><span>${count} downloadable questions · full chapter practice</span></div>
+          <button class="arrow-button" data-action="preview" data-mode="chapter" data-chapter-id="${escapeHtml(chapter.id)}" aria-label="Practice ${escapeHtml(chapter.title)}" ${count ? "" : "disabled"}>›</button>
+        </article>`;
+      }).join("")}</div>
+    </div>${navBar()}`;
+  }
+
   return `<div class="page">
     <p class="eyebrow" style="margin-top:26px">Choose your session</p><h1 class="page-title">Practice your way</h1>
-    <p class="page-subtitle">Start with a chapter or take a timed test. Available counts reflect downloaded questions.</p>
+    <p class="page-subtitle">Start with a chapter or take a timed practice test. Available counts reflect downloaded questions.</p>
     ${modeCards()}
-    <div class="section-heading"><h2>Available chapters</h2><span class="pill">${chapterEntries().length} chapters · ${subjects.size} subjects</span></div>
+    <div class="section-heading"><h2>Practice options</h2><span class="pill">${chapterEntries().length} chapters</span></div>
     <div class="bank-status" role="status"><span>${escapeHtml(bankMessage)} · Last sync: ${escapeHtml(lastSynced)}</span><button class="button" data-action="refresh-bank" ${bankStatus === "syncing" ? "disabled" : ""}>${bankStatus === "syncing" ? "Refreshing…" : "Refresh question bank"}</button></div>
-    <div class="chapter-list">${chapterCards()}</div>
+    <div class="card"><div class="empty-state">Choose a practice option above to begin. Chapter practice is organized by subject and chapter, while practice mode lets you select a fixed length.</div></div>
   </div>${navBar()}`;
 }
 
@@ -375,6 +455,28 @@ function progressPage() {
   const best = bestPercent();
   const average = results.length ? Math.round(results.reduce((sum, result) => sum + scorePercent(result), 0) / results.length) : 0;
   const recent = results.slice(0, 7).reverse();
+  const categorySummary = [
+    { key: "chapter", label: "Chapter practice", values: results.filter(result => result.mode === "chapter") },
+    { key: "practice-30", label: "Practice mode — 30 questions", values: results.filter(result => result.mode === "practice-30" || result.mode === "mock") },
+    { key: "practice-60", label: "Practice mode — 60 questions", values: results.filter(result => result.mode === "practice-60") },
+    { key: "practice-90", label: "Practice mode — 90 questions", values: results.filter(result => result.mode === "practice-90") },
+    { key: "exam", label: "Exam simulation", values: results.filter(result => result.mode === "exam") },
+    { key: "pyq", label: "PYQ papers", values: results.filter(result => result.mode === "pyq") }
+  ];
+  const summaryCards = categorySummary.map(category => {
+    const attempts = category.values.length;
+    const answered = category.values.reduce((sum, item) => sum + (Number.isInteger(item.answered)
+      ? item.answered
+      : item.answers
+        ? Object.keys(item.answers).length
+        : 0), 0);
+    const correct = category.values.reduce((sum, item) => sum + (item.correct || 0), 0);
+    const accuracy = attempts && answered ? Math.round(correct / answered * 100) : 0;
+    const latest = category.values[0]?.date ? new Date(category.values[0].date).toLocaleDateString() : "No attempts yet";
+    const averageScore = attempts ? Math.round(category.values.reduce((sum, item) => sum + scorePercent(item), 0) / attempts) : 0;
+    return `<article class="card stat-card"><span class="stat-icon">📊</span><span>${escapeHtml(category.label)}</span><strong>${attempts ? `${accuracy}%` : "—"}</strong><small>${attempts} attempts · ${answered} answered · ${correct} correct</small><small>${attempts ? `Avg. score ${averageScore}% · Latest ${escapeHtml(latest)}` : "No attempts yet"}</small></article>`;
+  }).join("");
+
   return `<div class="page">
     <p class="eyebrow" style="margin-top:26px">Your learning journey</p><h1 class="page-title">Progress</h1>
     <p class="page-subtitle">Every practice session is a step forward.</p>
@@ -384,6 +486,10 @@ function progressPage() {
       <article class="card stat-card"><span class="stat-icon">📈</span><span>Average score</span><strong>${average}%</strong></article>
       <article class="card stat-card"><span class="stat-icon">✅</span><span>Correct answers</span><strong>${results.reduce((sum, result) => sum + result.correct, 0)}</strong></article>
     </div>
+    <div class="section-heading"><h2>Category performance</h2><span class="pill">Accuracy = correct ÷ answered × 100</span></div>
+    <div class="stats-grid">${summaryCards}</div>
+    <div class="section-heading"><h2>Rankings</h2><span class="pill">Local-only until shared data is configured</span></div>
+    <article class="card empty-state">Rankings remain unavailable for this device because no shared backend or authenticated leaderboard is configured.</article>
     <div class="section-heading"><h2>Score trend</h2><span class="pill">Last ${recent.length} tests</span></div>
     <article class="card">
       ${recent.length ? `<div class="chart" aria-label="Recent test scores">${recent.map((item, index) => {
@@ -397,14 +503,35 @@ function progressPage() {
 }
 
 function profilePage() {
-  const name = profile().name || "Learner";
+  const data = profile();
+  const name = data.name || "Learner";
+  const email = data.email || "";
+  const college = data.college || "";
+  const dob = data.dob || "";
+  const photo = isProfilePhotoData(data.photo) ? data.photo : "";
+
   return `<div class="page">
     <p class="eyebrow" style="margin-top:26px">Your account</p><h1 class="page-title">Profile</h1>
-    <div class="card profile-card"><span class="profile-avatar">${escapeHtml(safeInitial(name))}</span><div><h2>${escapeHtml(name)}</h2><p>Your progress is saved on this device.</p></div></div>
+    <div class="card profile-card">
+      <div class="profile-photo-control">
+        <img class="profile-avatar-image${photo ? "" : " is-hidden"}" src="${photo ? escapeHtml(photo) : ""}" alt="Profile photo">
+        <span class="profile-avatar${photo ? " is-hidden" : ""}" data-profile-initial>${escapeHtml(safeInitial(name))}</span>
+        <button class="photo-upload-button" type="button" data-action="choose-profile-photo" aria-label="${photo ? "Change profile photo" : "Upload profile photo"}">+</button>
+      </div>
+      <div><h2>${escapeHtml(name)}</h2><p>Your progress is saved on this device until a backend is configured.</p></div>
+    </div>
     <div class="section-heading"><h2>Personal details</h2></div>
     <form class="card" data-form="profile">
-      <label class="input-label" for="profile-name">Display name</label>
-      <input class="text-input" id="profile-name" name="name" maxlength="30" value="${escapeHtml(name)}" autocomplete="name" required>
+      <label class="input-label" for="profile-name">Full name</label>
+      <input class="text-input" id="profile-name" name="name" maxlength="60" value="${escapeHtml(name)}" autocomplete="name" required>
+      <label class="input-label" for="profile-email" style="margin-top:12px">Email</label>
+      <input class="text-input" id="profile-email" name="email" type="email" value="${escapeHtml(email)}" autocomplete="email" placeholder="name@example.com">
+      <label class="input-label" for="profile-college" style="margin-top:12px">College or institution</label>
+      <input class="text-input" id="profile-college" name="college" maxlength="80" value="${escapeHtml(college)}" placeholder="Enter your institution">
+      <label class="input-label" for="profile-dob" style="margin-top:12px">Date of birth</label>
+      <input class="text-input" id="profile-dob" name="dob" type="date" value="${escapeHtml(dob)}">
+      <input class="visually-hidden" id="profile-photo" name="photo" type="file" accept="image/png,image/jpeg,image/webp" aria-label="Choose a profile photo" tabindex="-1">
+      ${photo ? `<p class="review-explanation">Current photo is saved locally and will not be shared publicly.</p>` : ""}
       <button class="button button-primary button-full" style="margin-top:12px" type="submit">Save changes</button>
     </form>
     <div class="section-heading"><h2>On this device</h2></div>
@@ -413,7 +540,6 @@ function profilePage() {
       <div class="profile-row"><span>Question bank</span><strong>${questions.length} questions · ${chapterEntries().length} chapters</strong></div>
       <div class="profile-row"><span>Last question-bank sync</span><strong>${questionBank?.syncedAt ? new Date(questionBank.syncedAt).toLocaleDateString() : "Not synced"}</strong></div>
     </div>
-    <a class="button button-full" href="./admin/import.html">Open question-bank import tool</a>
     <button class="button button-danger button-full" data-action="clear-progress">Clear my progress</button>
     <p class="empty-state">Exam Practice · Your study space, wherever you are.</p>
     <p class="developer-credit">App developer: Himanshu Kumar (HKUST)</p>
@@ -564,10 +690,39 @@ function handleAction(event) {
   const target = event.target.closest("[data-action]");
   if (!target) return;
   const action = target.dataset.action;
-  if (action === "tab") {
+  if (action === "choose-profile-photo") {
+    document.querySelector("#profile-photo")?.click();
+  } else if (action === "tab") {
     currentTab = target.dataset.tab;
     selectedResult = null;
     render();
+  } else if (action === "chapter-practice") {
+    practiceSelection = "chapter-subject";
+    practiceSubject = null;
+    render();
+  } else if (action === "chapter-practice-reset") {
+    practiceSelection = "overview";
+    practiceSubject = null;
+    render();
+  } else if (action === "chapter-subject-back") {
+    practiceSelection = "chapter-subject";
+    practiceSubject = null;
+    render();
+  } else if (action === "chapter-subject-select") {
+    practiceSelection = "chapter-chapters";
+    practiceSubject = target.dataset.subject || null;
+    render();
+  } else if (action === "practice-mode-picker") {
+    const list = PRACTICE_LENGTHS.map(length => `
+      <button class="button button-full" data-action="start-practice-length" data-length="${length}">${Math.min(length, eligibleQuestions("practice").length)} of ${length} questions · ${formatDuration(durationFor(`practice-${length}`))}</button>
+    `).join("");
+    app.insertAdjacentHTML("beforeend", `<div class="modal-overlay"><section class="modal" role="dialog" aria-modal="true"><h2>Practice mode</h2><p>Choose a length. The available question count and duration are shown before each test starts.</p>${list}<button class="button button-full" data-action="close-modal">Cancel</button></section></div>`);
+  } else if (action === "start-practice-length") {
+    const length = Number(target.dataset.length || 30);
+    testStart("practice", null, length);
+    document.querySelector(".modal-overlay")?.remove();
+  } else if (action === "pyq-library") {
+    app.insertAdjacentHTML("beforeend", `<div class="modal-overlay"><section class="modal" role="dialog" aria-modal="true"><h2>PYQ papers</h2><p>Paper data appears here when it is added to the question-bank metadata. No fake previous-year papers are generated.</p><div class="empty-state">${questionBank?.papers && questionBank.papers.length ? "Available papers are listed in the bank." : "No papers have been published yet. Papers will appear when added to the question bank."}</div><button class="button button-full" data-action="close-modal">Close</button></section></div>`);
   } else if (action === "preview") {
     const mode = target.dataset.mode;
     const chapterId = target.dataset.chapterId || null;
@@ -635,18 +790,95 @@ function handleSubmit(event) {
     event.preventDefault();
     const formData = new FormData(event.target);
     const name = String(formData.get("name") || "").trim();
+    const email = String(formData.get("email") || "").trim();
+    const college = String(formData.get("college") || "").trim();
+    const dob = String(formData.get("dob") || "").trim();
+    const photoFile = formData.get("photo");
+
     if (!name) {
       showToast("Please enter a display name.");
       return;
     }
-    saveJson(KEY_PROFILE, { name: name.slice(0, 30) });
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      showToast("Please enter a valid email address.");
+      return;
+    }
+
+    let photo = profile().photo || "";
+    if (photoFile && photoFile instanceof File) {
+      if (!["image/png", "image/jpeg", "image/webp"].includes(photoFile.type)) {
+        showToast("Profile photos must be PNG, JPEG, or WEBP images.");
+        return;
+      }
+      if (photoFile.size > 2 * 1024 * 1024) {
+        showToast("Profile photos must be under 2 MB.");
+        return;
+      }
+      const reader = new FileReader();
+      reader.onload = () => {
+        const photoData = String(reader.result || "");
+        if (!isProfilePhotoData(photoData)) {
+          showToast("The selected profile photo could not be read.");
+          return;
+        }
+        const nextProfile = { name: name.slice(0, 60), email: email.slice(0, 100), college: college.slice(0, 80), dob, photo: photoData };
+        saveJson(KEY_PROFILE, nextProfile);
+        render();
+        showToast("Your profile has been updated.");
+      };
+      reader.onerror = () => showToast("The selected profile photo could not be read.");
+      reader.readAsDataURL(photoFile);
+      return;
+    }
+
+    saveJson(KEY_PROFILE, { name: name.slice(0, 60), email: email.slice(0, 100), college: college.slice(0, 80), dob, photo });
     render();
     showToast("Your profile has been updated.");
   }
 }
 
+function handleProfilePhotoSelection(input) {
+  const [file] = input.files || [];
+  if (!file) return;
+  if (!["image/png", "image/jpeg", "image/webp"].includes(file.type)) {
+    input.value = "";
+    showToast("Profile photos must be PNG, JPEG, or WEBP images.");
+    return;
+  }
+  if (file.size > 2 * 1024 * 1024) {
+    input.value = "";
+    showToast("Profile photos must be under 2 MB.");
+    return;
+  }
+
+  const reader = new FileReader();
+  reader.onload = () => {
+    const preview = String(reader.result || "");
+    if (!isProfilePhotoData(preview)) {
+      input.value = "";
+      showToast("The selected profile photo could not be read.");
+      return;
+    }
+    const image = document.querySelector(".profile-avatar-image");
+    const initial = document.querySelector("[data-profile-initial]");
+    if (image) {
+      image.src = preview;
+      image.classList.remove("is-hidden");
+    }
+    initial?.classList.add("is-hidden");
+  };
+  reader.onerror = () => {
+    input.value = "";
+    showToast("The selected profile photo could not be read.");
+  };
+  reader.readAsDataURL(file);
+}
+
 app.addEventListener("click", handleAction);
 app.addEventListener("submit", handleSubmit);
+app.addEventListener("change", event => {
+  if (event.target.matches("#profile-photo")) handleProfilePhotoSelection(event.target);
+});
 
 function syncQuestionBank(showStatus) {
   if (bankSyncPromise) return bankSyncPromise;

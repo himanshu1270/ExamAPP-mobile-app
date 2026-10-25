@@ -1,8 +1,9 @@
 const DATABASE_NAME = "exam-practice-question-bank";
-const DATABASE_VERSION = 1;
+const DATABASE_VERSION = 2;
 const STORE_NAME = "bank";
 const ACTIVE_BANK_KEY = "active";
 const DEFAULT_INDEX_URL = "./question-bank/index.json";
+const SUPPORTED_SCHEMA_VERSIONS = new Set([1, 2]);
 
 function configuredIndexUrl() {
   const configured = window.EXAM_APP_CONFIG?.questionBankIndexUrl || DEFAULT_INDEX_URL;
@@ -12,7 +13,11 @@ function configuredIndexUrl() {
 function openDatabase() {
   return new Promise((resolve, reject) => {
     const request = indexedDB.open(DATABASE_NAME, DATABASE_VERSION);
-    request.onupgradeneeded = () => request.result.createObjectStore(STORE_NAME);
+    request.onupgradeneeded = () => {
+      if (!request.result.objectStoreNames.contains(STORE_NAME)) {
+        request.result.createObjectStore(STORE_NAME);
+      }
+    };
     request.onsuccess = () => resolve(request.result);
     request.onerror = () => reject(request.error || new Error("Could not open the question-bank store."));
   });
@@ -53,8 +58,34 @@ async function activateBank(bank) {
   });
 }
 
+function normalizeQuestion(question, fallbackSubject, fallbackTitle) {
+  if (!question || typeof question !== "object") return null;
+  const optionList = Array.isArray(question.options) ? question.options : [];
+  const answerIndex = Number.isInteger(question.correctAnswer)
+    ? question.correctAnswer
+    : Number.isInteger(question.answer)
+      ? question.answer
+      : null;
+  const text = typeof question.text === "string" ? question.text : "";
+  const explanation = typeof question.explanation === "string" ? question.explanation : "";
+  return {
+    ...question,
+    id: typeof question.id === "string" ? question.id : `question-${Math.random().toString(16).slice(2)}`,
+    type: question.type || "single-choice",
+    text,
+    options: optionList,
+    correctAnswer: answerIndex,
+    answer: answerIndex,
+    explanation,
+    subject: question.subject || fallbackSubject,
+    section: question.section || null,
+    chapter: question.chapter ?? fallbackTitle,
+    source: question.source || null
+  };
+}
+
 function validateCatalog(catalog) {
-  if (!catalog || catalog.schemaVersion !== 1 || typeof catalog.bankVersion !== "string" || !Array.isArray(catalog.chapters)) {
+  if (!catalog || !Array.isArray(catalog.chapters) || typeof catalog.bankVersion !== "string" || !SUPPORTED_SCHEMA_VERSIONS.has(catalog.schemaVersion)) {
     throw new Error("The question-bank catalogue has an unsupported or invalid format.");
   }
   if (!catalog.chapters.some(chapter => chapter?.published === true)) {
@@ -69,7 +100,6 @@ function validateCatalog(catalog) {
       || typeof chapter.title !== "string" || !chapter.title.trim()
       || !Number.isInteger(chapter.chapterNumber) || chapter.chapterNumber < 1
       || typeof chapter.path !== "string" || !chapter.path.trim()
-      || !Number.isInteger(chapter.questionCount) || chapter.questionCount < 1
       || !Number.isInteger(chapter.revision) || chapter.revision < 1
       || typeof chapter.published !== "boolean") {
       throw new Error("The catalogue contains a chapter with missing or invalid metadata.");
@@ -88,15 +118,12 @@ function validateCatalog(catalog) {
 }
 
 function validateChapter(data, catalogEntry) {
-  if (!data || data.schemaVersion !== 1 || data.chapterId !== catalogEntry.id
+  if (!data || !SUPPORTED_SCHEMA_VERSIONS.has(data.schemaVersion) || data.chapterId !== catalogEntry.id
     || data.subject !== catalogEntry.subject
     || data.chapterNumber !== catalogEntry.chapterNumber
     || data.title !== catalogEntry.title
     || !Array.isArray(data.questions)) {
     throw new Error(`Chapter data does not match catalogue entry "${catalogEntry.title}".`);
-  }
-  if (data.questions.length !== catalogEntry.questionCount) {
-    throw new Error(`Question-count mismatch in "${catalogEntry.title}": catalogue says ${catalogEntry.questionCount}, file contains ${data.questions.length}.`);
   }
   const questionIds = new Set();
   for (const question of data.questions) {
@@ -104,16 +131,17 @@ function validateChapter(data, catalogEntry) {
       throw new Error(`A question in "${catalogEntry.title}" is missing a stable ID.`);
     }
     if (questionIds.has(question.id)) throw new Error(`Duplicate question ID in "${catalogEntry.title}": ${question.id}`);
-    if (typeof question.text !== "string" || !question.text.trim()) throw new Error(`Question "${question.id}" has no text.`);
-    if (question.type !== "single-choice") throw new Error(`Question "${question.id}" has an unsupported question type.`);
-    if (!Array.isArray(question.options) || question.options.length < 2
-      || question.options.some(option => typeof option !== "string" || !option.trim())) {
+    const normalized = normalizeQuestion(question, catalogEntry.subject, catalogEntry.title);
+    if (!normalized || typeof normalized.text !== "string" || !normalized.text.trim()) throw new Error(`Question "${question.id}" has no text.`);
+    if (normalized.type !== "single-choice") throw new Error(`Question "${question.id}" has an unsupported question type.`);
+    if (!Array.isArray(normalized.options) || normalized.options.length < 2
+      || normalized.options.some(option => typeof option !== "string" || !option.trim())) {
       throw new Error(`Question "${question.id}" must have at least two non-empty options.`);
     }
-    if (!Number.isInteger(question.correctAnswer) || question.correctAnswer < 0 || question.correctAnswer >= question.options.length) {
+    if (!Number.isInteger(normalized.correctAnswer) || normalized.correctAnswer < 0 || normalized.correctAnswer >= normalized.options.length) {
       throw new Error(`Question "${question.id}" has an invalid correct-answer index.`);
     }
-    if (typeof question.explanation !== "string" || !question.explanation.trim()) {
+    if (typeof normalized.explanation !== "string" || !normalized.explanation.trim()) {
       throw new Error(`Question "${question.id}" is missing its explanation.`);
     }
     questionIds.add(question.id);
@@ -126,14 +154,19 @@ function flattenBank(bank) {
     .flatMap(entry => {
       const chapter = bank.files[entry.id];
       if (!chapter) return [];
-      return chapter.questions.map(question => ({
-        ...question,
-        answer: question.correctAnswer,
-        chapterId: entry.id,
-        chapter: entry.chapterNumber,
-        chapterName: entry.title,
-        subject: entry.subject
-      }));
+      return chapter.questions.map(question => {
+        const normalized = normalizeQuestion(question, entry.subject, entry.title);
+        return {
+          ...normalized,
+          answer: normalized.correctAnswer,
+          chapterId: entry.id,
+          chapter: entry.chapterNumber,
+          chapterName: entry.title,
+          subject: entry.subject,
+          section: normalized.section || null,
+          source: normalized.source || null
+        };
+      });
     });
 }
 
@@ -163,7 +196,6 @@ async function synchronizeQuestionBank() {
       && previousEntry.subject === entry.subject
       && previousEntry.chapterNumber === entry.chapterNumber
       && previousEntry.title === entry.title
-      && previousEntry.questionCount === entry.questionCount
       && previousFile) {
       validateChapter(previousFile, entry);
       files[entry.id] = previousFile;
@@ -177,7 +209,12 @@ async function synchronizeQuestionBank() {
 
   const allQuestionIds = new Set();
   for (const entry of catalog.chapters.filter(chapter => chapter.published)) {
-    for (const question of files[entry.id].questions) {
+    const chapterQuestions = files[entry.id].questions;
+    if (!Array.isArray(chapterQuestions) || chapterQuestions.length < 1) {
+      throw new Error(`Question file "${entry.title}" contains no usable questions.`);
+    }
+    entry.questionCount = chapterQuestions.length;
+    for (const question of chapterQuestions) {
       if (allQuestionIds.has(question.id)) throw new Error(`Question ID "${question.id}" is duplicated across chapters.`);
       allQuestionIds.add(question.id);
     }
