@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "biology-chapter-1",
+  "subject": "Biology",
+  "chapterNumber": 1,
+  "title": "The Living World",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "text": "Which set of features best describes living organisms?",
+      "options": ["Growth alone", "Movement alone", "Cellular organisation, metabolism and response to stimuli", "Reproduction alone"],
+      "correctAnswer": 2,
+      "explanation": "Life is recognised by a combination of characteristics, including cellular organisation, metabolism and the ability to respond to stimuli."
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "text": "Why is growth not considered an exclusive defining feature of living things?",
+      "options": ["Living organisms do not grow", "Non-living objects such as crystals can grow by external deposition", "Growth happens only in plants", "Growth always requires reproduction"],
+      "correctAnswer": 1,
+      "explanation": "Crystals can increase in size through external deposition, so growth by itself does not distinguish living from non-living things."
+    },
+    {
+      "id": "q3",
+      "type": "single-choice",
+      "text": "The increase in mass and number of cells in an organism is called:",
+      "options": ["Adaptation", "Growth", "Evolution", "Metabolism"],
+      "correctAnswer": 1,
+      "explanation": "Growth is commonly described as an increase in an organism's mass and cell number."
+    },
+    {
+      "id": "q4",
+      "type": "single-choice",
+      "text": "The sum of all chemical reactions taking place in a living system is:",
+      "options": ["Taxonomy", "Metabolism", "Nomenclature", "Biodiversity"],
+      "correctAnswer": 1,
+      "explanation": "Metabolism includes all the chemical reactions that occur within a living organism."
+    },
+    {
+      "id": "q5",
+      "type": "single-choice",
+      "text": "Which process is essential for maintaining a species over generations?",
+      "options": ["Reproduction", "Locomotion", "Ageing", "Dormancy"],
+      "correctAnswer": 0,
+      "explanation": "Reproduction produces new individuals and helps continue a species across generations."
+    },
+    {
+      "id": "q6",
+      "type": "single-choice",
+      "text": "The branch of biology concerned with identification, nomenclature and classification is:",
+      "options": ["Ecology", "Physiology", "Systematics", "Embryology"],
+      "correctAnswer": 2,
+      "explanation": "Systematics studies organismal diversity and relationships, including identification, naming and classification."
+    },
+    {
+      "id": "q7",
+      "type": "single-choice",
+      "text": "In binomial nomenclature, the first word of a scientific name denotes the:",
+      "options": ["Species", "Genus", "Family", "Order"],
+      "correctAnswer": 1,
+      "explanation": "A scientific name has two parts: the genus name followed by the specific epithet."
+    },
+    {
+      "id": "q8",
+      "type": "single-choice",
+      "text": "When printed, the two parts of a scientific name are generally:",
+      "options": ["Written in capital letters", "Underlined separately", "Italicised", "Enclosed in brackets"],
+      "correctAnswer": 2,
+      "explanation": "Scientific names are conventionally italicised in print; when handwritten, each part is underlined separately."
+    },
+    {
+      "id": "q9",
+      "type": "single-choice",
+      "text": "A taxonomic key helps identify organisms by using:",
+      "options": ["A sequence of contrasting characters", "Only their geographical location", "Their common names", "A molecular formula"],
+      "correctAnswer": 0,
+      "explanation": "A taxonomic key guides identification through a series of contrasting statements or character choices."
+    },
+    {
+      "id": "q10",
+      "type": "single-choice",
+      "text": "A herbarium is best described as a collection of:",
+      "options": ["Live animals in enclosures", "Dried, pressed and labelled plant specimens", "Fossils arranged by age", "Microscope slides of tissues"],
+      "correctAnswer": 1,
+      "explanation": "A herbarium preserves plant specimens that are pressed, dried, mounted and labelled for study."
+    },
+    {
+      "id": "q11",
+      "type": "single-choice",
+      "text": "Which taxonomic category comes immediately above genus?",
+      "options": ["Species", "Family", "Order", "Class"],
+      "correctAnswer": 1,
+      "explanation": "In the standard hierarchy, related genera are grouped into a family."
+    },
+    {
+      "id": "q12",
+      "type": "single-choice",
+      "text": "A museum in a biology department commonly preserves specimens for:",
+      "options": ["Comparative study and reference", "Growing crops", "Measuring weather", "Producing medicines"],
+      "correctAnswer": 0,
+      "explanation": "Biological museums maintain preserved specimens that students and researchers can use for observation and comparison."
+    },
+    {
+      "id": "q13",
+      "type": "single-choice",
+      "text": "Which sequence lists the main taxonomic categories from lower to higher?",
+      "options": ["Species, genus, family, order, class, phylum or division, kingdom", "Kingdom, class, order, family, genus, species", "Species, family, genus, class, order, phylum or division, kingdom", "Genus, species, order, family, class, kingdom"],
+      "correctAnswer": 0,
+      "explanation": "The hierarchy proceeds from species to genus, family, order, class, phylum or division, and kingdom."
+    },
+    {
+      "id": "q14",
+      "type": "single-choice",
+      "text": "In biological classification, the term taxon refers to:",
+      "options": ["A taxonomic unit at any rank", "Only a species name", "A preserved plant specimen", "A method for collecting organisms"],
+      "correctAnswer": 0,
+      "explanation": "A taxon is a taxonomic group or unit at any level in the classification hierarchy."
+    },
+    {
+      "id": "q15",
+      "type": "single-choice",
+      "text": "Which taxonomic aid provides information about plants found in a particular area?",
+      "options": ["Flora", "Zoological park", "Herbarium label", "Cell atlas"],
+      "correctAnswer": 0,
+      "explanation": "A flora provides information about the plant species of a particular region or area."
+    }
+  ]
+}
